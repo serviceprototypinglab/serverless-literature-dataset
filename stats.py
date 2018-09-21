@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 
 import json
-import os
-import urllib.request
-import pybtex.database
+import operator
 
 analysis_filename = "serverless-literature-analysis.json"
 biblio_filename = "serverless-literature-bibliography.json"
@@ -31,10 +29,21 @@ for ident in analysis:
 	if a:
 		academic += 1
 
+instmult = []
+instuniq = set()
+for ident in analysis:
+	insts = analysis[ident]["institutions"]
+	for inst in insts:
+		instmult.append(inst)
+		instuniq.add(inst)
+
+allsorted = lambda x, y: sorted(x.items(), key=operator.itemgetter(y), reverse=True)
+
 f = open("stats.txt", "w")
-print("Years:", years, file=f)
-print("Countries:", countries, file=f)
+print("Years:", allsorted(years, 0), file=f)
+print("Countries:", allsorted(countries, 1), file=f)
 print("Ratio academic to industry:", academic, ":", len(analysis) - academic, "=", academic / len(analysis), file=f)
+print("Number of institutions:", len(instmult) / len(analysis), "per paper;", len(instuniq), "involved in total", file=f)
 f.close()
 
 print("Written stats to stats.txt.")
