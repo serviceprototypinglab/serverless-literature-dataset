@@ -48,7 +48,7 @@ def populate_bibliography(base_filename, biblio_filename, forced):
 					print("- Updated '{}'".format(ft))
 
 	f = open(biblio_filename, "w")
-	json.dump(biblio, f, indent=2, ensure_ascii=False)
+	json.dump(biblio, f, indent=2, ensure_ascii=False, sort_keys=True)
 	f.close()
 
 	return biblio
