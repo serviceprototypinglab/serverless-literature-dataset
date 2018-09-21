@@ -1,0 +1,9 @@
+{
+	"1": {
+		"technologies": ["OpenWhisk"],
+		"institutions": ["Politecnico di Milano"],
+		"countries": ["Italy"],
+		"academic": true,
+		"citations": 1
+	}
+}

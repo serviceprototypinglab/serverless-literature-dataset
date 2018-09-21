@@ -1,0 +1,27 @@
+The "Serverless Literature Dataset" (2nd generation)
+
+In February 2019, we have published the first iteration of the SLD
+online at https://zenodo.org/record/1175424. It contained 34 works
+retrieved via DBLP and organised in a spreadsheet. In September 2019, we
+extended it with more recent publication, yielding 44 works. Due to
+additional metadata, we quickly hit the limit of spreadsheet
+representation and resorted to this more sophisticated set of JSON
+files which allow for easier processing and textual change tracking.
+
+The basic curation workflow is as follows:
+- add a DOI to serverless-literature-base.json
+- run populate.py to produce serverless-literature-bibliography.json
+  from this file
+- if no DOI is available, add relevant fields directly to
+  serverless-literature-bibliography.json and leave an empty entry in
+  the base file
+- commit the results
+
+Ensure that each key in serverless-literature-base.json is unique! All
+other checks, in particular consecutiveness, will be checked for by the
+tool.
+
+The advanced curation workflow is as follows:
+- run analysischeck.py
+- follow the advice, extend serverless-literature-analysis.json
+  appropriately

@@ -51,4 +51,13 @@ def populate_bibliography(base_filename, biblio_filename, forced):
 	json.dump(biblio, f, indent=2, ensure_ascii=False)
 	f.close()
 
-populate_bibliography(base_filename, biblio_filename, forced)
+	return biblio
+
+def check_consistency(biblio):
+	allkeys = [int(x) for x in biblio.keys()]
+	allkeys.sort()
+	if allkeys[-1] != len(allkeys):
+		print("!! Inconsistency: keys={}".format(allkeys))
+
+biblio = populate_bibliography(base_filename, biblio_filename, forced)
+check_consistency(biblio)
