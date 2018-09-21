@@ -5,10 +5,142 @@
     "title": "Empowering Low-Latency Applications Through a Serverless Edge Computing Architecture",
     "year": "2017"
   },
+  "10": {
+    "author": "Glikson, Alex and Nastic, Stefan and Dustdar, Schahram",
+    "journal": "Proceedings of the 10th ACM International Systems and Storage Conference on - SYSTOR ’17",
+    "title": "Deviceless edge computing",
+    "year": "2017"
+  },
+  "11": {
+    "author": "Spillner, Josef",
+    "journal": "Proceedings of the10th International Conference on Utility and Cloud Computing - UCC ’17",
+    "title": "Practical Tooling for Serverless Computing",
+    "year": "2017"
+  },
+  "12": {
+    "author": "Baldini, Ioana and Castro, Paul and Chang, Kerry and Cheng, Perry and Fink, Stephen and Ishakian, Vatche and Mitchell, Nick and Muthusamy, Vinod and Rabbah, Rodric and Slominski, Aleksander and et al.",
+    "journal": "Research Advances in Cloud Computing",
+    "title": "Serverless Computing: Current Trends and Open Problems",
+    "year": "2017"
+  },
+  "13": {
+    "author": "Geoffrey C. Fox, Vatche Ishakian, Vinod Muthusamy, Aleksander Slominski",
+    "journal": "ArXiv",
+    "title": "Status of Serverless Computing and Function-as-a-Service(FaaS) in Industry and Research",
+    "year": "2017"
+  },
+  "14": {
+    "author": "Lara, Eyal de and Gomes, Carolina S. and Langridge, Steve and Mortazavi, S. Hossein and Roodi, Meysam",
+    "journal": "2016 IEEE/ACM Symposium on Edge Computing (SEC)",
+    "title": "Poster Abstract: Hierarchical Serverless Computing for the Mobile Edge",
+    "year": "2016"
+  },
+  "15": {
+    "author": "Yan, Mengting and Castro, Paul and Cheng, Perry and Ishakian, Vatche",
+    "journal": "Proceedings of the 1st International Workshop on Mashups of Things and APIs - MOTA ’16",
+    "title": "Building a Chatbot with Serverless Computing",
+    "year": "2016"
+  },
+  "16": {
+    "author": "Koller, Ricardo and Williams, Dan",
+    "journal": "Proceedings of the 16th Workshop on Hot Topics in Operating Systems - HotOS ’17",
+    "title": "Will Serverless End the Dominance of Linux in the Cloud?",
+    "year": "2017"
+  },
+  "17": {
+    "author": "Castro, Paul and Ishakian, Vatche and Muthusamy, Vinod and Slominski, Aleksander",
+    "journal": "2017 IEEE 37th International Conference on Distributed Computing Systems (ICDCS)",
+    "title": "Serverless Programming (Function as a Service)",
+    "year": "2017"
+  },
+  "18": {
+    "author": "Bila, Nilton and Dettori, Paolo and Kanso, Ali and Watanabe, Yuji and Youssef, Alaa",
+    "journal": "2017 IEEE 37th International Conference on Distributed Computing Systems Workshops (ICDCSW)",
+    "title": "Leveraging the Serverless Architecture for Securing Linux Containers",
+    "year": "2017"
+  },
+  "19": {
+    "author": "Jiang, Qingye and Lee, Young Choon and Zomaya, Albert Y.",
+    "journal": "Lecture Notes in Computer Science",
+    "title": "Serverless Execution of Scientific Workflows",
+    "year": "2017"
+  },
   "2": {
     "author": "Chang, Kerry Shih-Ping and Fink, Stephen J.",
     "journal": "2017 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)",
     "title": "Visualizing serverless cloud application logs for program understanding",
+    "year": "2017"
+  },
+  "20": {
+    "author": "Crane, Matt and Lin, Jimmy",
+    "journal": "Proceedings of the ACM SIGIR International Conference on Theory of Information Retrieval - ICTIR ’17",
+    "title": "An Exploration of Serverless Architectures for Information Retrieval",
+    "year": "2017"
+  },
+  "21": {
+    "author": "Nasirifard, Pezhman and Slominski, Aleksander and Muthusamy, Vinod and Ishakian, Vatche and Jacobsen, Hans-Arno",
+    "journal": "Proceedings of the 18th ACM/IFIP/USENIX Middleware Conference on Posters and Demos - Middleware ’17",
+    "title": "A serverless topic-based and content-based pub/sub broker",
+    "year": "2017"
+  },
+  "22": {
+    "author": "Sampé, Josep and Sánchez-Artigas, Marc and García-López, Pedro and París, Gerard",
+    "journal": "Proceedings of the 18th ACM/IFIP/USENIX Middleware Conference on - Middleware ’17",
+    "title": "Data-driven serverless functions for object storage",
+    "year": "2017"
+  },
+  "23": {
+    "author": "Scott Hendrickson and Stephen Sturdevant and Tyler Harter and Venkateshwaran Venkataramani and Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau",
+    "journal": "HotCloud",
+    "title": "Serverless Computation with OpenLambda",
+    "year": "2016"
+  },
+  "24": {
+    "author": "Maciej Malawski",
+    "journal": "WORKS@SC 2016",
+    "title": "Towards Serverless Execution of Scientific Workflows - HyperFlow Case Study",
+    "year": "2016"
+  },
+  "3": {
+    "author": "Eivy, Adam",
+    "journal": "IEEE Cloud Computing",
+    "title": "Be Wary of the Economics of “Serverless” Cloud Computing",
+    "year": "2017"
+  },
+  "4": {
+    "author": "Nastic, Stefan and Rausch, Thomas and Scekic, Ognjen and Dustdar, Schahram and Gusev, Marjan and Koteska, Bojana and Kostoska, Magdalena and Jakimovski, Boro and Ristov, Sasko and Prodan, Radu",
+    "journal": "IEEE Internet Computing",
+    "title": "A Serverless Real-Time Data Analytics Platform for Edge Computing",
+    "year": "2017"
+  },
+  "5": {
+    "author": "Spillner, Josef and Mateos, Cristian and Monge, David A.",
+    "journal": "High Performance Computing",
+    "title": "FaaSter, Better, Cheaper: The Prospect of Serverless Scientific Computing and HPC",
+    "year": "2017"
+  },
+  "6": {
+    "author": "Lynn, Theo and Rosati, Pierangelo and Lejeune, Arnaud and Emeakaroha, Vincent",
+    "journal": "2017 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)",
+    "title": "A Preliminary Review of Enterprise Serverless Cloud Computing (Function-as-a-Service) Platforms",
+    "year": "2017"
+  },
+  "7": {
+    "author": "McGrath, Garrett and Brenner, Paul R.",
+    "journal": "2017 IEEE 37th International Conference on Distributed Computing Systems Workshops (ICDCSW)",
+    "title": "Serverless Computing: Design, Implementation, and Performance",
+    "year": "2017"
+  },
+  "8": {
+    "author": "Baldini, Ioana and Cheng, Perry and Fink, Stephen J. and Mitchell, Nick and Muthusamy, Vinod and Rabbah, Rodric and Suter, Philippe and Tardieu, Olivier",
+    "journal": "Proceedings of the 2017 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software - Onward! 2017",
+    "title": "The serverless trilemma: function composition for serverless computing",
+    "year": "2017"
+  },
+  "9": {
+    "author": "Adzic, Gojko and Chatley, Robert",
+    "journal": "Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering - ESEC/FSE 2017",
+    "title": "Serverless computing: economic and architectural impact",
     "year": "2017"
   }
 }
