@@ -8,6 +8,10 @@ additional metadata, we quickly hit the limit of spreadsheet
 representation and resorted to this more sophisticated set of JSON
 files which allow for easier processing and textual change tracking.
 
+Installation:
+- % apt-get install python3-pybtex / sudo pip3 install pybtex
+- % apt-get install poppler-utils
+
 The basic curation workflow is as follows:
 - add a DOI to serverless-literature-base.json
 - run populate.py to produce serverless-literature-bibliography.json
@@ -29,3 +33,4 @@ The advanced curation workflow is as follows:
 Once all data has been checked, statistics output can be produced as by
 the following instructions:
 - run stats.py
+- run tagcloud.py (if folder 'pdfs/' with files '<number>.pdf' exists)

@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 
 import json
-import os
-import urllib.request
-import pybtex.database
 
 analysis_filename = "serverless-literature-analysis.json"
 biblio_filename = "serverless-literature-bibliography.json"
