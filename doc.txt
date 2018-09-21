@@ -25,3 +25,7 @@ The advanced curation workflow is as follows:
 - run analysischeck.py
 - follow the advice, extend serverless-literature-analysis.json
   appropriately
+
+Once all data has been checked, statistics output can be produced as by
+the following instructions:
+- run stats.py
