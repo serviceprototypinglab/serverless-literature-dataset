@@ -1,7 +1,7 @@
 import json
 import numpy as np
 from matplotlib import pyplot as plt
-from matplotlib_venn import venn3, venn3_circles
+from matplotlib_venn import venn3, venn3_circles, venn2, venn2_circles
 
 biblio_filename = "serverless-literature-bibliography.json"
 
@@ -68,4 +68,10 @@ plt.title("Literature keywords relations")
 #plt.annotate('Unknown set', xy=v.get_label_by_id('100').get_position() - np.array([0, 0.05]), xytext=(-70,-70),
 #             ha='center', textcoords='offset points', bbox=dict(boxstyle='round,pad=0.5', fc='gray', alpha=0.1),
 #             arrowprops=dict(arrowstyle='->', connectionstyle='arc3,rad=0.5',color='gray'))
+plt.show()
+
+v = venn2(subsets=(28, 7, 10), set_labels=("academia", "industry"))
+c = venn2_circles(subsets=(28, 7, 10), linestyle='dashed')
+plt.title("Literature institution relations")
+
 plt.show()
