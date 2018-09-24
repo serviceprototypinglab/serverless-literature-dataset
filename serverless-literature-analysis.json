@@ -10,7 +10,7 @@
 
 	"2": {
 		"technologies": ["OpenWhisk"],
-		"institutions": ["IBM Research, IBM Watson"],
+		"institutions": ["IBM"],
 		"countries": ["USA"],
 		"academic": false,
 		"industry": true,
@@ -64,7 +64,7 @@
 
 	"8": {
 		"technologies": ["OpenWhisk"],
-		"institutions": ["IBM Research", "Two Sigma"],
+		"institutions": ["IBM", "Two Sigma"],
 		"countries": ["USA"],
 		"academic": false,
 		"industry": true,
@@ -82,7 +82,7 @@
 
 	"10": {
 		"technologies": [],
-		"institutions": ["IBM Research", "TU Wien"],
+		"institutions": ["IBM", "TU Wien"],
 		"countries": ["Austria", "Israel"],
 		"academic": true,
 		"industry": true,
@@ -100,7 +100,7 @@
 
 	"12": {
 		"technologies": [],
-		"institutions": ["IBM Research", "Bentley University"],
+		"institutions": ["IBM", "Bentley University"],
 		"countries": ["USA"],
 		"academic": true,
 		"industry": true,
@@ -109,7 +109,7 @@
 
 	"13": {
 		"technologies": [],
-		"institutions": ["IBM Research", "Bentley University", "Indiana University"],
+		"institutions": ["IBM", "Bentley University", "Indiana University"],
 		"countries": ["USA"],
 		"academic": true,
 		"industry": true,
@@ -127,7 +127,7 @@
 
 	"15": {
 		"technologies": ["OpenWhisk"],
-		"institutions": ["IBM Watson Research Center", "University of Illinois"],
+		"institutions": ["IBM", "University of Illinois"],
 		"countries": ["USA"],
 		"academic": true,
 		"industry": true,
@@ -136,7 +136,7 @@
 
 	"16": {
 		"technologies": ["Solo5 microkernel"],
-		"institutions": ["IBM T.J. Watson Research Center"],
+		"institutions": ["IBM"],
 		"countries": ["USA"],
 		"academic": false,
 		"industry": true,
@@ -145,7 +145,7 @@
 
 	"17": {
 		"technologies": [],
-		"institutions": ["IBM T.J. Watson Research Center", "Bentley University"],
+		"institutions": ["IBM", "Bentley University"],
 		"countries": ["USA"],
 		"academic": true,
 		"industry": true,
@@ -154,7 +154,7 @@
 
 	"18": {
 		"technologies": ["OpenWhisk", "Kubernetes"],
-		"institutions": ["IBM T.J. Watson Research Center", "IBM Research", "IBM Japan Ltd."],
+		"institutions": ["IBM"],
 		"countries": ["Japan","USA"],
 		"academic": false,
 		"industry": true,
@@ -181,7 +181,7 @@
 
 	"21": {
 		"technologies": ["OpenWhisk"],
-		"institutions": ["IBM Research", "Technical University of Munich", "Middleware Systems Research Group","Bentley University"],
+		"institutions": ["IBM", "Technical University of Munich", "Middleware Systems Research Group","Bentley University"],
 		"countries": ["USA","Germany"],
 		"academic": true,
 		"industry": true,
