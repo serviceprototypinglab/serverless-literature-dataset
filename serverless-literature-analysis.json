@@ -400,7 +400,7 @@
 		"institutions": ["University of Wuerzburg", "Escuela Superior Politecnica del Litoral", "Vrije Universiteit", "Technische Universiteit Delft", "Platform9 Inc"],
 		"countries": ["Germany","Ecuador","Netherlands"],
 		"academic": true,
-		"industry": false,
+		"industry": true,
 		"citations": 4
 	}
 }
