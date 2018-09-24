@@ -24,10 +24,20 @@ for ident in analysis:
 		countries[c] = countries.get(c, 0) + 1
 
 academic = 0
+industry = 0
+both = 0
 for ident in analysis:
 	a = analysis[ident]["academic"]
-	if a:
+	i = analysis[ident]["industry"]
+	if a and i:
+		both += 1
+	elif a:
 		academic += 1
+	elif i:
+		industry += 1
+r_academic = academic / len(analysis)
+r_industry = industry / len(analysis)
+r_both = both / len(analysis)
 
 instmult = []
 instuniq = set()
@@ -42,7 +52,7 @@ allsorted = lambda x, y: sorted(x.items(), key=operator.itemgetter(y), reverse=T
 f = open("stats.txt", "w")
 print("Years:", allsorted(years, 0), file=f)
 print("Countries:", allsorted(countries, 1), file=f)
-print("Ratio academic to industry:", academic, ":", len(analysis) - academic, "=", academic / len(analysis), file=f)
+print("Ratio academic to industry to both:", academic, ":", industry, ":", both, "=", r_academic, r_industry, r_both, file=f)
 print("Number of institutions:", len(instmult) / len(analysis), "per paper;", len(instuniq), "involved in total", file=f)
 f.close()
 
