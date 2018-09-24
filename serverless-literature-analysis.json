@@ -43,7 +43,7 @@
 		"technologies": ["Lambda","Azure","GCF","IBM","Iron","Auth0","Galactic"],
 		"institutions": ["Dublin City University", "Cork Institute of Technology"],
 		"countries": ["Ireland"],
-		"academic": ,
+		"academic": true,
 		"citations": 4
 	},
 
@@ -67,15 +67,15 @@
 		"technologies": ["Lambda"],
 		"institutions": ["Neuri Consulting LLP", "Imperial College London"],
 		"countries": ["UK"],
-		"academic": ,
+		"academic": true,
 		"citations": 8
 	},
 
 	"10": {
 		"technologies": [],
-		"institutions": ["IBM Research","TU Wien"],
+		"institutions": ["IBM Research", "TU Wien"],
 		"countries": ["Austria", "Israel"],
-		"academic": ,
+		"academic": true,
 		"citations": 6
 	},
 
@@ -91,7 +91,7 @@
 		"technologies": [],
 		"institutions": ["IBM Research", "Bentley University"],
 		"countries": ["USA"],
-		"academic": ,
+		"academic": true,
 		"citations": 37
 	},
 
@@ -99,23 +99,23 @@
 		"technologies": [],
 		"institutions": ["IBM Research", "Bentley University", "Indiana University"],
 		"countries": ["USA"],
-		"academic": ,
+		"academic": true,
 		"citations": 11
-	}
+	},
 
 	"14": {
 		"technologies": ["EdgeScale"],
 		"institutions": ["Huawei Technlogies Co"],
 		"countries": ["Canada"],
 		"academic": false,
-		"citations":
+		"citations": 0
 	},
 
 	"15": {
 		"technologies": ["OpenWhisk"],
 		"institutions": ["IBM Watson Research Center", "University of Illinois"],
 		"countries": ["USA"],
-		"academic": ,
+		"academic": true,
 		"citations": 31
 	},
 
@@ -131,7 +131,7 @@
 		"technologies": [],
 		"institutions": ["IBM T.J. Watson Research Center", "Bentley University"],
 		"countries": ["USA"],
-		"academic": ,
+		"academic": true,
 		"citations": 4
 	},
 
@@ -139,7 +139,7 @@
 		"technologies": ["OpenWhisk", "Kubernetes"],
 		"institutions": ["IBM T.J. Watson Research Center", "IBM Research", "IBM Japan Ltd."],
 		"countries": ["Japan","USA"],
-		"academic": ,
+		"academic": false,
 		"citations": 6
 	},
 
@@ -163,8 +163,8 @@
 		"technologies": ["OpenWhisk"],
 		"institutions": ["IBM Research", "Technical University of Munich", "Middleware Systems Research Group","Bentley University"],
 		"countries": ["USA","Germany"],
-		"academic": ,
-		"citations":
+		"academic": true,
+		"citations": 0
 	},
 
 	"22": {
@@ -196,7 +196,7 @@
 		"institutions": ["The University of Sydney", "Macquarie University", "RMIT University"],
 		"countries": ["Australia"],
 		"academic": true,
-		"citations":
+		"citations": 0
 	},
 
 	"26": {
@@ -236,7 +236,7 @@
 		"institutions": ["Workday", "Oklahoma State University"],
 		"countries": ["USA"],
 		"academic": true,
-		"citations":
+		"citations": 0
 	},
 
 	"31": {
@@ -283,7 +283,7 @@
 		"technologies": ["Lambda","Azure"],
 		"institutions": ["University of Washington", "Microsoft", "Colorado State University"],
 		"countries": ["USA"],
-		"academic": ,
+		"academic": true,
 		"citations": 5
 	},
 
@@ -292,7 +292,7 @@
 		"institutions": ["Washington State University"],
 		"countries": ["USA"],
 		"academic": true,
-		"citations":
+		"citations": 0
 	},
 
 	"38": {
@@ -308,14 +308,14 @@
 		"institutions": ["UW-Madison", "Ohio State University", "Cornell Tech"],
 		"countries": ["USA"],
 		"academic": true,
-		"citations":
+		"citations": 0
 	},
 
 	"40": {
 		"technologies": ["Lambda"],
 		"institutions": ["Univ. of California", "Huawei Technologies Co. Inc."],
 		"countries": ["USA"],
-		"academic": ,
+		"academic": true,
 		"citations": 1
 	},
 
@@ -332,7 +332,7 @@
 		"institutions": ["Korea Advanced Institute of Science and Technology"],
 		"countries": ["South Korea"],
 		"academic": true,
-		"citations":
+		"citations": 0
 	},
 
 	"43": {
@@ -355,7 +355,7 @@
 		"technologies": [],
 		"institutions": ["University of Wuerzburg", "Escuela Superior Politecnica del Litoral", "Vrije Universiteit", "Technische Universiteit Delft", "Platform9 Inc"],
 		"countries": ["Germany","Ecuador","Netherlands"],
-		"academic": ,
+		"academic": true,
 		"citations": 4
 	}
 }
