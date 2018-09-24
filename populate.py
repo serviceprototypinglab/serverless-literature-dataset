@@ -23,29 +23,34 @@ def populate_bibliography(base_filename, biblio_filename, forced):
 	header = {"Accept": "text/bibliography; style=bibtex"}
 
 	for ident in literature:
-		if "doi" in literature[ident]:
-			if not ident in biblio or forced:
-				doi = literature[ident]["doi"]
-				print("Retrieving {}: {}".format(ident, doi))
-				req = urllib.request.Request(doi, headers=header)
-				res = urllib.request.urlopen(req)
-				bib = res.read().decode("utf-8")
-				db =pybtex.database.parse_string(bib, "bibtex")
-				for entry in db.entries:
-					ft = db.entries[entry].fields["title"]
-					fa = db.entries[entry].fields["author"]
-					fy = db.entries[entry].fields["year"]
-					if "journal" in db.entries[entry].fields:
-						fj = db.entries[entry].fields["journal"]
-					else:
-						fj = None
-					biblio[ident] = {}
-					biblio[ident]["title"] = ft
-					biblio[ident]["author"] = fa
-					biblio[ident]["year"] = fy
-					if fj:
-						biblio[ident]["journal"] = fj
-					print("- Updated '{}'".format(ft))
+		if not "doi" in literature[ident]:
+			if ident in biblio and "title" in biblio[ident]:
+				print("## work {} has no doi but a manual entry".format(ident))
+			else:
+				print("!! work {} has no doi".format(ident))
+			continue
+		if not ident in biblio or forced:
+			doi = literature[ident]["doi"]
+			print("Retrieving {}: {}".format(ident, doi))
+			req = urllib.request.Request(doi, headers=header)
+			res = urllib.request.urlopen(req)
+			bib = res.read().decode("utf-8")
+			db =pybtex.database.parse_string(bib, "bibtex")
+			for entry in db.entries:
+				ft = db.entries[entry].fields["title"]
+				fa = db.entries[entry].fields["author"]
+				fy = db.entries[entry].fields["year"]
+				if "journal" in db.entries[entry].fields:
+					fj = db.entries[entry].fields["journal"]
+				else:
+					fj = None
+				biblio[ident] = {}
+				biblio[ident]["title"] = ft
+				biblio[ident]["author"] = fa
+				biblio[ident]["year"] = fy
+				if fj:
+					biblio[ident]["journal"] = fj
+				print("- Updated '{}'".format(ft))
 
 	f = open(biblio_filename, "w")
 	json.dump(biblio, f, indent=2, ensure_ascii=False, sort_keys=True)

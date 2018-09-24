@@ -1,0 +1,4 @@
+Years: [('2017', 20), ('2016', 4)]
+Countries: [('Italy', 1)]
+Ratio academic to industry: 1 : 0 = 1.0
+Number of institutions: 1.0 per paper; 1 involved in total
