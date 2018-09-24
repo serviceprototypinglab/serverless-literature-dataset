@@ -4,6 +4,7 @@
 		"institutions": ["Politecnico di Milano"],
 		"countries": ["Italy"],
 		"academic": true,
+		"industry": false,
 		"citations": 7
 	},
 
@@ -12,6 +13,7 @@
 		"institutions": ["IBM Research, IBM Watson"],
 		"countries": ["USA"],
 		"academic": false,
+		"industry": true,
 		"citations": 2
 	},
 
@@ -20,6 +22,7 @@
 		"institutions": ["The Walt Disney Company"],
 		"countries": ["USA"],
 		"academic": false,
+		"industry": true,
 		"citations": 23
 	},
 
@@ -28,6 +31,7 @@
 		"institutions": ["TU Wien", "University of Innsbruck", "Ss. Cyril and Methodius Universit"],
 		"countries": ["Austria", "Macedonia"],
 		"academic": true,
+		"industry": false,
 		"citations": 12
 	},
 
@@ -36,6 +40,7 @@
 		"institutions": ["ZHAW", "ISISTAN-UNICEN-CONICET", "National University of Cuyo"],
 		"countries": ["Switzerland", "Argentina"],
 		"academic": true,
+		"industry": false,
 		"citations": 11
 	},
 
@@ -44,6 +49,7 @@
 		"institutions": ["Dublin City University", "Cork Institute of Technology"],
 		"countries": ["Ireland"],
 		"academic": true,
+		"industry": false,
 		"citations": 5
 	},
 
@@ -52,6 +58,7 @@
 		"institutions": ["University of Notre Dame"],
 		"countries": ["USA"],
 		"academic": true,
+		"industry": false,
 		"citations": 23
 	},
 
@@ -60,6 +67,7 @@
 		"institutions": ["IBM Research", "Two Sigma"],
 		"countries": ["USA"],
 		"academic": false,
+		"industry": true,
 		"citations": 8
 	},
 
@@ -68,6 +76,7 @@
 		"institutions": ["Neuri Consulting LLP", "Imperial College London"],
 		"countries": ["UK"],
 		"academic": true,
+		"industry": true,
 		"citations": 10
 	},
 
@@ -76,6 +85,7 @@
 		"institutions": ["IBM Research", "TU Wien"],
 		"countries": ["Austria", "Israel"],
 		"academic": true,
+		"industry": true,
 		"citations": 7
 	},
 
@@ -84,6 +94,7 @@
 		"institutions": ["ZHAW"],
 		"countries": ["Switzerland"],
 		"academic": true,
+		"industry": false,
 		"citations": 3
 	},
 
@@ -92,6 +103,7 @@
 		"institutions": ["IBM Research", "Bentley University"],
 		"countries": ["USA"],
 		"academic": true,
+		"industry": true,
 		"citations": 40
 	},
 
@@ -100,6 +112,7 @@
 		"institutions": ["IBM Research", "Bentley University", "Indiana University"],
 		"countries": ["USA"],
 		"academic": true,
+		"industry": true,
 		"citations": 12
 	},
 
@@ -108,6 +121,7 @@
 		"institutions": ["Huawei Technlogies Co"],
 		"countries": ["Canada"],
 		"academic": false,
+		"industry": true,
 		"citations": 4
 	},
 
@@ -116,6 +130,7 @@
 		"institutions": ["IBM Watson Research Center", "University of Illinois"],
 		"countries": ["USA"],
 		"academic": true,
+		"industry": true,
 		"citations": 32
 	},
 
@@ -124,6 +139,7 @@
 		"institutions": ["IBM T.J. Watson Research Center"],
 		"countries": ["USA"],
 		"academic": false,
+		"industry": true,
 		"citations": 7
 	},
 
@@ -132,6 +148,7 @@
 		"institutions": ["IBM T.J. Watson Research Center", "Bentley University"],
 		"countries": ["USA"],
 		"academic": true,
+		"industry": true,
 		"citations": 6
 	},
 
@@ -140,6 +157,7 @@
 		"institutions": ["IBM T.J. Watson Research Center", "IBM Research", "IBM Japan Ltd."],
 		"countries": ["Japan","USA"],
 		"academic": false,
+		"industry": true,
 		"citations": 5
 	},
 
@@ -148,6 +166,7 @@
 		"institutions": ["The University of Sydney", "Macquarie University"],
 		"countries": ["Australia"],
 		"academic": true,
+		"industry": false,
 		"citations": 3
 	},
 
@@ -156,6 +175,7 @@
 		"institutions": ["University of Waterloo"],
 		"countries": ["Canada"],
 		"academic": true,
+		"industry": false,
 		"citations": 6
 	},
 
@@ -164,6 +184,7 @@
 		"institutions": ["IBM Research", "Technical University of Munich", "Middleware Systems Research Group","Bentley University"],
 		"countries": ["USA","Germany"],
 		"academic": true,
+		"industry": true,
 		"citations": 0
 	},
 
@@ -172,6 +193,7 @@
 		"institutions": ["Universitat Rovira i Virgili"],
 		"countries": ["Spain"],
 		"academic": true,
+		"industry": false,
 		"citations": 4
 	},
 
@@ -180,6 +202,7 @@
 		"institutions": ["University of Wisconsin"],
 		"countries": ["USA"],
 		"academic": true,
+		"industry": false,
 		"citations": 87
 	},
 
@@ -188,6 +211,7 @@
 		"institutions": ["AGH University of Science and Technology"],
 		"countries": ["Poland"],
 		"academic": true,
+		"industry": false,
 		"citations": 11
 	},
 
@@ -196,6 +220,7 @@
 		"institutions": ["The University of Sydney", "Macquarie University", "RMIT University"],
 		"countries": ["Australia"],
 		"academic": true,
+		"industry": false,
 		"citations": 0
 	},
 
@@ -204,6 +229,7 @@
 		"institutions": ["ZHAW"],
 		"countries": ["Switzerland"],
 		"academic": true,
+		"industry": false,
 		"citations": 14
 	},
 
@@ -212,6 +238,7 @@
 		"institutions": ["ZHAW"],
 		"countries": ["Switzerland"],
 		"academic": true,
+		"industry": false,
 		"citations": 2
 	},
 
@@ -220,6 +247,7 @@
 		"institutions": ["ZHAW"],
 		"countries": ["Switzerland"],
 		"academic": true,
+		"industry": false,
 		"citations": 3
 	},
 
@@ -228,6 +256,7 @@
 		"institutions": ["Universidad de los Andes", "Project Management Department, Mapeo"],
 		"countries": ["Colombia"],
 		"academic": true,
+		"industry": false,
 		"citations": 12
 	},
 
@@ -236,6 +265,7 @@
 		"institutions": ["Workday", "Oklahoma State University"],
 		"countries": ["USA"],
 		"academic": true,
+		"industry": false,
 		"citations": 0
 	},
 
@@ -244,6 +274,7 @@
 		"institutions": ["ZHAW"],
 		"countries": ["Switzerland"],
 		"academic": true,
+		"industry": false,
 		"citations": 7
 	},
 
@@ -252,6 +283,7 @@
 		"institutions": ["Universidad de los Andes", "Project Management Department, Mapeo"],
 		"countries": ["Colombia"],
 		"academic": true,
+		"industry": false,
 		"citations": 48
 	},
 
@@ -260,6 +292,7 @@
 		"institutions": ["AGH University of Science and Technology"],
 		"countries": ["Poland"],
 		"academic": true,
+		"industry": false,
 		"citations": 6
 	},
 
@@ -268,6 +301,7 @@
 		"institutions": ["University of Zurich", "University of St. Gallen"],
 		"countries": ["Switzerland"],
 		"academic": true,
+		"industry": false,
 		"citations": 14
 	},
 
@@ -276,6 +310,7 @@
 		"institutions": ["Universitat Politècnica de València"],
 		"countries": ["Spain"],
 		"academic": true,
+		"industry": false,
 		"citations": 6
 	},
 
@@ -284,6 +319,7 @@
 		"institutions": ["University of Washington", "Microsoft", "Colorado State University"],
 		"countries": ["USA"],
 		"academic": true,
+		"industry": true,
 		"citations": 6
 	},
 
@@ -292,6 +328,7 @@
 		"institutions": ["Washington State University"],
 		"countries": ["USA"],
 		"academic": true,
+		"industry": false,
 		"citations": 0
 	},
 
@@ -300,6 +337,7 @@
 		"institutions": ["Nokia Bell Labs"],
 		"countries": [],
 		"academic": false,
+		"industry": true,
 		"citations": 1
 	},
 
@@ -308,6 +346,7 @@
 		"institutions": ["UW-Madison", "Ohio State University", "Cornell Tech"],
 		"countries": ["USA"],
 		"academic": true,
+		"industry": false,
 		"citations": 0
 	},
 
@@ -316,6 +355,7 @@
 		"institutions": ["Univ. of California", "Huawei Technologies Co. Inc."],
 		"countries": ["USA"],
 		"academic": true,
+		"industry": true,
 		"citations": 1
 	},
 
@@ -324,6 +364,7 @@
 		"institutions": ["Ulm University"],
 		"countries": ["Germany"],
 		"academic": true,
+		"industry": false,
 		"citations": 1
 	},
 
@@ -332,6 +373,7 @@
 		"institutions": ["Korea Advanced Institute of Science and Technology"],
 		"countries": ["South Korea"],
 		"academic": true,
+		"industry": false,
 		"citations": 0
 	},
 
@@ -340,6 +382,7 @@
 		"institutions": ["Universidad Piloto de Colombia", "ITS Colombia", "Universidad de los Andes", "Universidad Autonoma de Bucaramanga"],
 		"countries": ["Colombia"],
 		"academic": true,
+		"industry": false,
 		"citations": 1
 	},
 
@@ -348,6 +391,7 @@
 		"institutions": ["Escuela Superior Politecnica del Litoral", "Technische Universiteit Delft"],
 		"countries": ["Netherlands", "Ecuador"],
 		"academic": true,
+		"industry": false,
 		"citations": 2
 	},
 
@@ -356,6 +400,7 @@
 		"institutions": ["University of Wuerzburg", "Escuela Superior Politecnica del Litoral", "Vrije Universiteit", "Technische Universiteit Delft", "Platform9 Inc"],
 		"countries": ["Germany","Ecuador","Netherlands"],
 		"academic": true,
+		"industry": false,
 		"citations": 4
 	}
 }
