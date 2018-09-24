@@ -4,7 +4,7 @@
 		"institutions": ["Politecnico di Milano"],
 		"countries": ["Italy"],
 		"academic": true,
-		"citations": 1
+		"citations": 7
 	},
 
 	"2": {
@@ -17,10 +17,10 @@
 
 	"3": {
 		"technologies": ["Lambda (NT)"],
-		"institutions": [],
-		"countries": [],
+		"institutions": ["The Walt Disney Company"],
+		"countries": ["USA"],
 		"academic": false,
-		"citations": -1
+		"citations": 23
 	},
 
 	"4": {
@@ -28,7 +28,7 @@
 		"institutions": ["TU Wien", "University of Innsbruck", "Ss. Cyril and Methodius Universit"],
 		"countries": ["Austria", "Macedonia"],
 		"academic": true,
-		"citations": 11
+		"citations": 12
 	},
 
 	"5": {
@@ -44,7 +44,7 @@
 		"institutions": ["Dublin City University", "Cork Institute of Technology"],
 		"countries": ["Ireland"],
 		"academic": true,
-		"citations": 4
+		"citations": 5
 	},
 
 	"7": {
@@ -52,7 +52,7 @@
 		"institutions": ["University of Notre Dame"],
 		"countries": ["USA"],
 		"academic": true,
-		"citations": 19
+		"citations": 23
 	},
 
 	"8": {
@@ -68,7 +68,7 @@
 		"institutions": ["Neuri Consulting LLP", "Imperial College London"],
 		"countries": ["UK"],
 		"academic": true,
-		"citations": 8
+		"citations": 10
 	},
 
 	"10": {
@@ -76,7 +76,7 @@
 		"institutions": ["IBM Research", "TU Wien"],
 		"countries": ["Austria", "Israel"],
 		"academic": true,
-		"citations": 6
+		"citations": 7
 	},
 
 	"11": {
@@ -84,7 +84,7 @@
 		"institutions": ["ZHAW"],
 		"countries": ["Switzerland"],
 		"academic": true,
-		"citations": 2
+		"citations": 3
 	},
 
 	"12": {
@@ -92,7 +92,7 @@
 		"institutions": ["IBM Research", "Bentley University"],
 		"countries": ["USA"],
 		"academic": true,
-		"citations": 37
+		"citations": 40
 	},
 
 	"13": {
@@ -100,7 +100,7 @@
 		"institutions": ["IBM Research", "Bentley University", "Indiana University"],
 		"countries": ["USA"],
 		"academic": true,
-		"citations": 11
+		"citations": 12
 	},
 
 	"14": {
@@ -108,7 +108,7 @@
 		"institutions": ["Huawei Technlogies Co"],
 		"countries": ["Canada"],
 		"academic": false,
-		"citations": 0
+		"citations": 4
 	},
 
 	"15": {
@@ -116,7 +116,7 @@
 		"institutions": ["IBM Watson Research Center", "University of Illinois"],
 		"countries": ["USA"],
 		"academic": true,
-		"citations": 31
+		"citations": 32
 	},
 
 	"16": {
@@ -132,7 +132,7 @@
 		"institutions": ["IBM T.J. Watson Research Center", "Bentley University"],
 		"countries": ["USA"],
 		"academic": true,
-		"citations": 4
+		"citations": 6
 	},
 
 	"18": {
@@ -140,7 +140,7 @@
 		"institutions": ["IBM T.J. Watson Research Center", "IBM Research", "IBM Japan Ltd."],
 		"countries": ["Japan","USA"],
 		"academic": false,
-		"citations": 6
+		"citations": 5
 	},
 
 	"19": {
@@ -148,7 +148,7 @@
 		"institutions": ["The University of Sydney", "Macquarie University"],
 		"countries": ["Australia"],
 		"academic": true,
-		"citations": 4
+		"citations": 3
 	},
 
 	"20": {
@@ -156,7 +156,7 @@
 		"institutions": ["University of Waterloo"],
 		"countries": ["Canada"],
 		"academic": true,
-		"citations": 5
+		"citations": 6
 	},
 
 	"21": {
@@ -172,7 +172,7 @@
 		"institutions": ["Universitat Rovira i Virgili"],
 		"countries": ["Spain"],
 		"academic": true,
-		"citations": 3
+		"citations": 4
 	},
 
 	"23": {
@@ -180,7 +180,7 @@
 		"institutions": ["University of Wisconsin"],
 		"countries": ["USA"],
 		"academic": true,
-		"citations": 17
+		"citations": 87
 	},
 
 	"24": {
@@ -276,7 +276,7 @@
 		"institutions": ["Universitat Politècnica de València"],
 		"countries": ["Spain"],
 		"academic": true,
-		"citations": 5
+		"citations": 6
 	},
 
 	"36": {
@@ -284,7 +284,7 @@
 		"institutions": ["University of Washington", "Microsoft", "Colorado State University"],
 		"countries": ["USA"],
 		"academic": true,
-		"citations": 5
+		"citations": 6
 	},
 
 	"37": {
