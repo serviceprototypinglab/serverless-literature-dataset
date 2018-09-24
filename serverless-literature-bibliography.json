@@ -101,17 +101,143 @@
     "title": "Towards Serverless Execution of Scientific Workflows - HyperFlow Case Study",
     "year": "2016"
   },
+  "25": {
+    "author": "HoseinyFarahabady, MohammadReza and Lee, Young Choon and Zomaya, Albert Y. and Tari, Zahir",
+    "journal": "Lecture Notes in Computer Science",
+    "title": "A QoS-Aware Resource Allocation Controller for Function as a Service (FaaS) Platform",
+    "year": "2017"
+  },
+  "26": {
+    "author": "Josef Spillner",
+    "journal": "arXiv",
+    "title": "Snafu: Function-as-a-Service (FaaS) Runtime Design and Implementation",
+    "year": "2017"
+  },
+  "27": {
+    "author": "Josef Spillner",
+    "journal": "arXiv",
+    "title": "Transformation of Python Applications into Function-as-a-Service Deployments",
+    "year": "2017"
+  },
+  "28": {
+    "author": "Josef Spillner",
+    "journal": "arXiv",
+    "title": "Exploiting the Cloud Control Plane for Fun and Profit",
+    "year": "2017"
+  },
+  "29": {
+    "author": "Villamizar, Mario and Garces, Oscar and Ochoa, Lina and Castro, Harold and Salamanca, Lorena and Verano, Mauricio and Casallas, Rubby and Gil, Santiago and Valencia, Carlos and Zambrano, Angee and et al.",
+    "journal": "2016 16th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid)",
+    "title": "Infrastructure Cost Comparison of Running Web Applications in the Cloud Using AWS Lambda and Monolithic and Microservice Architectures",
+    "year": "2016"
+  },
   "3": {
     "author": "Eivy, Adam",
     "journal": "IEEE Cloud Computing",
     "title": "Be Wary of the Economics of “Serverless” Cloud Computing",
     "year": "2017"
   },
+  "30": {
+    "author": "Puripunpinyo, Hussachai and Samadzadeh, M.H.",
+    "journal": "2017 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)",
+    "title": "Effect of optimizing Java deployment artifacts on AWS Lambda",
+    "year": "2017"
+  },
+  "31": {
+    "author": "Josef Spillner, Serhii Dorodko",
+    "journal": "arXiv",
+    "title": "Java Code Analysis and Transformation into AWS Lambda Functions",
+    "year": "2017"
+  },
+  "32": {
+    "author": "Villamizar, Mario and Garces, Oscar and Ochoa, Lina and Castro, Harold and Salamanca, Lorena and Verano, Mauricio and Casallas, Rubby and Gil, Santiago and Valencia, Carlos and Zambrano, Angee and et al.",
+    "journal": "2016 16th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid)",
+    "title": "Infrastructure Cost Comparison of Running Web Applications in the Cloud Using AWS Lambda and Monolithic and Microservice Architectures",
+    "year": "2016"
+  },
+  "33": {
+    "author": "Malawski, Maciej and Figiela, Kamil and Gajek, Adam and Zima, Adam",
+    "journal": "Lecture Notes in Computer Science",
+    "title": "Benchmarking Heterogeneous Cloud Functions",
+    "year": "2018"
+  },
+  "34": {
+    "author": "Leitner, Philipp and Cito, Jürgen and Stöckli, Emanuel",
+    "journal": "Proceedings of the 9th International Conference on Utility and Cloud Computing - UCC ’16",
+    "title": "Modelling and managing deployment costs of microservice-based cloud applications",
+    "year": "2016"
+  },
+  "35": {
+    "author": "Pérez, Alfonso and Moltó, Germán and Caballer, Miguel and Calatrava, Amanda",
+    "journal": "Future Generation Computer Systems",
+    "title": "Serverless computing for container-based architectures",
+    "year": "2018"
+  },
+  "36": {
+    "author": "Lloyd, Wes and Ramesh, Shruti and Chinthalapati, Swetha and Ly, Lan and Pallickara, Shrideep",
+    "journal": "2018 IEEE International Conference on Cloud Engineering (IC2E)",
+    "title": "Serverless Computing: An Investigation of Factors Influencing Microservice Performance",
+    "year": "2018"
+  },
+  "37": {
+    "author": "Aske, Austin and Zhao, Xinghui",
+    "journal": "Proceedings of the 47th International Conference on Parallel Processing Companion - ICPP ’18",
+    "title": "Supporting Multi-Provider Serverless Computing on the Edge",
+    "year": "2018"
+  },
+  "38": {
+    "author": "Istemi Ekin Akkus, Ruichuan Chen, Ivica Rimac, Manuel Stein, Klaus Satzke, Andre Beck, Paarijaat Aditya, and Volker Hilt, Nokia Bell Labs",
+    "journal": "USENIX Annual Technical Conference",
+    "title": "SAND: Towards High-Performance Serverless Computing",
+    "year": "2018"
+  },
+  "39": {
+    "author": "Liang Wang, Mengyuan Li, Yinqian Zhang, Thomas Ristenpart, Michael Swift",
+    "journal": "USENIX Annual Technical Conference",
+    "title": "Peeking Behind the Curtains of Serverless Platforms",
+    "year": "2018"
+  },
   "4": {
     "author": "Nastic, Stefan and Rausch, Thomas and Scekic, Ognjen and Dustdar, Schahram and Gusev, Marjan and Koteska, Bojana and Kostoska, Magdalena and Jakimovski, Boro and Ristov, Sasko and Prodan, Radu",
     "journal": "IEEE Internet Computing",
     "title": "A Serverless Real-Time Data Analytics Platform for Edge Computing",
     "year": "2017"
+  },
+  "40": {
+    "author": "Lin, Wei-Tsung and Krintz, Chandra and Wolski, Rich and Zhang, Michael and Cai, Xiaogang and Li, Tongjun and Xu, Weijin",
+    "journal": "2018 IEEE International Conference on Cloud Engineering (IC2E)",
+    "title": "Tracking Causal Order in AWS Lambda Applications",
+    "year": "2018"
+  },
+  "41": {
+    "author": "Meißner, Dominik and Erb, Benjamin and Kargl, Frank and Tichy, Matthias",
+    "journal": "Proceedings of the 12th ACM International Conference on Distributed and Event-based Systems - DEBS ’18",
+    "title": "Retro-λ",
+    "year": "2018"
+  },
+  "42": {
+    "author": "Jun, Tae Joon and Kang, Daeyoun and Kim, Dohyeun and Kim, Daeyoung",
+    "journal": "2018 26th Euromicro International Conference on Parallel, Distributed and Network-based Processing (PDP)",
+    "title": "GPU Enabled Serverless Computing Framework",
+    "year": "2018"
+  },
+  "43": {
+    "author": "Herrera-Quintero, Luis Felipe and Vega-Alfonso, Julian Camilo and Banse, Klaus Bodo Albert and Carrillo Zambrano, Eduardo",
+    "journal": "IEEE Intelligent Transportation Systems Magazine",
+    "title": "Smart ITS Sensor for the Transportation Planning Based on IoT Approaches Using Serverless and Microservices Architecture",
+    "year": "2018"
+  },
+  "44": {
+    "author": "Abad, Cristina L. and Boza, Edwin F. and van Eyk, Erwin",
+    "journal": "Companion of the 2018 ACM/SPEC International Conference on Performance Engineering - ICPE ’18",
+    "title": "Package-Aware Scheduling of FaaS Functions",
+    "year": "2018"
+  },
+  "45": {
+    "author": "van Eyk, Erwin and Iosup, Alexandru and Abad, Cristina L. and Grohmann, Johannes and Eismann, Simon",
+    "journal": "Companion of the 2018 ACM/SPEC International Conference on Performance Engineering - ICPE ’18",
+    "title": "A SPEC RG Cloud Group’s Vision on the Performance Challenges of FaaS Cloud Architectures",
+    "year": "2018"
   },
   "5": {
     "author": "Spillner, Josef and Mateos, Cristian and Monge, David A.",
