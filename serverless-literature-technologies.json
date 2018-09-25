@@ -1,0 +1,82 @@
+{
+	"OpenWhisk": {
+		"open-source": true,
+		"actively-maintained": true
+	},
+
+	"snafu": {
+		"open-source": true,
+		"actively-maintained": true
+	},
+
+	"dask": {
+		"open-source": true,
+		"actively-maintained": true
+	},
+
+	"zion": {
+		"open-source": true,
+		"actively-maintained": false
+	},
+
+	"solo5": {
+		"open-source": true,
+		"actively-maintained": true
+	},
+
+	"EdgeScale": {
+		"open-source": false,
+		"actively-maintained": true	
+	},
+
+	"lambada": {
+		"open-source": true,
+		"actively-maintained": false
+	},
+
+	"podilizer": {
+		"open-source": true,
+		"actively-maintained": false	
+	},
+
+	"serverless": {
+		"open-source": true,
+		"actively-maintained": true	
+	},
+
+	"lambda": {
+		"open-source": false,
+		"actively-maintained": true
+	},
+
+	"azure": {
+		"open-source": false,
+		"actively-maintained": true
+	},
+
+	"gcf": {
+		"open-source:": false,
+		"actively-maintained": true
+	},
+
+	"ibm": {
+		"open-source:": false,
+		"actively-maintained": true
+	},
+
+	"iron": {
+		"open-source:": true,
+		"actively-maintained": false	
+	},
+
+	"auth0": {
+		"open-source": false,
+		"actively-maintained": true
+	},
+
+	"galactic": {
+		"open-source": true,
+		"actively-maintained": true 
+	}
+
+}
