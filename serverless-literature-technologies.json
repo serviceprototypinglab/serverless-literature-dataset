@@ -1,101 +1,121 @@
 {
 	"OpenWhisk": {
 		"open-source": true,
-		"actively-maintained": true
+		"actively-maintained": true,
+		"supported-languages": ["NodeJS", "Swift", "Java", "Go", "Scala", "Python", "PHP", "Ruby"]
 	},
 
 	"Snafu": {
 		"open-source": true,
-		"actively-maintained": true
+		"actively-maintained": true,
+		"supported-languages": ["Python"]
 	},
 
 	"Dask": {
 		"open-source": true,
-		"actively-maintained": true
+		"actively-maintained": true,
+		"supported-languages": ["Python"]
 	},
 
 	"Zion": {
 		"open-source": true,
-		"actively-maintained": false
+		"actively-maintained": false,
+		"supported-languages": []
 	},
 
 	"Solo5 microkernel": {
 		"open-source": true,
-		"actively-maintained": true
+		"actively-maintained": true,
+		"supported-languages": []
 	},
 
 	"EdgeScale": {
 		"open-source": false,
-		"actively-maintained": true	
+		"actively-maintained": true,
+		"supported-languages": []	
 	},
 
 	"Lambada": {
 		"open-source": true,
-		"actively-maintained": false
+		"actively-maintained": false,
+		"supported-languages": ["Python"]
 	},
 
 	"Podilizer": {
 		"open-source": true,
-		"actively-maintained": false	
+		"actively-maintained": false,
+		"supported-languages": ["Java"]	
 	},
 
 	"Serverless": {
 		"open-source": true,
-		"actively-maintained": true	
+		"actively-maintained": true,
+		"supported-languages": ["NodeJS", "Python", "Java", "Scala", "C#", "F#", "Go", "Groovy", "Kotlin", "PHP", "Swift"]	
 	},
 
 	"Lambda": {
 		"open-source": false,
-		"actively-maintained": true
+		"actively-maintained": true,
+		"supported-languages": ["NodeJS", "Python", "Java", "C#","Go"]
 	},
 
 	"Azure": {
 		"open-source": false,
-		"actively-maintained": true
+		"actively-maintained": true,
+		"supported-languages": ["C#", "F#", "JavaScript", "Java"]
 	},
 
 	"GCF": {
 		"open-source": false,
-		"actively-maintained": true
+		"actively-maintained": true,
+		"supported-languages": ["Python", "NodeJS"]
 	},
 
 	"IBM": {
 		"open-source": false,
-		"actively-maintained": true
+		"actively-maintained": true,
+		"supported-languages": ["NodeJS", "Swift", "Java", "Go", "PHP", "Python"]
 	},
 
 	"Iron": {
 		"open-source": true,
-		"actively-maintained": false	
+		"actively-maintained": false,
+		"supported-languages": ["any"]
 	},
 
 	"Auth0": {
 		"open-source": false,
-		"actively-maintained": true
+		"actively-maintained": true,
+		"supported-languages": ["NodeJS"]
 	},
 
 	"Galactic": {
 		"open-source": true,
-		"actively-maintained": true 
+		"actively-maintained": true,
+		"supported-languages": [".NET", "JavaScript", "Java", "Scala", "Python", "Ruby", "Go"] 
 	},
 
 	"OpenLambda": {
 		"open-source": true,
-		"actively-maintained": false
+		"actively-maintained": false,
+		"supported-languages": []
 	},
 
 	"Kubernetes": {
 		"open-source": true,
-		"actively-maintained": true
+		"actively-maintained": true,
+		"supported-languages": []
 	},
 
 	"Bluemix": {
 		"open-source": true,
-		"actively-maintained": true
+		"actively-maintained": true,
+		"supported-languages": []
 	},
 
 	"S-Prototype": {
 		"open-source": true,
-		"actively-maintained": false
+		"actively-maintained": false,
+		"supported-languages": []
 	}	
 }
