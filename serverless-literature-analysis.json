@@ -360,7 +360,7 @@
 	},
 
 	"37": {
-		"technologies": ["Lambda","Bluemix","OpenWhisk"],
+		"technologies": ["Lambda","IBM","OpenWhisk"],
 		"institutions": ["Washington State University"],
 		"countries": ["USA"],
 		"academic": true,
