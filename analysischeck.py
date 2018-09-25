@@ -46,6 +46,9 @@ for ident in biblio:
 	for key in bibliokeys:
 		if not key in biblio[ident]:
 			print("!! work {} misses key {} in bibliography".format(ident, key))
+	for t in analysis[ident]["technologies"]:
+		if not t in tech:
+			print("!! technology {} not described with metadata".format(t))
 for ident in tech:
 	for key in techkeys:
 		if not key in tech[ident]:
