@@ -23,10 +23,14 @@ for ident in biblio:
 	years[y] = years.get(y, 0) + 1
 
 countries = {}
+technologies = {}
 for ident in analysis:
 	cs = analysis[ident]["countries"]
 	for c in cs:
 		countries[c] = countries.get(c, 0) + 1
+	ts = analysis[ident]["technologies"]
+	for t in ts:
+		technologies[t] = technologies.get(t, 0) + 1
 
 academic = 0
 industry = 0
@@ -72,10 +76,12 @@ allsorted = lambda x, *y: sorted(x.items(), key=operator.itemgetter(*y), reverse
 
 f = open("stats.txt", "w")
 print("Years:", allsorted(years, 0), file=f)
+print("Number of countries:", len(countries), file=f)
 print("Countries:", allsorted(countries, 1, 0), file=f)
 print("Ratio academic to industry to both:", academic, ":", industry, ":", both, "=", r_academic, r_industry, r_both, file=f)
 print("Number of institutions:", len(instmult) / len(analysis), "per paper;", len(instuniq), "involved in total", file=f)
 print("Number of technologies:", len(tech), "; open source:", len([x for x in tech if tech[x]["open-source"]]), file=f)
+print("Technologies:", allsorted(technologies, 1, 0), file=f)
 print("JSON keys: {}".format(numkeys), file=f)
 f.close()
 
