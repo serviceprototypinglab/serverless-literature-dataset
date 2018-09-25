@@ -4,6 +4,7 @@ import json
 
 analysis_filename = "serverless-literature-analysis.json"
 biblio_filename = "serverless-literature-bibliography.json"
+tech_filename = "serverless-literature-technologies.json"
 
 f = open(biblio_filename)
 biblio = json.load(f)
@@ -11,6 +12,10 @@ biblio = json.load(f)
 f = open(analysis_filename)
 analysis = json.load(f)
 
+f = open(tech_filename)
+tech = json.load(f)
+
+techkeys = []
 bibliokeys = []
 allkeys = []
 for ident in analysis:
@@ -23,10 +28,14 @@ for ident in biblio:
 	for key in biblio[ident].keys():
 		if not key in bibliokeys:
 			bibliokeys.append(key)
+for ident in tech:
+	for key in tech[ident].keys():
+		if not key in techkeys:
+			techkeys.append(key)
 
-print("Check {} entries for keys: {} and {}".format(len(biblio), bibliokeys, allkeys))
+print("Check {} entries for keys: {} and {} (and {})".format(len(biblio), bibliokeys, allkeys, techkeys))
 
-for ident in biblio.keys():
+for ident in biblio:
 	if not ident in analysis:
 		print("!! work {} missing in analysis".format(ident))
 		print("- {}".format(biblio[ident]["title"]))
@@ -37,3 +46,7 @@ for ident in biblio.keys():
 	for key in bibliokeys:
 		if not key in biblio[ident]:
 			print("!! work {} misses key {} in bibliography".format(ident, key))
+for ident in tech:
+	for key in techkeys:
+		if not key in tech[ident]:
+			print("!! technology {} misses key {}".format(ident, key))

@@ -55,17 +55,17 @@
 	},
 
 	"gcf": {
-		"open-source:": false,
+		"open-source": false,
 		"actively-maintained": true
 	},
 
 	"ibm": {
-		"open-source:": false,
+		"open-source": false,
 		"actively-maintained": true
 	},
 
 	"iron": {
-		"open-source:": true,
+		"open-source": true,
 		"actively-maintained": false	
 	},
 

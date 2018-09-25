@@ -5,12 +5,16 @@ import operator
 
 analysis_filename = "serverless-literature-analysis.json"
 biblio_filename = "serverless-literature-bibliography.json"
+tech_filename = "serverless-literature-technologies.json"
 
 f = open(biblio_filename)
 biblio = json.load(f)
 
 f = open(analysis_filename)
 analysis = json.load(f)
+
+f = open(tech_filename)
+tech = json.load(f)
 
 years = {}
 for ident in biblio:
@@ -47,13 +51,14 @@ for ident in analysis:
 		instmult.append(inst)
 		instuniq.add(inst)
 
-allsorted = lambda x, y: sorted(x.items(), key=operator.itemgetter(y), reverse=True)
+allsorted = lambda x, *y: sorted(x.items(), key=operator.itemgetter(*y), reverse=True)
 
 f = open("stats.txt", "w")
 print("Years:", allsorted(years, 0), file=f)
-print("Countries:", allsorted(countries, 1), file=f)
+print("Countries:", allsorted(countries, 1, 0), file=f)
 print("Ratio academic to industry to both:", academic, ":", industry, ":", both, "=", r_academic, r_industry, r_both, file=f)
 print("Number of institutions:", len(instmult) / len(analysis), "per paper;", len(instuniq), "involved in total", file=f)
+print("Number of technologies:", len(tech), "; open source:", len([x for x in tech if tech[x]["open-source"]]), file=f)
 f.close()
 
 print("Written stats to stats.txt.")
