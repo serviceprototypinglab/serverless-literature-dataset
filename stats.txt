@@ -1,6 +1,8 @@
 Years: [('2018', 12), ('2017', 26), ('2016', 7)]
+Number of countries: 19
 Countries: [('USA', 17), ('Switzerland', 7), ('Germany', 3), ('Colombia', 3), ('Spain', 2), ('Poland', 2), ('Netherlands', 2), ('Ecuador', 2), ('Canada', 2), ('Austria', 2), ('Australia', 2), ('UK', 1), ('South Korea', 1), ('Macedonia', 1), ('Japan', 1), ('Italy', 1), ('Israel', 1), ('Ireland', 1), ('Argentina', 1)]
 Ratio academic to industry to both: 28 : 7 : 10 = 0.6222222222222222 0.15555555555555556 0.2222222222222222
 Number of institutions: 1.8 per paper; 55 involved in total
 Number of technologies: 20 ; open source: 14
+Technologies: [('Lambda', 21), ('OpenWhisk', 7), ('GCF', 7), ('Azure', 5), ('IBM', 4), ('Snafu', 2), ('Zion', 1), ('Solo5 microkernel', 1), ('Serverless', 1), ('S-Prototype', 1), ('Podilizer', 1), ('OpenLambda', 1), ('Lambada', 1), ('Kubernetes', 1), ('Iron', 1), ('Galactic', 1), ('EdgeScale', 1), ('Dask', 1), ('Bluemix', 1), ('Auth0', 1)]
 JSON keys: 726
