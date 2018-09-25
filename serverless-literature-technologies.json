@@ -107,12 +107,6 @@
 		"supported-languages": []
 	},
 
-	"Bluemix": {
-		"open-source": true,
-		"actively-maintained": true,
-		"supported-languages": []
-	},
-
 	"S-Prototype": {
 		"open-source": true,
 		"actively-maintained": false,
