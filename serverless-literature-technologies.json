@@ -4,22 +4,22 @@
 		"actively-maintained": true
 	},
 
-	"snafu": {
+	"Snafu": {
 		"open-source": true,
 		"actively-maintained": true
 	},
 
-	"dask": {
+	"Dask": {
 		"open-source": true,
 		"actively-maintained": true
 	},
 
-	"zion": {
+	"Zion": {
 		"open-source": true,
 		"actively-maintained": false
 	},
 
-	"solo5": {
+	"Solo5 microkernel": {
 		"open-source": true,
 		"actively-maintained": true
 	},
@@ -29,54 +29,76 @@
 		"actively-maintained": true	
 	},
 
-	"lambada": {
+	"Lambada": {
 		"open-source": true,
 		"actively-maintained": false
 	},
 
-	"podilizer": {
+	"Podilizer": {
 		"open-source": true,
 		"actively-maintained": false	
 	},
 
-	"serverless": {
+	"Serverless": {
 		"open-source": true,
 		"actively-maintained": true	
 	},
 
-	"lambda": {
+	"Lambda": {
 		"open-source": false,
 		"actively-maintained": true
 	},
 
-	"azure": {
+	"Azure": {
 		"open-source": false,
 		"actively-maintained": true
 	},
 
-	"gcf": {
+	"GCF": {
 		"open-source": false,
 		"actively-maintained": true
 	},
 
-	"ibm": {
+	"IBM": {
 		"open-source": false,
 		"actively-maintained": true
 	},
 
-	"iron": {
+	"Iron": {
 		"open-source": true,
 		"actively-maintained": false	
 	},
 
-	"auth0": {
+	"Auth0": {
 		"open-source": false,
 		"actively-maintained": true
 	},
 
-	"galactic": {
+	"Galactic": {
 		"open-source": true,
 		"actively-maintained": true 
+	},
+
+	"OpenLambda": {
+		"open-source": true,
+		"actively-maintained": false
+	},
+
+	"Kubernetes": {
+		"open-source": true,
+		"actively-maintained": true
+	},
+
+	"Bluemix": {
+		"open-source": true,
+		"actively-maintained": true
+	},
+
+	"S-Prototype": {
+		"open-source": true,
+		"actively-maintained": false
 	}
+
+
 
 }
