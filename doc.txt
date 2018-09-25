@@ -29,10 +29,11 @@ tool.
 The advanced curation workflow is as follows:
 - run analysischeck.py
 - follow the advice, extend serverless-literature-analysis.json
-  appropriately
+  and serverless-literature-technologies.json appropriately
 
 Once all data has been checked, statistics output can be produced as by
 the following instructions:
 - run stats.py
 - run tagcloud.py (if folder 'pdfs/' with files '<number>.pdf' exists)
 - run venn.py
+- run venue.py
