@@ -2,6 +2,7 @@
 
 import json
 import operator
+import glob
 
 analysis_filename = "serverless-literature-analysis.json"
 biblio_filename = "serverless-literature-bibliography.json"
@@ -51,6 +52,22 @@ for ident in analysis:
 		instmult.append(inst)
 		instuniq.add(inst)
 
+def searchkeys(dl, keys_list):
+	if isinstance(dl, dict):
+		keys_list += dl.keys()
+		list(map(lambda x: searchkeys(x, keys_list), list(dl.values())))
+	elif isinstance(dl, list):
+		list(map(lambda x: searchkeys(x, keys_list), dl))
+
+numkeys = 0
+jsonfiles = glob.glob("*.json")
+for jsonfile in jsonfiles:
+	f = open(jsonfile)
+	entries = json.load(f)
+	keys = []
+	searchkeys(entries, keys)
+	numkeys += len(keys)
+
 allsorted = lambda x, *y: sorted(x.items(), key=operator.itemgetter(*y), reverse=True)
 
 f = open("stats.txt", "w")
@@ -59,6 +76,7 @@ print("Countries:", allsorted(countries, 1, 0), file=f)
 print("Ratio academic to industry to both:", academic, ":", industry, ":", both, "=", r_academic, r_industry, r_both, file=f)
 print("Number of institutions:", len(instmult) / len(analysis), "per paper;", len(instuniq), "involved in total", file=f)
 print("Number of technologies:", len(tech), "; open source:", len([x for x in tech if tech[x]["open-source"]]), file=f)
+print("JSON keys: {}".format(numkeys), file=f)
 f.close()
 
 print("Written stats to stats.txt.")
