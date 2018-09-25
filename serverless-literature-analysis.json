@@ -5,7 +5,8 @@
 		"countries": ["Italy"],
 		"academic": true,
 		"industry": false,
-		"citations": 7
+		"citations": 7,
+		"independent": true 
 	},
 
 	"2": {
@@ -14,7 +15,8 @@
 		"countries": ["USA"],
 		"academic": false,
 		"industry": true,
-		"citations": 2
+		"citations": 2,
+		"independent": false
 	},
 
 	"3": {
@@ -23,7 +25,8 @@
 		"countries": ["USA"],
 		"academic": false,
 		"industry": true,
-		"citations": 23
+		"citations": 23,
+		"independent": true
 	},
 
 	"4": {
@@ -32,7 +35,8 @@
 		"countries": ["Austria", "Macedonia"],
 		"academic": true,
 		"industry": false,
-		"citations": 12
+		"citations": 12,
+		"independent": true
 	},
 
 	"5": {
@@ -41,7 +45,8 @@
 		"countries": ["Switzerland", "Argentina"],
 		"academic": true,
 		"industry": false,
-		"citations": 11
+		"citations": 11,
+		"independent": false
 	},
 
 	"6": {
@@ -50,7 +55,8 @@
 		"countries": ["Ireland"],
 		"academic": true,
 		"industry": false,
-		"citations": 5
+		"citations": 5,
+		"independent": true
 	},
 
 	"7": {
@@ -59,7 +65,8 @@
 		"countries": ["USA"],
 		"academic": true,
 		"industry": false,
-		"citations": 23
+		"citations": 23,
+		"independent": true
 	},
 
 	"8": {
@@ -68,7 +75,8 @@
 		"countries": ["USA"],
 		"academic": false,
 		"industry": true,
-		"citations": 8
+		"citations": 8,
+		"independent": false
 	},
 
 	"9": {
@@ -77,7 +85,8 @@
 		"countries": ["UK"],
 		"academic": true,
 		"industry": true,
-		"citations": 10
+		"citations": 10,
+		"independent": true
 	},
 
 	"10": {
@@ -86,7 +95,8 @@
 		"countries": ["Austria", "Israel"],
 		"academic": true,
 		"industry": true,
-		"citations": 7
+		"citations": 7,
+		"independent": true
 	},
 
 	"11": {
@@ -95,7 +105,8 @@
 		"countries": ["Switzerland"],
 		"academic": true,
 		"industry": false,
-		"citations": 3
+		"citations": 3,
+		"independent": true
 	},
 
 	"12": {
@@ -104,7 +115,8 @@
 		"countries": ["USA"],
 		"academic": true,
 		"industry": true,
-		"citations": 40
+		"citations": 40,
+		"independent": true
 	},
 
 	"13": {
@@ -113,7 +125,8 @@
 		"countries": ["USA"],
 		"academic": true,
 		"industry": true,
-		"citations": 12
+		"citations": 12,
+		"independent": true
 	},
 
 	"14": {
@@ -122,7 +135,8 @@
 		"countries": ["Canada"],
 		"academic": false,
 		"industry": true,
-		"citations": 4
+		"citations": 4,
+		"independent": false
 	},
 
 	"15": {
@@ -131,7 +145,8 @@
 		"countries": ["USA"],
 		"academic": true,
 		"industry": true,
-		"citations": 32
+		"citations": 32,
+		"independent": false
 	},
 
 	"16": {
@@ -140,7 +155,8 @@
 		"countries": ["USA"],
 		"academic": false,
 		"industry": true,
-		"citations": 7
+		"citations": 7,
+		"independent": false
 	},
 
 	"17": {
@@ -149,7 +165,8 @@
 		"countries": ["USA"],
 		"academic": true,
 		"industry": true,
-		"citations": 6
+		"citations": 6,
+		"independent": true
 	},
 
 	"18": {
@@ -158,7 +175,8 @@
 		"countries": ["Japan","USA"],
 		"academic": false,
 		"industry": true,
-		"citations": 5
+		"citations": 5,
+		"independent": true
 	},
 
 	"19": {
@@ -167,7 +185,8 @@
 		"countries": ["Australia"],
 		"academic": true,
 		"industry": false,
-		"citations": 3
+		"citations": 3,
+		"independent": false
 	},
 
 	"20": {
@@ -176,7 +195,8 @@
 		"countries": ["Canada"],
 		"academic": true,
 		"industry": false,
-		"citations": 6
+		"citations": 6,
+		"independent": true
 	},
 
 	"21": {
@@ -185,7 +205,8 @@
 		"countries": ["USA","Germany"],
 		"academic": true,
 		"industry": true,
-		"citations": 0
+		"citations": 0,
+		"independent": true
 	},
 
 	"22": {
@@ -194,7 +215,8 @@
 		"countries": ["Spain"],
 		"academic": true,
 		"industry": false,
-		"citations": 4
+		"citations": 4,
+		"independent": false
 	},
 
 	"23": {
@@ -203,7 +225,8 @@
 		"countries": ["USA"],
 		"academic": true,
 		"industry": false,
-		"citations": 87
+		"citations": 87,
+		"independent": false
 	},
 
 	"24": {
@@ -212,7 +235,8 @@
 		"countries": ["Poland"],
 		"academic": true,
 		"industry": false,
-		"citations": 11
+		"citations": 11,
+		"independent": true
 	},
 
 	"25": {
@@ -221,7 +245,8 @@
 		"countries": ["Australia"],
 		"academic": true,
 		"industry": false,
-		"citations": 0
+		"citations": 0,
+		"independent": true
 	},
 
 	"26": {
@@ -230,7 +255,8 @@
 		"countries": ["Switzerland"],
 		"academic": true,
 		"industry": false,
-		"citations": 14
+		"citations": 14,
+		"independent": false
 	},
 
 	"27": {
@@ -239,7 +265,8 @@
 		"countries": ["Switzerland"],
 		"academic": true,
 		"industry": false,
-		"citations": 2
+		"citations": 2,
+		"independent": false
 	},
 
 	"28": {
@@ -248,7 +275,8 @@
 		"countries": ["Switzerland"],
 		"academic": true,
 		"industry": false,
-		"citations": 3
+		"citations": 3,
+		"independent": true
 	},
 
 	"29": {
@@ -257,7 +285,8 @@
 		"countries": ["Colombia"],
 		"academic": true,
 		"industry": false,
-		"citations": 12
+		"citations": 12,
+		"independent": true
 	},
 
 	"30": {
@@ -266,7 +295,8 @@
 		"countries": ["USA"],
 		"academic": true,
 		"industry": false,
-		"citations": 0
+		"citations": 0,
+		"independent": true
 	},
 
 	"31": {
@@ -275,7 +305,8 @@
 		"countries": ["Switzerland"],
 		"academic": true,
 		"industry": false,
-		"citations": 7
+		"citations": 7,
+		"independent": false
 	},
 
 	"32": {
@@ -284,7 +315,8 @@
 		"countries": ["Colombia"],
 		"academic": true,
 		"industry": false,
-		"citations": 48
+		"citations": 48,
+		"independent": true
 	},
 
 	"33": {
@@ -293,7 +325,8 @@
 		"countries": ["Poland"],
 		"academic": true,
 		"industry": false,
-		"citations": 6
+		"citations": 6,
+		"independent": true
 	},
 
 	"34": {
@@ -302,7 +335,8 @@
 		"countries": ["Switzerland"],
 		"academic": true,
 		"industry": false,
-		"citations": 14
+		"citations": 14,
+		"independent": true
 	},
 
 	"35": {
@@ -311,7 +345,8 @@
 		"countries": ["Spain"],
 		"academic": true,
 		"industry": false,
-		"citations": 6
+		"citations": 6,
+		"independent": true
 	},
 
 	"36": {
@@ -320,7 +355,8 @@
 		"countries": ["USA"],
 		"academic": true,
 		"industry": true,
-		"citations": 6
+		"citations": 6,
+		"independent": false
 	},
 
 	"37": {
@@ -329,7 +365,8 @@
 		"countries": ["USA"],
 		"academic": true,
 		"industry": false,
-		"citations": 0
+		"citations": 0,
+		"independent": true
 	},
 
 	"38": {
@@ -338,7 +375,8 @@
 		"countries": [],
 		"academic": false,
 		"industry": true,
-		"citations": 1
+		"citations": 1,
+		"independent": false
 	},
 
 	"39": {
@@ -347,7 +385,8 @@
 		"countries": ["USA"],
 		"academic": true,
 		"industry": false,
-		"citations": 0
+		"citations": 0,
+		"independent": true
 	},
 
 	"40": {
@@ -356,7 +395,8 @@
 		"countries": ["USA"],
 		"academic": true,
 		"industry": true,
-		"citations": 1
+		"citations": 1,
+		"independent": false
 	},
 
 	"41": {
@@ -365,7 +405,8 @@
 		"countries": ["Germany"],
 		"academic": true,
 		"industry": false,
-		"citations": 1
+		"citations": 1,
+		"independent": true
 	},
 
 	"42": {
@@ -374,7 +415,8 @@
 		"countries": ["South Korea"],
 		"academic": true,
 		"industry": false,
-		"citations": 0
+		"citations": 0,
+		"independent": true
 	},
 
 	"43": {
@@ -383,7 +425,8 @@
 		"countries": ["Colombia"],
 		"academic": true,
 		"industry": false,
-		"citations": 1
+		"citations": 1,
+		"independent": true
 	},
 
 	"44": {
@@ -392,7 +435,8 @@
 		"countries": ["Netherlands", "Ecuador"],
 		"academic": true,
 		"industry": false,
-		"citations": 2
+		"citations": 2,
+		"independent": true
 	},
 
 	"45": {
@@ -401,6 +445,7 @@
 		"countries": ["Germany","Ecuador","Netherlands"],
 		"academic": true,
 		"industry": true,
-		"citations": 4
+		"citations": 4,
+		"independent": true
 	}
 }
