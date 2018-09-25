@@ -18,7 +18,7 @@
 	},
 
 	"3": {
-		"technologies": ["Lambda (NT)"],
+		"technologies": ["Lambda"],
 		"institutions": ["The Walt Disney Company"],
 		"countries": ["USA"],
 		"academic": false,
