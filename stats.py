@@ -24,6 +24,7 @@ for ident in biblio:
 
 countries = {}
 technologies = {}
+dtechnologies = {}
 for ident in analysis:
 	cs = analysis[ident]["countries"]
 	for c in cs:
@@ -31,6 +32,8 @@ for ident in analysis:
 	ts = analysis[ident]["technologies"]
 	for t in ts:
 		technologies[t] = technologies.get(t, 0) + 1
+		if not analysis[ident]["independent"]:
+			dtechnologies[t] = dtechnologies.get(t, 0) + 1
 
 academic = 0
 industry = 0
@@ -82,6 +85,7 @@ print("Ratio academic to industry to both:", academic, ":", industry, ":", both,
 print("Number of institutions:", len(instmult) / len(analysis), "per paper;", len(instuniq), "involved in total", file=f)
 print("Number of technologies:", len(tech), "; open source:", len([x for x in tech if tech[x]["open-source"]]), file=f)
 print("Technologies:", allsorted(technologies, 1, 0), file=f)
+print("Technology by authors:", allsorted(dtechnologies, 1, 0), file=f)
 print("JSON keys: {}".format(numkeys), file=f)
 f.close()
 

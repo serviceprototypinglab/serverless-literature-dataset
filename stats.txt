@@ -5,4 +5,5 @@ Ratio academic to industry to both: 31 : 7 : 12 = 0.62 0.14 0.24
 Number of institutions: 1.76 per paper; 59 involved in total
 Number of technologies: 21 ; open source: 13
 Technologies: [('Lambda', 21), ('OpenWhisk', 7), ('GCF', 7), ('IBM', 5), ('Azure', 5), ('Snafu', 2), ('OpenLambda', 2), ('Zion', 1), ('Solo5 microkernel', 1), ('ServerlessOS', 1), ('Serverless', 1), ('S-Prototype', 1), ('Podilizer', 1), ('Lambada', 1), ('Kubernetes', 1), ('Iron', 1), ('Galactic', 1), ('Flint', 1), ('EdgeScale', 1), ('Dask', 1), ('Auth0', 1)]
+Technology by authors: [('Lambda', 6), ('OpenWhisk', 3), ('Snafu', 2), ('OpenLambda', 2), ('GCF', 2), ('Zion', 1), ('Solo5 microkernel', 1), ('ServerlessOS', 1), ('Podilizer', 1), ('Lambada', 1), ('IBM', 1), ('Flint', 1), ('EdgeScale', 1), ('Azure', 1)]
 JSON keys: 825
