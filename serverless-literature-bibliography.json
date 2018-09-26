@@ -257,11 +257,23 @@
     "title": "Serverless Data Analytics with Flint",
     "year": "2018"
   },
+  "49": {
+    "author": "Lee, Hyungro and Satyam, Kumar and Fox, Geoffrey",
+    "journal": "2018 IEEE 11th International Conference on Cloud Computing (CLOUD)",
+    "title": "Evaluation of Production Serverless Computing Environments",
+    "year": "2018"
+  },
   "5": {
     "author": "Spillner, Josef and Mateos, Cristian and Monge, David A.",
     "journal": "High Performance Computing",
     "title": "FaaSter, Better, Cheaper: The Prospect of Serverless Scientific Computing and HPC",
     "year": "2017"
+  },
+  "50": {
+    "author": "Saha, Aakanksha and Jindal, Sonika",
+    "journal": "2018 IEEE 11th International Conference on Cloud Computing (CLOUD)",
+    "title": "EMARS: Efficient Management and Allocation of Resources in Serverless",
+    "year": "2018"
   },
   "6": {
     "author": "Lynn, Theo and Rosati, Pierangelo and Lejeune, Arnaud and Emeakaroha, Vincent",
