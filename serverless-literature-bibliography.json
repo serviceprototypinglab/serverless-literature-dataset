@@ -275,6 +275,24 @@
     "title": "EMARS: Efficient Management and Allocation of Resources in Serverless",
     "year": "2018"
   },
+  "51": {
+    "author": "Pedro García López, Marc Sánchez-Artigas, Gerard París, Daniel Barcelona Pons, Álvaro Ruiz Ollobarren, David Arroyo Pinto",
+    "journal": "arXiv",
+    "title": "Comparison of Production Serverless Function Orchestration Systems",
+    "year": "2018"
+  },
+  "52": {
+    "author": "Duarte Pinto, João Pedro Dias, Hugo Sereno Ferreira",
+    "journal": "arXiv",
+    "title": "Dynamic Allocation of Serverless Functions in IoT Environments",
+    "year": "2018"
+  },
+  "53": {
+    "author": "Kalev Alpernas, Cormac Flanagan, Sadjad Fouladi, Leonid Ryzhyk, Mooly Sagiv, Thomas Schmitz, Keith Winstein",
+    "journal": "arXiv",
+    "title": "Secure Serverless Computing Using Dynamic Information Flow Control",
+    "year": "2018"
+  },
   "6": {
     "author": "Lynn, Theo and Rosati, Pierangelo and Lejeune, Arnaud and Emeakaroha, Vincent",
     "journal": "2017 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)",
