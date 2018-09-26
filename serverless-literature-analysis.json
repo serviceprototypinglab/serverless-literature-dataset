@@ -467,5 +467,15 @@
 		"industry": true,
 		"citations": 0,
 		"independent": true
+	},
+
+	"48": {
+		"technologies": ["Flint"],
+		"institutions": ["University of Waterloo"],
+		"countries": ["Canada"],
+		"academic": true,
+		"industry": false,
+		"citations": 2,
+		"independent": false
 	}
 }
