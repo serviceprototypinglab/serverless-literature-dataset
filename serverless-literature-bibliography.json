@@ -299,6 +299,12 @@
     "title": "Towards Deviceless Edge Computing: Challenges, Design Aspects, and Models for Serverless Paradigm at the Edge",
     "year": "2018"
   },
+  "55": {
+    "author": "Edward Oakes, Leon Yang, Dennis Zhou, and Kevin Houck, Tyler Harter, Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau",
+    "journal": " USENIX Annual Technical Conference",
+    "title": "SOCK: Rapid Task Provisioning with Serverless-Optimized Containers",
+    "year": "2018"
+  },
   "6": {
     "author": "Lynn, Theo and Rosati, Pierangelo and Lejeune, Arnaud and Emeakaroha, Vincent",
     "journal": "2017 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)",
