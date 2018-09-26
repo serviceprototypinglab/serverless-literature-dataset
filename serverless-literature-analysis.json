@@ -457,5 +457,15 @@
 		"industry": true,
 		"citations": 0,
 		"independent": false
+	},
+
+	"47": {
+		"technologies": [],
+		"institutions": ["Texas A&M University", "IBM"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": true
 	}
 }
