@@ -117,5 +117,11 @@
 		"open-source": false,
 		"actively-maintained": true,
 		"supported-languages": []
+	},
+
+	"Flint": {
+		"open-source": false,
+		"actively-maintained": true,
+		"supported-languages": []
 	}
 }
