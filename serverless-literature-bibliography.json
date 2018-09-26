@@ -251,6 +251,12 @@
     "title": "Exploring Serverless Computing for Neural Network Training",
     "year": "2018"
   },
+  "48": {
+    "author": "Kim, Youngbin and Lin, Jimmy",
+    "journal": "2018 IEEE 11th International Conference on Cloud Computing (CLOUD)",
+    "title": "Serverless Data Analytics with Flint",
+    "year": "2018"
+  },
   "5": {
     "author": "Spillner, Josef and Mateos, Cristian and Monge, David A.",
     "journal": "High Performance Computing",
