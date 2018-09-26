@@ -123,5 +123,11 @@
 		"open-source": false,
 		"actively-maintained": true,
 		"supported-languages": []
+	},
+
+	"SOCK": {
+		"open-source": false,
+		"actively-maintained": true,
+		"supported-languages": []
 	}
 }
