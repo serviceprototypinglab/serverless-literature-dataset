@@ -477,5 +477,25 @@
 		"industry": false,
 		"citations": 2,
 		"independent": false
+	},
+
+	"49": {
+		"technologies": [],
+		"institutions": ["Indiana University Bloomington"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 1,
+		"independent": true
+	},
+
+	"50": {
+		"technologies": ["OpenLambda"],
+		"institutions": ["University of Utah"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false
 	}
 }
