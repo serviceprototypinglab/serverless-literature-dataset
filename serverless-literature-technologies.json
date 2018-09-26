@@ -111,5 +111,11 @@
 		"open-source": true,
 		"actively-maintained": false,
 		"supported-languages": []
-	}	
+	},
+
+	"ServerlessOS": {
+		"open-source": false,
+		"actively-maintained": true,
+		"supported-languages": []
+	}
 }
