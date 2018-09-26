@@ -497,5 +497,35 @@
 		"industry": false,
 		"citations": 0,
 		"independent": false
+	},
+
+	"51": {
+		"technologies": [],
+		"institutions": ["Universitat Rovira i Virgili"],
+		"countries": ["Spain"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true
+	},
+
+	"52": {
+		"technologies": [],
+		"institutions": ["University of Porto"],
+		"countries": ["Portugal"],
+		"academic": true,
+		"industry": false,
+		"citations": 1,
+		"independent": true
+	},
+
+	"53": {
+		"technologies": ["Lambda","OpenWhisk"],
+		"institutions": ["Tel Aviv University", "UC Santa Cruz", "Stanford University", "VMware"],
+		"countries": ["USA", "Israel"],
+		"academic": true,
+		"industry": true,
+		"citations": 1,
+		"independent": true
 	}
 }
