@@ -1,0 +1,8 @@
+The following papers are part of WoSC Middleware but they weren't found on dplb:
+
+* Speeding up Children Reunification in Disaster Scenarios via Serverless Computing
+* Functionality as a Service (Position paper)
+* Serverless Web Components - Truly Self-contained Web Components through Serverless Computing
+* Sanity: The Less Server Architecture for Cloud functions
+* Using a serverless framework for implementing a cognitive tutor: experiences and issues
+* Kappa - Serverless IoT Deployment
