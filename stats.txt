@@ -1,9 +1,9 @@
-Years: [('2018', 21), ('2017', 26), ('2016', 7)]
+Years: [('2018', 22), ('2017', 26), ('2016', 7)]
 Number of countries: 20
-Countries: [('USA', 22), ('Switzerland', 7), ('Spain', 3), ('Germany', 3), ('Colombia', 3), ('Canada', 3), ('Austria', 3), ('Poland', 2), ('Netherlands', 2), ('Israel', 2), ('Ecuador', 2), ('Australia', 2), ('UK', 1), ('South Korea', 1), ('Portugal', 1), ('Macedonia', 1), ('Japan', 1), ('Italy', 1), ('Ireland', 1), ('Argentina', 1)]
-Ratio academic to industry to both: 34 : 7 : 13 = 0.6296296296296297 0.12962962962962962 0.24074074074074073
-Number of institutions: 1.7592592592592593 per paper; 64 involved in total
-Number of technologies: 21 ; open source: 13
-Technologies: [('Lambda', 22), ('OpenWhisk', 8), ('GCF', 7), ('IBM', 5), ('Azure', 5), ('Snafu', 2), ('OpenLambda', 2), ('Zion', 1), ('Solo5 microkernel', 1), ('ServerlessOS', 1), ('Serverless', 1), ('S-Prototype', 1), ('Podilizer', 1), ('Lambada', 1), ('Kubernetes', 1), ('Iron', 1), ('Galactic', 1), ('Flint', 1), ('EdgeScale', 1), ('Dask', 1), ('Auth0', 1)]
-Technology by authors: [('Lambda', 6), ('OpenWhisk', 3), ('Snafu', 2), ('OpenLambda', 2), ('GCF', 2), ('Zion', 1), ('Solo5 microkernel', 1), ('ServerlessOS', 1), ('Podilizer', 1), ('Lambada', 1), ('IBM', 1), ('Flint', 1), ('EdgeScale', 1), ('Azure', 1)]
-JSON keys: 882
+Countries: [('USA', 23), ('Switzerland', 7), ('Spain', 3), ('Germany', 3), ('Colombia', 3), ('Canada', 3), ('Austria', 3), ('Poland', 2), ('Netherlands', 2), ('Israel', 2), ('Ecuador', 2), ('Australia', 2), ('UK', 1), ('South Korea', 1), ('Portugal', 1), ('Macedonia', 1), ('Japan', 1), ('Italy', 1), ('Ireland', 1), ('Argentina', 1)]
+Ratio academic to industry to both: 34 : 7 : 14 = 0.6181818181818182 0.12727272727272726 0.2545454545454545
+Number of institutions: 1.7636363636363637 per paper; 65 involved in total
+Number of technologies: 22 ; open source: 13
+Technologies: [('Lambda', 22), ('OpenWhisk', 8), ('GCF', 7), ('IBM', 5), ('Azure', 5), ('OpenLambda', 3), ('Snafu', 2), ('Zion', 1), ('Solo5 microkernel', 1), ('ServerlessOS', 1), ('Serverless', 1), ('SOCK', 1), ('S-Prototype', 1), ('Podilizer', 1), ('Lambada', 1), ('Kubernetes', 1), ('Iron', 1), ('Galactic', 1), ('Flint', 1), ('EdgeScale', 1), ('Dask', 1), ('Auth0', 1)]
+Technology by authors: [('Lambda', 6), ('OpenWhisk', 3), ('OpenLambda', 3), ('Snafu', 2), ('GCF', 2), ('Zion', 1), ('Solo5 microkernel', 1), ('ServerlessOS', 1), ('SOCK', 1), ('Podilizer', 1), ('Lambada', 1), ('IBM', 1), ('Flint', 1), ('EdgeScale', 1), ('Azure', 1)]
+JSON keys: 900
