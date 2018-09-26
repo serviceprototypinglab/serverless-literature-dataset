@@ -527,5 +527,15 @@
 		"industry": true,
 		"citations": 1,
 		"independent": true
+	},
+
+	"54": {
+		"technologies": [],
+		"institutions": ["TU Wien"],
+		"countries": ["Austria"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true
 	}
 }
