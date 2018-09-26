@@ -537,5 +537,15 @@
 		"industry": false,
 		"citations": 0,
 		"independent": true
+	},
+
+	"55": {
+		"technologies": ["SOCK"],
+		"institutions": ["University of Wisconsin-Madison", "Microsoft"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": true,
+		"citations": 1,
+		"independent": false
 	}
 }
