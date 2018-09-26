@@ -540,7 +540,7 @@
 	},
 
 	"55": {
-		"technologies": ["SOCK"],
+		"technologies": ["SOCK","OpenLambda"],
 		"institutions": ["University of Wisconsin-Madison", "Microsoft"],
 		"countries": ["USA"],
 		"academic": true,
