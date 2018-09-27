@@ -301,8 +301,32 @@
   },
   "55": {
     "author": "Edward Oakes, Leon Yang, Dennis Zhou, and Kevin Houck, Tyler Harter, Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau",
-    "journal": " USENIX Annual Technical Conference",
+    "journal": "USENIX Annual Technical Conference",
     "title": "SOCK: Rapid Task Provisioning with Serverless-Optimized Containers",
+    "year": "2018"
+  },
+  "56": {
+    "author": "Ana Klimovic, Yawen Wang, and Christos Kozyrakis, Patrick Stuedi, Jonas Pfefferle, and Animesh Trivedi",
+    "journal": "USENIX Annual Technical Conference",
+    "title": "Understanding Ephemeral Storage for Serverless Analytics",
+    "year": "2018"
+  },
+  "57": {
+    "author": "Tu, Zhucheng and Li, Mengping and Lin, Jimmy",
+    "journal": "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations",
+    "title": "Pay-Per-Request Deployment of Neural Network Models Using Serverless Architectures",
+    "year": "2018"
+  },
+  "58": {
+    "author": "Sanghyun Hong,  Abhinav Srivastava, William Shambrook, Tudor Dumitraș",
+    "journal": "USENIX Annual Technical Conference",
+    "title": "Go Serverless: Securing Cloud via Serverless Design Patterns",
+    "year": "2018"
+  },
+  "59": {
+    "author": "Ishakian, Vatche and Muthusamy, Vinod and Slominski, Aleksander",
+    "journal": "2018 IEEE International Conference on Cloud Engineering (IC2E)",
+    "title": "Serving Deep Learning Models in a Serverless Platform",
     "year": "2018"
   },
   "6": {
@@ -310,6 +334,12 @@
     "journal": "2017 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)",
     "title": "A Preliminary Review of Enterprise Serverless Cloud Computing (Function-as-a-Service) Platforms",
     "year": "2017"
+  },
+  "60": {
+    "author": "Soltani, Boubaker and Ghenai, Afifa and Zeghib, Nadia",
+    "journal": "Procedia Computer Science",
+    "title": "Towards Distributed Containerized Serverless Architecture in Multi Cloud Environment",
+    "year": "2018"
   },
   "7": {
     "author": "McGrath, Garrett and Brenner, Paul R.",
