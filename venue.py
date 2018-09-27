@@ -18,9 +18,9 @@ for journal in journals:
 		consjournals.append("arXiv")
 	elif "USENIX" in journal or "HotCloud" in journal or "HotOS" in journal:
 		consjournals.append("USENIX")
-	elif "ACM" in journal or "ESEC/FSE" in journal:
+	elif "ACM" in journal or "ESEC/FSE" in journal or "ICPP" in journal:
 		consjournals.append("ACM")
-	elif "IEEE" in journal or "UCC" in journal:
+	elif "IEEE" in journal or "UCC" in journal or "PDP" in journal:
 		consjournals.append("IEEE")
 	elif "Lecture Notes in Computer Science" in journal:
 		consjournals.append("Springer")
