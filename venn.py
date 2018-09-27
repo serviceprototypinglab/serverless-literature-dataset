@@ -70,8 +70,8 @@ plt.title("Literature keywords relations")
 #             arrowprops=dict(arrowstyle='->', connectionstyle='arc3,rad=0.5',color='gray'))
 plt.show()
 
-v = venn2(subsets=(34, 7, 14), set_labels=("academia", "industry"))
-c = venn2_circles(subsets=(34, 7, 14), linestyle='dashed')
+v = venn2(subsets=(36, 7, 17), set_labels=("academia", "industry"))
+c = venn2_circles(subsets=(36, 7, 17), linestyle='dashed')
 plt.title("Literature institution relations")
 
 plt.show()
