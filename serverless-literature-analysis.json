@@ -547,5 +547,55 @@
 		"industry": true,
 		"citations": 1,
 		"independent": false
+	},
+
+	"56": {
+		"technologies": [],
+		"institutions": ["Stanford University", "IBM"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": true,
+		"citations": 1,
+		"independent": true
+	},
+
+	"57": {
+		"technologies": [],
+		"institutions": ["University of Waterloo"],
+		"countries": ["Canada"],
+		"academic": true,
+		"industry": false,
+		"citations": 2,
+		"independent": true
+	},
+
+	"58": {
+		"technologies": [],
+		"institutions": ["University of Maryland","Frame.io"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": true
+	},
+
+	"59": {
+		"technologies": ["Lambda"],
+		"institutions": ["Bentley University", "IBM"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": true,
+		"citations": 3,
+		"independent": true
+	},
+
+	"60": {
+		"technologies": [],
+		"institutions": ["Abdelhamid Mehri University"],
+		"countries": ["Algeria"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true
 	}
 }
