@@ -1,2 +1,5 @@
 pdfs
 _*
+.env
+venv
+.idea

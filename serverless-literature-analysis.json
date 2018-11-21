@@ -597,5 +597,25 @@
 		"industry": false,
 		"citations": 0,
 		"independent": true
+	},
+
+	"61": {
+		"technologies": [],
+		"institutions": ["Delft University of Technology", "Vrije Universiteit Amsterdam"],
+		"countries": ["Netherlands"],
+		"academic": true,
+		"industry": false,
+		"citations": 1,
+		"independent": true
+	},
+
+	"62": {
+		"technologies": [],
+		"institutions": ["University of Groningen"],
+		"countries": ["Netherlands"],
+		"academic": true,
+		"industry": false,
+		"citations": 1,
+		"independent": true
 	}
 }

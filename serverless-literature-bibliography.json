@@ -341,6 +341,18 @@
     "title": "Towards Distributed Containerized Serverless Architecture in Multi Cloud Environment",
     "year": "2018"
   },
+  "61": {
+    "author": "van Eyk, Erwin and Toader, Lucian and Talluri, Sacheendra and Versluis, Laurens and Uta, Alexandru and Iosup, Alexandru",
+    "journal": "IEEE Internet Computing",
+    "title": "Serverless is More: From PaaS to Present Cloud Computing",
+    "year": "2018"
+  },
+  "62": {
+    "author": "Back, Timon and Andrikopoulos, Vasilios",
+    "journal": "Lecture Notes in Computer Science",
+    "title": "Using a Microbenchmark to Compare Function as a Service Solutions",
+    "year": "2018"
+  },
   "7": {
     "author": "McGrath, Garrett and Brenner, Paul R.",
     "journal": "2017 IEEE 37th International Conference on Distributed Computing Systems Workshops (ICDCSW)",
