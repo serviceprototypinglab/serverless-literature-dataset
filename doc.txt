@@ -1,22 +1,46 @@
-The "Serverless Literature Dataset" (2nd generation)
+The "Serverless Literature Dataset" (3rd generation)
 
 In February 2018, we have published the first iteration of the SLD
 online at https://zenodo.org/record/1175424. It contained 34 works
 retrieved via DBLP and organised in a spreadsheet. In September 2018, we
 extended it with more recent publication, yielding 44 works. Due to
 additional metadata, we quickly hit the limit of spreadsheet
-representation and resorted to this more sophisticated set of JSON
-files which allow for easier processing and textual change tracking.
+representation and resorted to this more sophisticated set of JSON files
+which allow for easier processing and textual change tracking. In late
+September 2018, we have published the second iteration of the SLD with
+60 works at https://zenodo.org/record/1436432, and published a paper
+about the dataset at http://ceur-ws.org/Vol-2330/short2.pdf. In April
+2019, we have published the third dataset...
+
+Citation:
+---------
+You can cite SLD as follows:
+
+ @misc{sldataset,
+ title = {{Serverless Literature Dataset}},
+ author = {Josef Spillner and Mohammed Al-Ameen},
+ howpublished = {Zenodo dataset at \url{https://doi.org/10.5281/zenodo.1175423}},
+ year = {2019},
+ month = {April},
+ doi = {https://doi.org/10.5281/zenodo.1175423}
+ }
+
+SLD is a collaborative effort - we call on all researchers in the field
+of serverless computing to extend and augment the data as the research
+evolves! Significant contributions will be credited with co-authorship.
 
 Installation:
-- % sudo apt-get install python3-pybtex / pip3 install pybtex
-- % sudo apt-get install python3-matplotlib-venn / pip3 ...
+-------------
+- % sudo apt-get install python3-pybtex # alt.: pip3 install pybtex
+- % sudo apt-get install python3-matplotlib-venn # alt.: pip3 ...
 - % sudo apt-get install poppler-utils
 
+Usage:
+------
 The basic curation workflow is as follows:
 - add a DOI to serverless-literature-base.json
 - run populate.py to produce serverless-literature-bibliography.json
-  from this file
+  from this file (see comments in populate.py for usage)
 - if no DOI is available, add relevant fields directly to
   serverless-literature-bibliography.json and leave an empty entry in
   the base file
@@ -24,7 +48,8 @@ The basic curation workflow is as follows:
 
 Ensure that each key in serverless-literature-base.json is unique! All
 other checks, in particular consecutiveness, will be checked for by the
-tool.
+tool. Relevant fields are "title", "author", "year", and "journal"/
+"booktitle".
 
 The advanced curation workflow is as follows:
 - run analysischeck.py

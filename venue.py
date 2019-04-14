@@ -9,8 +9,13 @@ f = open(biblio_filename)
 biblio = json.load(f)
 
 journals = []
+jratio = 0
 for ident in biblio:
-	journals.append(biblio[ident]["journal"])
+	if "journal" in biblio[ident]:
+		journals.append(biblio[ident]["journal"])
+		jratio += 1
+	elif "booktitle" in biblio[ident]:
+		journals.append(biblio[ident]["booktitle"])
 
 consjournals = []
 for journal in journals:
@@ -31,3 +36,4 @@ for journal in journals:
 		consjournals.append("unknown")
 
 print(collections.Counter(consjournals))
+print("Ratio of journals: {}%".format(round(100 * jratio / len(biblio))))
