@@ -6,6 +6,62 @@
     "title": "Empowering Low-Latency Applications Through a Serverless Edge Computing Architecture",
     "year": "2017"
   },
+  "2": {
+    "author": "Chang, Kerry Shih-Ping and Fink, Stephen J.",
+    "booktitle": "2017 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)",
+    "retrieved-from-doi": "https://doi.org/10.1109/VLHCC.2017.8103476",
+    "title": "Visualizing serverless cloud application logs for program understanding",
+    "year": "2017"
+  },
+  "3": {
+    "author": "Eivy, Adam",
+    "journal": "IEEE Cloud Computing",
+    "retrieved-from-doi": "https://doi.org/10.1109/MCC.2017.32",
+    "title": "Be Wary of the Economics of “Serverless” Cloud Computing",
+    "year": "2017"
+  },
+  "4": {
+    "author": "Nastic, Stefan and Rausch, Thomas and Scekic, Ognjen and Dustdar, Schahram and Gusev, Marjan and Koteska, Bojana and Kostoska, Magdalena and Jakimovski, Boro and Ristov, Sasko and Prodan, Radu",
+    "journal": "IEEE Internet Computing",
+    "retrieved-from-doi": "https://doi.org/10.1109/MIC.2017.2911430",
+    "title": "A Serverless Real-Time Data Analytics Platform for Edge Computing",
+    "year": "2017"
+  },
+  "5": {
+    "author": "Spillner, Josef and Mateos, Cristian and Monge, David A.",
+    "booktitle": "High Performance Computing",
+    "retrieved-from-doi": "https://doi.org/10.1007/978-3-319-73353-1_11",
+    "title": "FaaSter, Better, Cheaper: The Prospect of Serverless Scientific Computing and HPC",
+    "year": "2017"
+  },
+  "6": {
+    "author": "Lynn, Theo and Rosati, Pierangelo and Lejeune, Arnaud and Emeakaroha, Vincent",
+    "booktitle": "2017 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)",
+    "retrieved-from-doi": "https://doi.org/10.1109/CloudCom.2017.15",
+    "title": "A Preliminary Review of Enterprise Serverless Cloud Computing (Function-as-a-Service) Platforms",
+    "year": "2017"
+  },
+  "7": {
+    "author": "McGrath, Garrett and Brenner, Paul R.",
+    "booktitle": "2017 IEEE 37th International Conference on Distributed Computing Systems Workshops (ICDCSW)",
+    "retrieved-from-doi": "https://doi.org/10.1109/ICDCSW.2017.36",
+    "title": "Serverless Computing: Design, Implementation, and Performance",
+    "year": "2017"
+  },
+  "8": {
+    "author": "Baldini, Ioana and Cheng, Perry and Fink, Stephen J. and Mitchell, Nick and Muthusamy, Vinod and Rabbah, Rodric and Suter, Philippe and Tardieu, Olivier",
+    "booktitle": "Proceedings of the 2017 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software - Onward! 2017",
+    "retrieved-from-doi": "https://doi.org/10.1145/3133850.3133855",
+    "title": "The serverless trilemma: function composition for serverless computing",
+    "year": "2017"
+  },
+  "9": {
+    "author": "Adzic, Gojko and Chatley, Robert",
+    "booktitle": "Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering - ESEC/FSE 2017",
+    "retrieved-from-doi": "https://doi.org/10.1145/3106237.3117767",
+    "title": "Serverless computing: economic and architectural impact",
+    "year": "2017"
+  },
   "10": {
     "author": "Glikson, Alex and Nastic, Stefan and Dustdar, Schahram",
     "booktitle": "Proceedings of the 10th ACM International Systems and Storage Conference on - SYSTOR ’17",
@@ -75,13 +131,6 @@
     "title": "Serverless Execution of Scientific Workflows",
     "year": "2017"
   },
-  "2": {
-    "author": "Chang, Kerry Shih-Ping and Fink, Stephen J.",
-    "booktitle": "2017 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)",
-    "retrieved-from-doi": "https://doi.org/10.1109/VLHCC.2017.8103476",
-    "title": "Visualizing serverless cloud application logs for program understanding",
-    "year": "2017"
-  },
   "20": {
     "author": "Crane, Matt and Lin, Jimmy",
     "booktitle": "Proceedings of the ACM SIGIR International Conference on Theory of Information Retrieval - ICTIR ’17",
@@ -147,13 +196,6 @@
     "title": "Infrastructure Cost Comparison of Running Web Applications in the Cloud Using AWS Lambda and Monolithic and Microservice Architectures",
     "year": "2016"
   },
-  "3": {
-    "author": "Eivy, Adam",
-    "journal": "IEEE Cloud Computing",
-    "retrieved-from-doi": "https://doi.org/10.1109/MCC.2017.32",
-    "title": "Be Wary of the Economics of “Serverless” Cloud Computing",
-    "year": "2017"
-  },
   "30": {
     "author": "Puripunpinyo, Hussachai and Samadzadeh, M.H.",
     "booktitle": "2017 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)",
@@ -168,11 +210,11 @@
     "year": "2017"
   },
   "32": {
-    "author": "Villamizar, Mario and Garces, Oscar and Ochoa, Lina and Castro, Harold and Salamanca, Lorena and Verano, Mauricio and Casallas, Rubby and Gil, Santiago and Valencia, Carlos and Zambrano, Angee and et al.",
-    "booktitle": "2016 16th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid)",
-    "retrieved-from-doi": "https://doi.org/10.1109/CCGrid.2016.37",
-    "title": "Infrastructure Cost Comparison of Running Web Applications in the Cloud Using AWS Lambda and Monolithic and Microservice Architectures",
-    "year": "2016"
+    "author": "Aditya, Paarijaat and Akkus, Istemi Ekin and Beck, Andre and Chen, Ruichuan and Hilt, Volker and Rimac, Ivica and Satzke, Klaus and Stein, Manuel",
+    "journal": "Proceedings of the IEEE",
+    "retrieved-from-doi": "https://doi.org/10.1109/JPROC.2019.2898101",
+    "title": "Will Serverless Computing Revolutionize NFV?",
+    "year": "2019"
   },
   "33": {
     "author": "Malawski, Maciej and Figiela, Kamil and Gajek, Adam and Zima, Adam",
@@ -220,13 +262,6 @@
     "journal": "USENIX Annual Technical Conference",
     "title": "Peeking Behind the Curtains of Serverless Platforms",
     "year": "2018"
-  },
-  "4": {
-    "author": "Nastic, Stefan and Rausch, Thomas and Scekic, Ognjen and Dustdar, Schahram and Gusev, Marjan and Koteska, Bojana and Kostoska, Magdalena and Jakimovski, Boro and Ristov, Sasko and Prodan, Radu",
-    "journal": "IEEE Internet Computing",
-    "retrieved-from-doi": "https://doi.org/10.1109/MIC.2017.2911430",
-    "title": "A Serverless Real-Time Data Analytics Platform for Edge Computing",
-    "year": "2017"
   },
   "40": {
     "author": "Lin, Wei-Tsung and Krintz, Chandra and Wolski, Rich and Zhang, Michael and Cai, Xiaogang and Li, Tongjun and Xu, Weijin",
@@ -298,13 +333,6 @@
     "title": "Evaluation of Production Serverless Computing Environments",
     "year": "2018"
   },
-  "5": {
-    "author": "Spillner, Josef and Mateos, Cristian and Monge, David A.",
-    "booktitle": "High Performance Computing",
-    "retrieved-from-doi": "https://doi.org/10.1007/978-3-319-73353-1_11",
-    "title": "FaaSter, Better, Cheaper: The Prospect of Serverless Scientific Computing and HPC",
-    "year": "2017"
-  },
   "50": {
     "author": "Saha, Aakanksha and Jindal, Sonika",
     "booktitle": "2018 IEEE 11th International Conference on Cloud Computing (CLOUD)",
@@ -369,39 +397,11 @@
     "title": "Serving Deep Learning Models in a Serverless Platform",
     "year": "2018"
   },
-  "6": {
-    "author": "Lynn, Theo and Rosati, Pierangelo and Lejeune, Arnaud and Emeakaroha, Vincent",
-    "booktitle": "2017 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)",
-    "retrieved-from-doi": "https://doi.org/10.1109/CloudCom.2017.15",
-    "title": "A Preliminary Review of Enterprise Serverless Cloud Computing (Function-as-a-Service) Platforms",
-    "year": "2017"
-  },
   "60": {
     "author": "Soltani, Boubaker and Ghenai, Afifa and Zeghib, Nadia",
     "journal": "Procedia Computer Science",
     "retrieved-from-doi": "https://doi.org/10.1016/j.procs.2018.07.152",
     "title": "Towards Distributed Containerized Serverless Architecture in Multi Cloud Environment",
     "year": "2018"
-  },
-  "7": {
-    "author": "McGrath, Garrett and Brenner, Paul R.",
-    "booktitle": "2017 IEEE 37th International Conference on Distributed Computing Systems Workshops (ICDCSW)",
-    "retrieved-from-doi": "https://doi.org/10.1109/ICDCSW.2017.36",
-    "title": "Serverless Computing: Design, Implementation, and Performance",
-    "year": "2017"
-  },
-  "8": {
-    "author": "Baldini, Ioana and Cheng, Perry and Fink, Stephen J. and Mitchell, Nick and Muthusamy, Vinod and Rabbah, Rodric and Suter, Philippe and Tardieu, Olivier",
-    "booktitle": "Proceedings of the 2017 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software - Onward! 2017",
-    "retrieved-from-doi": "https://doi.org/10.1145/3133850.3133855",
-    "title": "The serverless trilemma: function composition for serverless computing",
-    "year": "2017"
-  },
-  "9": {
-    "author": "Adzic, Gojko and Chatley, Robert",
-    "booktitle": "Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering - ESEC/FSE 2017",
-    "retrieved-from-doi": "https://doi.org/10.1145/3106237.3117767",
-    "title": "Serverless computing: economic and architectural impact",
-    "year": "2017"
   }
 }

@@ -38,7 +38,7 @@ def populate_bibliography(base_filename, biblio_filename, forced):
 	header2 = header.copy()
 	header2["Accept"] = "text/bibliography; style=bibtex"
 
-	for ident in literature:
+	for ident in sorted(literature):
 		if not "doi" in literature[ident]:
 			if ident in biblio and "title" in biblio[ident]:
 				print("## work {} has no doi but a manual entry".format(ident))
@@ -79,16 +79,24 @@ def populate_bibliography(base_filename, biblio_filename, forced):
 			time.sleep(5)
 
 	f = open(biblio_filename, "w")
-	json.dump(biblio, f, indent=2, ensure_ascii=False, sort_keys=True)
+	biblio_sorted = {int(x) : biblio[x] for x in biblio}
+	json.dump(biblio_sorted, f, indent=2, ensure_ascii=False, sort_keys=True)
 	f.close()
 
 	return biblio
 
 def check_consistency(biblio):
-	allkeys = [int(x) for x in biblio.keys()]
+	allkeys = [int(x) for x in biblio]
 	allkeys.sort()
 	if allkeys[-1] != len(allkeys):
 		print("!! Inconsistency: keys={}".format(allkeys))
+	dois = {}
+	for x in sorted(biblio):
+		if "retrieved-from-doi" in biblio[x]:
+			if not biblio[x]["retrieved-from-doi"] in dois:
+				dois[biblio[x]["retrieved-from-doi"]] = x
+			else:
+				print("!! Inconsistency: keys={}/{} for doi {}".format(x, dois[biblio[x]["retrieved-from-doi"]], biblio[x]["retrieved-from-doi"]))
 
 biblio = populate_bibliography(base_filename, biblio_filename, forced)
 check_consistency(biblio)
