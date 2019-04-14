@@ -45,7 +45,15 @@ for ident in biblio:
 			print("!! work {} misses key {} in analysis".format(ident, key))
 	for key in bibliokeys:
 		if not key in biblio[ident]:
-			print("!! work {} misses key {} in bibliography".format(ident, key))
+			pairs = [("journal", "booktitle"), ("retrieved-from-doi", "link")]
+			ispaired = False
+			for pair in pairs:
+				if key == pair[0] and pair[1] in biblio[ident]:
+					ispaired = True
+				if key == pair[1] and pair[0] in biblio[ident]:
+					ispaired = True
+			if not ispaired:
+				print("!! work {} misses key {} in bibliography".format(ident, key))
 	for t in analysis[ident]["technologies"]:
 		if not t in tech:
 			print("!! technology {} not described with metadata".format(t))
