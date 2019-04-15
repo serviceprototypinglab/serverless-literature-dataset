@@ -33,7 +33,7 @@ Installation:
 -------------
 - % sudo apt-get install python3-pybtex # alt.: pip3 install pybtex
 - % sudo apt-get install python3-matplotlib-venn # alt.: pip3 ...
-- % sudo apt-get install poppler-utils
+- % sudo apt-get install poppler-utils graphviz
 
 Usage:
 ------

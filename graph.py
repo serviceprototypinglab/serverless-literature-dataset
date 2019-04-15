@@ -17,6 +17,8 @@ analysis = json.load(f)
 f = open(tech_filename)
 tech = json.load(f)
 
+debug = False
+
 authorworks = {}
 for ident in sorted(biblio):
 	authors = biblio[ident]["author"].replace("\xa0", " ")
@@ -25,14 +27,14 @@ for ident in sorted(biblio):
 	noswap = False
 	nosplit = False
 	anom = False
-	if not cc == ac + 1 and not cc == ac:
+	if not (cc == ac + 1 and ac > 0) and not cc == ac:
 		anom = True
 		if ac == 0:
 			noswap = True
 		elif cc == 0:
 			nosplit = True
-		#else:
-		#	print("ANOM:", ident, authors, cc, ac)
+		elif debug:
+			print("ANOM:", ident, authors, cc, ac)
 	if noswap:
 		authors = authors.split(", ")
 	else:
@@ -44,8 +46,8 @@ for ident in sorted(biblio):
 		if not ident in authorworks:
 			authorworks[ident] = []
 		authorworks[ident].append(authors[idx])
-	#if anom and not noswap and not nosplit:
-	#	print(anom, authorworks[ident])
+	if anom and debug and not noswap and not nosplit:
+		print(anom, authorworks[ident])
 
 def xid(s, xids):
 	while not s in xids:
@@ -67,10 +69,15 @@ for ident in sorted(analysis):
 			print("{} -> {};".format(xid(author, xids), xid(t, xids)), file=f)
 for rid in xids:
 	if rid.startswith("_"):
-		print("{} [label=\"{}\"]".format(rid, xids[rid]), file=f)
+		shape = ""
+		if xids[rid] in tech:
+			shape=",shape=box,style=filled,fillcolor=\"#e0e0ff\""
+		print("{} [label=\"{}\"{}];".format(rid, xids[rid], shape), file=f)
 print("}", file=f)
+f.close()
 
-cmd = "twopi -Tpdf {} > {}".format(filename, filename + ".pdf")
+# engines: twopi, sfdp, ...
+engine = "sfdp"
+cmd = "{} -Tpdf {} > {}".format(engine, filename, filename + ".pdf")
 os.system(cmd)
-print("Command:", cmd)
 print("Graph: {}".format(filename + ".pdf"))
