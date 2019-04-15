@@ -252,7 +252,7 @@
     "year": "2018"
   },
   "38": {
-    "author": "Istemi Ekin Akkus, Ruichuan Chen, Ivica Rimac, Manuel Stein, Klaus Satzke, Andre Beck, Paarijaat Aditya, and Volker Hilt, Nokia Bell Labs",
+    "author": "Istemi Ekin Akkus, Ruichuan Chen, Ivica Rimac, Manuel Stein, Klaus Satzke, Andre Beck, Paarijaat Aditya, Volker Hilt",
     "journal": "USENIX Annual Technical Conference",
     "title": "SAND: Towards High-Performance Serverless Computing",
     "year": "2018"
@@ -366,13 +366,13 @@
     "year": "2018"
   },
   "55": {
-    "author": "Edward Oakes, Leon Yang, Dennis Zhou, and Kevin Houck, Tyler Harter, Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau",
+    "author": "Edward Oakes, Leon Yang, Dennis Zhou, Kevin Houck, Tyler Harter, Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau",
     "journal": "USENIX Annual Technical Conference",
     "title": "SOCK: Rapid Task Provisioning with Serverless-Optimized Containers",
     "year": "2018"
   },
   "56": {
-    "author": "Ana Klimovic, Yawen Wang, and Christos Kozyrakis, Patrick Stuedi, Jonas Pfefferle, and Animesh Trivedi",
+    "author": "Ana Klimovic, Yawen Wang, Christos Kozyrakis, Patrick Stuedi, Jonas Pfefferle, Animesh Trivedi",
     "journal": "USENIX Annual Technical Conference",
     "title": "Understanding Ephemeral Storage for Serverless Analytics",
     "year": "2018"
