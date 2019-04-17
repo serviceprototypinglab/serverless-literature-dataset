@@ -1,0 +1,14 @@
+The "Serverless Literature Dataset"
+https://doi.org/10.5281/zenodo.1175423
+
+This curated dataset contains a graph representation of available
+research papers and technologies around serverless computing and FaaS.
+It covers more than 100 works from 2016 to 2019. An early version of it
+has been described in a paper "Systematic and open exploration of FaaS
+and Serverless Computing research" which is available as open access
+from http://ceur-ws.org/Vol-2330/short2.pdf and is recommended reading.
+
+Read on in "doc.txt" for how to:
+- evolve the dataset (if you want to add research outputs to it)
+- use the dataset (to cite papers with convenience)
+- analyse the dataset (data science, bibliometrics, and survey papers)

@@ -1,5 +1,7 @@
 The "Serverless Literature Dataset" (3rd generation)
 
+History:
+--------
 In February 2018, we have published the first iteration of the SLD
 online at https://zenodo.org/record/1175424. It contained 34 works
 retrieved via DBLP and organised in a spreadsheet. In September 2018, we
@@ -14,7 +16,11 @@ about the dataset at http://ceur-ws.org/Vol-2330/short2.pdf. In April
 
 Citation:
 ---------
-You can cite SLD as follows:
+SLD contains a script 'make-bib.py' which produces a file
+'serverless.bib' with stable identifiers. Add this file with
+\addbibresource{serverless.bib} to your biblatex setup.
+
+You can also cite SLD itself as follows:
 
  @misc{sldataset,
  title = {{Serverless Literature Dataset}},
@@ -38,17 +44,17 @@ Installation:
 Usage:
 ------
 The basic curation workflow is as follows:
-- find DOIs and arXiv identifiers via e.g. DBLP ("faas", "serverless
-  (application/computing)", "function-as-a-service", "lambda", "cloud
-  function")
+- find DOIs, arXiv and USENIX identifiers via e.g. DBLP ("faas",
+  "serverless (application/computing)", "function-as-a-service",
+  "lambda", "cloud function")
 - use scraper/parsedblp.py to assist with this process
-- otherwise, add a DOI or arXiv identifier manually to
+- otherwise, add a DOI, arXiv or USENIX identifier manually to
   serverless-literature-base.json
 - run populate.py to produce serverless-literature-bibliography.json
   from this file (see comments in populate.py for usage)
 - if no DOI or arXiv links are available, add relevant fields including
   "link" directly to serverless-literature-bibliography.json and leave
-  an empty entry in the base file
+  an empty entry with "link" in the base file
 - commit the results
 
 Ensure that each key in serverless-literature-base.json is unique! All
@@ -64,6 +70,14 @@ The advanced curation workflow is as follows:
 Once all data has been checked, statistics output can be produced as by
 the following instructions:
 - run stats.py
+  -> produces a file stats.txt with overall statistics
 - run tagcloud.py (if folder 'pdfs/' with files '<number>.pdf' exists)
+  -> produces a file _tagcloud.txt to build tag clouds with
 - run venn.py
+  -> shows several Venn diagrams highlighting search terms in titles
 - run venue.py
+  -> shows text output on where papers have been published
+- run graph.py
+  -> plots a PDF file with researcher-technology mappings
+- run make-bib.py
+  -> produces a citable file serverless.bib with key bibliographic data
