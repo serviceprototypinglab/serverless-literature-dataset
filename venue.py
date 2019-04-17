@@ -21,7 +21,7 @@ consjournals = []
 for journal in journals:
 	if "arXiv" in journal or "ArXiv" in journal:
 		consjournals.append("arXiv")
-	elif "USENIX" in journal or "HotCloud" in journal or "HotOS" in journal:
+	elif "USENIX" in journal or "HotCloud" in journal or "HotOS" in journal or ";login:" in journal:
 		consjournals.append("USENIX")
 	elif "ACM" in journal or "ESEC/FSE" in journal or "ICPP" in journal:
 		consjournals.append("ACM")

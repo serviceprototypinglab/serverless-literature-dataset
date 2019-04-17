@@ -8,7 +8,12 @@ biblio_filename = "../serverless-literature-bibliography.json"
 # Authors,Title,(Type),Where,Year
 
 searchterms = [
-	"serverless computing"
+	"serverless computing",
+	"serverless application",
+	"serverless",
+	"function-as-a-service",
+	"lambda",
+	"cloud function"
 ]
 
 f = open(base_filename)

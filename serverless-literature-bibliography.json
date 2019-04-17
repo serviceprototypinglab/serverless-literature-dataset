@@ -86,7 +86,7 @@
   "13": {
     "author": "Geoffrey C. Fox, Vatche Ishakian, Vinod Muthusamy, Aleksander Slominski",
     "journal": "arXiv/CoRR",
-    "retrieved-from-arxiv": "https://arxiv.org/abs/1708.08028",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1708.08028",
     "title": "Status of Serverless Computing and Function-as-a-Service(FaaS) in Industry and Research",
     "year": "2017"
   },
@@ -154,14 +154,15 @@
     "year": "2017"
   },
   "23": {
-    "author": "Scott Hendrickson and Stephen Sturdevant and Tyler Harter and Venkateshwaran Venkataramani and Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau",
-    "journal": "HotCloud",
+    "author": "Hendrickson, Scott and Sturdevant, Stephen and Harter, Tyler and Venkataramani, Venkateshwaran and Arpaci-Dusseau, Andrea C. and Arpaci-Dusseau, Remzi H.",
+    "booktitle": "8th USENIX Workshop on Hot Topics in Cloud Computing (HotCloud 16)",
+    "retrieved-from-usenix": "https://www.usenix.org/conference/hotcloud16/workshop-program/presentation/hendrickson",
     "title": "Serverless Computation with OpenLambda",
     "year": "2016"
   },
   "24": {
     "author": "Maciej Malawski",
-    "journal": "WORKS@SC 2016",
+    "booktitle": "WORKS@SC 2016",
     "title": "Towards Serverless Execution of Scientific Workflows - HyperFlow Case Study",
     "year": "2016"
   },
@@ -175,21 +176,21 @@
   "26": {
     "author": "Josef Spillner",
     "journal": "arXiv/CoRR",
-    "retrieved-from-arxiv": "https://arxiv.org/abs/1703.07562",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1703.07562",
     "title": "Snafu: Function-as-a-Service (FaaS) Runtime Design and Implementation",
     "year": "2017"
   },
   "27": {
     "author": "Josef Spillner",
     "journal": "arXiv/CoRR",
-    "retrieved-from-arxiv": "https://arxiv.org/abs/1705.08169",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1705.08169",
     "title": "Transformation of Python Applications into Function-as-a-Service Deployments",
     "year": "2017"
   },
   "28": {
     "author": "Josef Spillner",
     "journal": "arXiv/CoRR",
-    "retrieved-from-arxiv": "https://arxiv.org/abs/1701.05945",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1701.05945",
     "title": "Exploiting the Cloud Control Plane for Fun and Profit",
     "year": "2017"
   },
@@ -210,7 +211,7 @@
   "31": {
     "author": "Josef Spillner, Serhii Dorodko",
     "journal": "arXiv/CoRR",
-    "retrieved-from-arxiv": "https://arxiv.org/abs/1702.05510",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1702.05510",
     "title": "Java Code Analysis and Transformation into AWS Lambda Functions",
     "year": "2017"
   },
@@ -350,22 +351,22 @@
   "51": {
     "author": "Pedro García López, Marc Sánchez-Artigas, Gerard París, Daniel Barcelona Pons, Álvaro Ruiz Ollobarren, David Arroyo Pinto",
     "journal": "arXiv/CoRR",
-    "retrieved-from-arxiv": "https://arxiv.org/abs/1807.11248",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1807.11248",
     "title": "Comparison of FaaS Orchestration Systems",
     "year": "2018"
   },
   "52": {
     "author": "Duarte Pinto, João Pedro Dias, Hugo Sereno Ferreira",
     "journal": "arXiv/CoRR",
-    "retrieved-from-arxiv": "https://arxiv.org/abs/1807.03755",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1807.03755",
     "title": "Dynamic Allocation of Serverless Functions in IoT Environments",
     "year": "2018"
   },
   "53": {
-    "author": "Kalev Alpernas, Cormac Flanagan, Sadjad Fouladi, Leonid Ryzhyk, Mooly Sagiv, Thomas Schmitz, Keith Winstein",
-    "journal": "arXiv/CoRR",
-    "retrieved-from-arxiv": "https://arxiv.org/abs/1802.08984",
-    "title": "Secure Serverless Computing Using Dynamic Information Flow Control",
+    "author": "Lin, Wei-Tsung and Krintz, Chandra and Wolski, Rich",
+    "booktitle": "2018 IEEE 11th International Conference on Cloud Computing (CLOUD)",
+    "retrieved-from-doi": "https://doi.org/10.1109/CLOUD.2018.00039",
+    "title": "Tracing Function Dependencies across Clouds",
     "year": "2018"
   },
   "54": {
@@ -527,6 +528,199 @@
     "journal": "arXiv/CoRR",
     "retrieved-from-arxiv": "http://arxiv.org/abs/1812.03651",
     "title": "Serverless Computing: One Step Forward, Two Steps Back",
+    "year": "2018"
+  },
+  "77": {
+    "author": "Ivanov, Vitalii and Smolander, Kari",
+    "booktitle": "Lecture Notes in Computer Science",
+    "retrieved-from-doi": "https://doi.org/10.1007/978-3-030-03673-7_4",
+    "title": "Implementation of a DevOps Pipeline for Serverless Applications",
+    "year": "2018"
+  },
+  "78": {
+    "author": "Qiang, Weizhong and Dong, Zezhao and Jin, Hai",
+    "booktitle": "Security and Privacy in Communication Networks",
+    "retrieved-from-doi": "https://doi.org/10.1007/978-3-030-01701-9_25",
+    "title": "Se-Lambda: Securing Privacy-Sensitive Serverless Applications Using SGX Enclave",
+    "year": "2018"
+  },
+  "79": {
+    "author": "Wurster, Michael and Breitenbucher, Uwe and Kepes, Kalman and Leymann, Frank and Yussupov, Vladimir",
+    "booktitle": "2018 IEEE 11th Conference on Service-Oriented Computing and Applications (SOCA)",
+    "retrieved-from-doi": "https://doi.org/10.1109/SOCA.2018.00017",
+    "title": "Modeling and Automated Deployment of Serverless Applications Using TOSCA",
+    "year": "2018"
+  },
+  "80": {
+    "author": "Breitgand, David and Weit, Avi and Rizou, Stamatia and Griffin, David and Acar, Ugur and Carrozzo, Gino and Zioulis, Nikolaos and Andriani, Pasquale and Iadanza, Francesco",
+    "booktitle": "Proceedings of the 11th ACM International Systems and Storage Conference on - SYSTOR ’18",
+    "retrieved-from-doi": "https://doi.org/10.1145/3211890.3211916",
+    "title": "Towards Serverless NFV for 5G Media Applications",
+    "year": "2018"
+  },
+  "81": {
+    "author": "Ana Klimovic and Yawen Wang and Patrick Stuedi and Animesh Trivedi and Jonas Pfefferle and Christos Kozyrakis",
+    "journal": ";login:",
+    "title": "Pocket: Elastic Ephemeral Storage for Serverless Analytics",
+    "year": "2019"
+  },
+  "82": {
+    "author": "Hall, Adam and Ramachandran, Umakishore",
+    "booktitle": "Proceedings of the International Conference on Internet of Things Design and Implementation - IoTDI ’19",
+    "retrieved-from-doi": "https://doi.org/10.1145/3302505.3310084",
+    "title": "An execution model for serverless functions at the edge",
+    "year": "2019"
+  },
+  "83": {
+    "author": "Pu, Qifan and Venkataraman, Shivaram and Stoica, Ion",
+    "booktitle": "16th USENIX Symposium on Networked Systems Design and Implementation (NSDI 19)",
+    "retrieved-from-usenix": "https://www.usenix.org/conference/nsdi19/presentation/pu",
+    "title": "Shuffling, Fast and Slow: Scalable Analytics on Serverless Infrastructure",
+    "year": "2019"
+  },
+  "84": {
+    "author": "Ortiz, Ariel",
+    "booktitle": "Proceedings of the 50th ACM Technical Symposium on Computer Science Education - SIGCSE ’19",
+    "retrieved-from-doi": "https://doi.org/10.1145/3287324.3287533",
+    "title": "Architecting Serverless Microservices on the Cloud with AWS",
+    "year": "2019"
+  },
+  "85": {
+    "author": "Arda Aytekin, Mikael Johansson",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1901.03161",
+    "title": "Harnessing the Power of Serverless Runtimes for Large-Scale Optimization",
+    "year": "2019"
+  },
+  "86": {
+    "author": "Samuel Lavoie, Anthony Garant, Fabio Petrillo",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1901.03984",
+    "title": "Serverless architecture efficiency: an exploratory study",
+    "year": "2019"
+  },
+  "87": {
+    "author": "Vipul Gupta, Swanand Kadhe, Thomas Courtade, Michael W. Mahoney, Kannan Ramchandran",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1903.08857",
+    "title": "OverSketched Newton: Fast Convex Optimization for Serverless Systems",
+    "year": "2019"
+  },
+  "88": {
+    "author": "Ping-Min Lin, Alex Glikson",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1903.12221",
+    "title": "Mitigating Cold Starts in Serverless Platforms: A Pool-Based Approach",
+    "year": "2019"
+  },
+  "89": {
+    "author": "Savage, Neil",
+    "journal": "Communications of the ACM",
+    "retrieved-from-doi": "https://doi.org/10.1145/3171583",
+    "title": "Going serverless",
+    "year": "2018"
+  },
+  "90": {
+    "author": "Bhatia, Kishore",
+    "journal": "IEEE Software",
+    "retrieved-from-doi": "https://doi.org/10.1109/MS.2018.2801544",
+    "title": "Nate Taggart on Serverless",
+    "year": "2018"
+  },
+  "91": {
+    "author": "Edward Oakes and Leon Yang and Dennis Zhou and Kevin Houck and Tyler Caraza-Harter and Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau",
+    "journal": ";login:",
+    "title": "SOCK: Serverless-Optimized Containers",
+    "year": "2018"
+  },
+  "92": {
+    "author": "Perera, K. J. P. G. and Perera, I.",
+    "booktitle": "2018 IEEE/ACIS 17th International Conference on Computer and Information Science (ICIS)",
+    "retrieved-from-doi": "https://doi.org/10.1109/ICIS.2018.8466390",
+    "title": "TheArchitect: A Serverless-Microservices Based High-level Architecture Generation Tool",
+    "year": "2018"
+  },
+  "93": {
+    "author": "Leitner, Philipp and Wittern, Erik and Spillner, Josef and Hummer, Waldemar",
+    "journal": "Journal of Systems and Software",
+    "retrieved-from-doi": "https://doi.org/10.1016/j.jss.2018.12.013",
+    "title": "A mixed-method empirical study of Function-as-a-Service software development in industrial practice",
+    "year": "2019"
+  },
+  "94": {
+    "author": "Pellegrini, Roland and Ivkic, Igor and Tauber, Markus",
+    "booktitle": "Proceedings of the 8th International Conference on Cloud Computing and Services Science",
+    "retrieved-from-doi": "https://doi.org/10.5220/0006817606660669",
+    "title": "Towards a Security-Aware Benchmarking Framework for Function-as-a-Service",
+    "year": "2018"
+  },
+  "95": {
+    "author": "Back, Timon and Andrikopoulos, Vasilios",
+    "booktitle": "Lecture Notes in Computer Science",
+    "retrieved-from-doi": "https://doi.org/10.1007/978-3-319-99819-0_11",
+    "title": "Using a Microbenchmark to Compare Function as a Service Solutions",
+    "year": "2018"
+  },
+  "96": {
+    "author": "Chen, Huan and Zhang, Liang-Jie",
+    "booktitle": "Blockchain – ICBC 2018",
+    "retrieved-from-doi": "https://doi.org/10.1007/978-3-319-94478-4_17",
+    "title": "FBaaS: Functional Blockchain as a Service",
+    "year": "2018"
+  },
+  "97": {
+    "author": "Manner, Johannes and EndreB, Martin and Heckel, Tobias and Wirtz, Guido",
+    "booktitle": "2018 IEEE/ACM International Conference on Utility and Cloud Computing Companion (UCC Companion)",
+    "retrieved-from-doi": "https://doi.org/10.1109/UCC-Companion.2018.00054",
+    "title": "Cold Start Influencing Factors in Function as a Service",
+    "year": "2018"
+  },
+  "98": {
+    "author": "Fritz Alder, N. Asokan, Arseny Kurnikov, Andrew Paverd, Michael Steiner",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1810.06080",
+    "title": "S-FaaS: Trustworthy and Accountable Function-as-a-Service using Intel SGX",
+    "year": "2018"
+  },
+  "99": {
+    "author": "Abdul Dakkak, Cheng Li, Simon Garcia de Gonzalo, Jinjun Xiong, Wen-mei Hwu",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1811.09732",
+    "title": "TrIMS: Transparent and Isolated Model Sharing for Low Latency Deep LearningInference in Function as a Service Environments",
+    "year": "2018"
+  },
+  "100": {
+    "author": "Leitner, Philipp and Wittern, Erik and Spillner, Josef and Hummer, Waldemar",
+    "retrieved-from-doi": "https://doi.org/10.7287/peerj.preprints.27005v1",
+    "title": "A mixed-method empirical study of Function-as-a-Service software development in industrial practice",
+    "year": "2018"
+  },
+  "101": {
+    "author": "George Kesidis",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1901.09842",
+    "title": "Temporal Overbooking of Lambda Functions in the Cloud",
+    "year": "2019"
+  },
+  "102": {
+    "author": "Figiela, Kamil and Gajek, Adam and Zima, Adam and Obrok, Beata and Malawski, Maciej",
+    "journal": "Concurrency and Computation: Practice and Experience",
+    "retrieved-from-doi": "https://doi.org/10.1002/cpe.4792",
+    "title": "Performance evaluation of heterogeneous cloud functions",
+    "year": "2018"
+  },
+  "103": {
+    "author": "Kijak, Joanna and Martyna, Piotr and Pawlik, Maciej and Balis, Bartosz and Malawski, Maciej",
+    "booktitle": "2018 IEEE 11th International Conference on Cloud Computing (CLOUD)",
+    "retrieved-from-doi": "https://doi.org/10.1109/CLOUD.2018.00065",
+    "title": "Challenges for Scheduling Scientific Workflows on Cloud Functions",
+    "year": "2018"
+  },
+  "104": {
+    "author": "Klimovic, Ana and Wang, Yawen and Stuedi, Patrick and Trivedi, Animesh and Pfefferle, Jonas and Kozyrakis, Christos",
+    "booktitle": "13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18)",
+    "retrieved-from-usenix": "https://www.usenix.org/conference/osdi18/presentation/klimovic",
+    "title": "Pocket: Elastic Ephemeral Storage for Serverless Analytics",
     "year": "2018"
   }
 }

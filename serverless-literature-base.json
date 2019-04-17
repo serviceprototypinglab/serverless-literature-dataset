@@ -36,7 +36,7 @@
     "doi": "https://doi.org/10.1007/978-981-10-5026-8_1"
   },
   "13": {
-    "arxiv": "https://arxiv.org/abs/1708.08028"
+    "arxiv": "http://arxiv.org/abs/1708.08028"
   },
   "14": {
     "doi": "https://doi.org/10.1109/SEC.2016.37"
@@ -65,19 +65,23 @@
   "22": {
     "doi": "https://doi.org/10.1145/3135974.3135980"
   },
-  "23": {},
-  "24": {},
+  "23": {
+    "usenix": "https://www.usenix.org/conference/hotcloud16/workshop-program/presentation/hendrickson"
+  },
+  "24": {
+    "link": "http://ceur-ws.org/Vol-1800/paper4.pdf"
+  },
   "25": {
     "doi": "https://doi.org/10.1007/978-3-319-69035-3_17"
   },
   "26": {
-    "arxiv": "https://arxiv.org/abs/1703.07562"
+    "arxiv": "http://arxiv.org/abs/1703.07562"
   },
   "27": {
-    "arxiv": "https://arxiv.org/abs/1705.08169"
+    "arxiv": "http://arxiv.org/abs/1705.08169"
   },
   "28": {
-    "arxiv": "https://arxiv.org/abs/1701.05945"
+    "arxiv": "http://arxiv.org/abs/1701.05945"
   },
   "29": {
     "doi": "https://doi.org/10.1109/CCGrid.2016.37"
@@ -86,7 +90,7 @@
     "doi": "https://doi.org/10.1109/INFCOMW.2017.8116416"
   },
   "31": {
-    "arxiv": "https://arxiv.org/abs/1702.05510"
+    "arxiv": "http://arxiv.org/abs/1702.05510"
   },
   "32": {
     "doi": "https://doi.org/10.1109/JPROC.2019.2898101"
@@ -146,19 +150,20 @@
     "doi": "https://doi.org/10.1109/CLOUD.2018.00113"
   },
   "51": {
-    "arxiv": "https://arxiv.org/abs/1807.11248"
+    "arxiv": "http://arxiv.org/abs/1807.11248"
   },
   "52": {
-    "arxiv": "https://arxiv.org/abs/1807.03755"
+    "arxiv": "http://arxiv.org/abs/1807.03755"
   },
   "53": {
-    "arxiv": "https://arxiv.org/abs/1802.08984"
+    "arxiv": "http://arxiv.org/abs/1802.08984"
   },
   "54": {
     "doi": "https://doi.org/10.1007/978-3-319-73897-0_8"
   },
   "55": {
-    "usenix": "https://www.usenix.org/conference/atc18/presentation/oakes"
+    "usenix": "https://www.usenix.org/conference/atc18/presentation/oakes",
+    "correlation": "91"
   },
   "56": {
     "usenix": "https://www.usenix.org/conference/atc18/presentation/klimovic-serverless"
@@ -215,12 +220,101 @@
     "arxiv": "http://arxiv.org/abs/1903.07962"
   },
   "74": {
-    "arxiv": "http://arxiv.org/abs/1802.08984"
+    "doi": "https://doi.org/10.1109/CLOUD.2018.00039"
   },
   "75": {
     "arxiv": "http://arxiv.org/abs/1811.09721"
   },
   "76": {
     "arxiv": "http://arxiv.org/abs/1812.03651"
+  },
+  "77": {
+    "doi": "https://doi.org/10.1007/978-3-030-03673-7_4"
+  },
+  "78": {
+    "doi": "https://doi.org/10.1007/978-3-030-01701-9_25"
+  },
+  "79": {
+    "doi": "https://doi.org/10.1109/SOCA.2018.00017"
+  },
+  "80": {
+    "doi": "https://doi.org/10.1145/3211890.3211916"
+  },
+  "81": {
+    "link": "https://www.usenix.org/publications/login/spring2019/klimovic",
+    "correlation": "104"
+  },
+  "82": {
+    "doi": "https://doi.org/10.1145/3302505.3310084"
+  },
+  "83": {
+    "usenix": "https://www.usenix.org/conference/nsdi19/presentation/pu"
+  },
+  "84": {
+    "doi": "https://doi.org/10.1145/3287324.3287533"
+  },
+  "85": {
+    "arxiv": "http://arxiv.org/abs/1901.03161"
+  },
+  "86": {
+    "arxiv": "http://arxiv.org/abs/1901.03984"
+  },
+  "87": {
+    "arxiv": "http://arxiv.org/abs/1903.08857"
+  },
+  "88": {
+    "arxiv": "http://arxiv.org/abs/1903.12221"
+  },
+  "89": {
+    "doi": "https://doi.org/10.1145/3171583"
+  },
+  "90": {
+    "doi": "https://doi.org/10.1109/MS.2018.2801544"
+  },
+  "91": {
+    "link": "https://www.usenix.org/publications/login/fall-2018-vol-43-no-2/oakes",
+    "correlation": "55"
+  },
+  "92": {
+    "doi": "https://doi.org/10.1109/ICIS.2018.8466390"
+  },
+  "93": {
+    "doi": "https://doi.org/10.1016/j.jss.2018.12.013",
+    "correlation": "100"
+  },
+  "94": {
+    "doi": "https://doi.org/10.5220/0006817606660669"
+  },
+  "95": {
+    "doi": "https://doi.org/10.1007/978-3-319-99819-0_11"
+  },
+  "96": {
+    "doi": "https://doi.org/10.1007/978-3-319-94478-4_17"
+  },
+  "97": {
+    "doi": "https://doi.org/10.1109/UCC-Companion.2018.00054"
+  },
+  "98": {
+    "arxiv": "http://arxiv.org/abs/1810.06080"
+  },
+  "99": {
+    "arxiv": "http://arxiv.org/abs/1811.09732"
+  },
+  "100": {
+    "doi": "https://doi.org/10.7287/peerj.preprints.27005v1",
+    "correlation": "93"
+  },
+  "101": {
+    "arxiv": "http://arxiv.org/abs/1901.09842"
+  },
+  "102": {
+    "doi": "https://doi.org/10.1002/cpe.4792"
+  },
+  "103": {
+    "doi": "https://doi.org/10.1109/CLOUD.2018.00065"
+  },
+  "104": {
+    "usenix": "https://www.usenix.org/conference/osdi18/presentation/klimovic",
+    "correlation": "81"
   }
 }
