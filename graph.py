@@ -63,6 +63,7 @@ f = open(filename, "w")
 	
 xids = {}
 print("digraph sldgraph {", file=f)
+print("overlap=false;", file=f)
 for ident in sorted(analysis):
 	for t in analysis[ident]["technologies"]:
 		for author in authorworks[ident]:
