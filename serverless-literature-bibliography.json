@@ -523,5 +523,12 @@
     "retrieved-from-arxiv": "http://arxiv.org/abs/1812.03651",
     "title": "Serverless Computing: One Step Forward, Two Steps Back",
     "year": "2018"
+  },
+  "77": {
+    "author": "Akkus, Istemi Ekin and Chen, Ruichuan and Rimac, Ivica and Stein, Manuel and Satzke, Klaus and Beck, Andre and Aditya, Paarijaat and Hilt, Volker",
+    "booktitle": "2018 USENIX Annual Technical Conference (USENIX ATC 18)",
+    "retrieved-from-usenix": "https://www.usenix.org/conference/atc18/presentation/akkus",
+    "title": "SAND: Towards High-Performance Serverless Computing",
+    "year": "2018"
   }
 }

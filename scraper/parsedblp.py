@@ -30,7 +30,10 @@ for searchterm in searchterms:
 	results = dblp.search([searchterm])
 
 	doiactions = {}
-	for idx, r in results[(results["Link"].str.contains("doi.org")) | (results["Link"].str.contains("arxiv.org"))].iterrows():
+	f_doi = results["Link"].str.contains("doi.org")
+	f_arxiv = results["Link"].str.contains("arxiv.org")
+	f_usenix = results["Link"].str.contains("usenix.org")
+	for idx, r in results[f_doi | f_arxiv | f_usenix].iterrows():
 		doi = r["Link"]
 		title = r["Title"]
 		skip = False
@@ -39,7 +42,10 @@ for searchterm in searchterms:
 			if "doi" in literature[ident] and literature[ident]["doi"] == doi:
 				skip = True
 				skipped = "(present)"
-			if "arxiv" in literature[ident] and literature[ident]["arxiv"] == doi:
+			elif "arxiv" in literature[ident] and literature[ident]["arxiv"] == doi:
+				skip = True
+				skipped = "(present)"
+			elif "usenix" in literature[ident] and literature[ident]["usenix"] == doi:
 				skip = True
 				skipped = "(present)"
 		if not skip:
@@ -50,6 +56,8 @@ for searchterm in searchterms:
 					literature[skipped] = {"doi": doi}
 				elif "arxiv.org" in doi:
 					literature[skipped] = {"arxiv": doi}
+				elif "usenix.org" in doi:
+					literature[skipped] = {"usenix": doi}
 				nextnum += 1
 			else:
 				skipped = "(excluded)"
@@ -59,9 +67,11 @@ for searchterm in searchterms:
 		print("* {:10s} <= DOI: {}".format(doiactions[doi], doi))
 	for doi in sorted([x for x in doiactions if "arxiv.org" in x]):
 		print("* {:10s} <= arXiv: {}".format(doiactions[doi], doi))
+	for doi in sorted([x for x in doiactions if "usenix.org" in x]):
+		print("* {:10s} <= USENIX: {}".format(doiactions[doi], doi))
 
-	for nondoi in results["Link"][(~results["Link"].str.contains("doi.org")) & (~results["Link"].str.contains("arxiv.org"))]:
-		print("* {:10s} <= non-DOI/arXiv: {}".format("(unknown)", nondoi))
+	for nondoi in results["Link"][~f_doi & ~f_arxiv & ~f_usenix]:
+		print("* {:10s} <= non-DOI/arXiv/USENIX: {}".format("(unknown)", nondoi))
 
 	f = open(base_filename, "w")
 	base_sorted = {int(x) : literature[x] for x in literature}
