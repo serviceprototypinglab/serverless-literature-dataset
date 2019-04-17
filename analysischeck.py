@@ -35,7 +35,7 @@ for ident in tech:
 
 print("Check {} entries for keys: {} and {} (and {})".format(len(biblio), bibliokeys, allkeys, techkeys))
 
-for ident in biblio:
+for ident in sorted(biblio):
 	if not ident in analysis:
 		print("!! work {} missing in analysis".format(ident))
 		print("- {}".format(biblio[ident]["title"]))
@@ -46,17 +46,17 @@ for ident in biblio:
 	pairedkeys = []
 	for key in bibliokeys:
 		if not key in biblio[ident] and not key in pairedkeys:
-			pairs = [("journal", "booktitle"), ("retrieved-from-doi", "retrieved-from-arxiv", "link")]
+			pairs = [("journal", "booktitle"), ("retrieved-from-doi", "retrieved-from-arxiv", "retrieved-from-usenix", "link")]
 			ispaired = False
 			for pair in pairs:
 				for x in range(len(pair)):
-					for y in range(len(pair)):
-						if key == pair[x]:
+					if key == pair[x]:
+						for y in range(len(pair)):
 							if pair[y] in biblio[ident]:
 								ispaired = True
-							else:
-								pairedkeys += pair
-								key = pair
+						if not ispaired:
+							pairedkeys += pair
+							key = pair
 			if not ispaired:
 				print("!! work {} misses key {} in bibliography".format(ident, key))
 	for t in analysis[ident]["technologies"]:
