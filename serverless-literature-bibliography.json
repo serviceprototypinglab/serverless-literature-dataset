@@ -257,14 +257,16 @@
     "year": "2018"
   },
   "38": {
-    "author": "Istemi Ekin Akkus, Ruichuan Chen, Ivica Rimac, Manuel Stein, Klaus Satzke, Andre Beck, Paarijaat Aditya, Volker Hilt",
-    "journal": "USENIX Annual Technical Conference",
+    "author": "Akkus, Istemi Ekin and Chen, Ruichuan and Rimac, Ivica and Stein, Manuel and Satzke, Klaus and Beck, Andre and Aditya, Paarijaat and Hilt, Volker",
+    "booktitle": "2018 USENIX Annual Technical Conference (USENIX ATC 18)",
+    "retrieved-from-usenix": "https://www.usenix.org/conference/atc18/presentation/akkus",
     "title": "SAND: Towards High-Performance Serverless Computing",
     "year": "2018"
   },
   "39": {
-    "author": "Liang Wang, Mengyuan Li, Yinqian Zhang, Thomas Ristenpart, Michael Swift",
-    "journal": "USENIX Annual Technical Conference",
+    "author": "Wang, Liang and Li, Mengyuan and Zhang, Yinqian and Ristenpart, Thomas and Swift, Michael",
+    "booktitle": "2018 USENIX Annual Technical Conference (USENIX ATC 18)",
+    "retrieved-from-usenix": "https://www.usenix.org/conference/atc18/presentation/wang-liang",
     "title": "Peeking Behind the Curtains of Serverless Platforms",
     "year": "2018"
   },
@@ -374,14 +376,16 @@
     "year": "2018"
   },
   "55": {
-    "author": "Edward Oakes, Leon Yang, Dennis Zhou, Kevin Houck, Tyler Harter, Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau",
-    "journal": "USENIX Annual Technical Conference",
+    "author": "Oakes, Edward and Yang, Leon and Zhou, Dennis and Houck, Kevin and Harter, Tyler and Arpaci-Dusseau, Andrea and Arpaci-Dusseau, Remzi",
+    "booktitle": "2018 USENIX Annual Technical Conference (USENIX ATC 18)",
+    "retrieved-from-usenix": "https://www.usenix.org/conference/atc18/presentation/oakes",
     "title": "SOCK: Rapid Task Provisioning with Serverless-Optimized Containers",
     "year": "2018"
   },
   "56": {
-    "author": "Ana Klimovic, Yawen Wang, Christos Kozyrakis, Patrick Stuedi, Jonas Pfefferle, Animesh Trivedi",
-    "journal": "USENIX Annual Technical Conference",
+    "author": "Klimovic, Ana and Wang, Yawen and Kozyrakis, Christos and Stuedi, Patrick and Pfefferle, Jonas and Trivedi, Animesh",
+    "booktitle": "2018 USENIX Annual Technical Conference (USENIX ATC 18)",
+    "retrieved-from-usenix": "https://www.usenix.org/conference/atc18/presentation/klimovic-serverless",
     "title": "Understanding Ephemeral Storage for Serverless Analytics",
     "year": "2018"
   },
@@ -393,8 +397,9 @@
     "year": "2018"
   },
   "58": {
-    "author": "Sanghyun Hong,  Abhinav Srivastava, William Shambrook, Tudor Dumitraș",
-    "journal": "USENIX Annual Technical Conference",
+    "author": "Hong, Sanghyun and Srivastava, Abhinav and Shambrook, William and Dumitras, Tudor",
+    "booktitle": "10th USENIX Workshop on Hot Topics in Cloud Computing (HotCloud 18)",
+    "retrieved-from-usenix": "https://www.usenix.org/conference/hotcloud18/presentation/hong",
     "title": "Go Serverless: Securing Cloud via Serverless Design Patterns",
     "year": "2018"
   },
@@ -522,13 +527,6 @@
     "journal": "arXiv/CoRR",
     "retrieved-from-arxiv": "http://arxiv.org/abs/1812.03651",
     "title": "Serverless Computing: One Step Forward, Two Steps Back",
-    "year": "2018"
-  },
-  "77": {
-    "author": "Akkus, Istemi Ekin and Chen, Ruichuan and Rimac, Ivica and Stein, Manuel and Satzke, Klaus and Beck, Andre and Aditya, Paarijaat and Hilt, Volker",
-    "booktitle": "2018 USENIX Annual Technical Conference (USENIX ATC 18)",
-    "retrieved-from-usenix": "https://www.usenix.org/conference/atc18/presentation/akkus",
-    "title": "SAND: Towards High-Performance Serverless Computing",
     "year": "2018"
   }
 }

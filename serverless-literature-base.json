@@ -106,8 +106,12 @@
   "37": {
     "doi": "https://doi.org/10.1145/3229710.3229742"
   },
-  "38": {},
-  "39": {},
+  "38": {
+    "usenix": "https://www.usenix.org/conference/atc18/presentation/akkus"
+  },
+  "39": {
+    "usenix": "https://www.usenix.org/conference/atc18/presentation/wang-liang"
+  },
   "40": {
     "doi": "https://doi.org/10.1109/IC2E.2018.00027"
   },
@@ -153,12 +157,18 @@
   "54": {
     "doi": "https://doi.org/10.1007/978-3-319-73897-0_8"
   },
-  "55": {},
-  "56": {},
+  "55": {
+    "usenix": "https://www.usenix.org/conference/atc18/presentation/oakes"
+  },
+  "56": {
+    "usenix": "https://www.usenix.org/conference/atc18/presentation/klimovic-serverless"
+  },
   "57": {
     "doi": "http://dx.doi.org/10.18653/v1/N18-5002"
   },
-  "58": {},
+  "58": {
+    "usenix": "https://www.usenix.org/conference/hotcloud18/presentation/hong"
+  },
   "59": {
     "doi": "https://doi.org/10.1109/IC2E.2018.00052"
   },
@@ -212,8 +222,5 @@
   },
   "76": {
     "arxiv": "http://arxiv.org/abs/1812.03651"
-  },
-  "77": {
-    "usenix": "https://www.usenix.org/conference/atc18/presentation/akkus"
   }
 }
