@@ -31,8 +31,8 @@ def parsearxiv(arxivid):
 		title = entries[0].getElementsByTagName("title")[0].childNodes[0].nodeValue.replace("\n", "").replace("  ", " ")
 		date = entries[0].getElementsByTagName("published")[0].childNodes[0].nodeValue
 		year = date[:4]
-		author = entries[0].getElementsByTagName("author")[0]
-		names = [x.childNodes[0].nodeValue for x in author.getElementsByTagName("name")]
+		authors = entries[0].getElementsByTagName("author")
+		names = [author.getElementsByTagName("name")[0].childNodes[0].nodeValue for author in authors]
 		return title, year, ", ".join(names)
 
 base_filename = "serverless-literature-base.json"
@@ -139,8 +139,8 @@ percent_doi = round(100 * len(filterlist_doi) / len(biblio))
 filterlist_arxiv = [x for x in biblio if "retrieved-from-arxiv" in biblio[x]]
 percent_arxiv = round(100 * len(filterlist_arxiv) / len(biblio))
 
-print("Statistics:")
+print("Serverless literature statistics:")
 print("- {} entries in total".format(len(biblio)))
 print("- {}% DOI entries".format(percent_doi))
 print("- {}% arXiv entries".format( percent_arxiv))
-print("- {}% manual entries".format(100 - percent_arxiv - percent_doi))
+print("- {}% manual entries, mostly USENIX".format(100 - percent_arxiv - percent_doi))

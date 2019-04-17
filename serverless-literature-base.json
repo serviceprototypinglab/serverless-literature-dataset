@@ -35,7 +35,9 @@
   "12": {
     "doi": "https://doi.org/10.1007/978-981-10-5026-8_1"
   },
-  "13": {},
+  "13": {
+    "arxiv": "https://arxiv.org/abs/1708.08028"
+  },
   "14": {
     "doi": "https://doi.org/10.1109/SEC.2016.37"
   },
@@ -68,16 +70,24 @@
   "25": {
     "doi": "https://doi.org/10.1007/978-3-319-69035-3_17"
   },
-  "26": {},
-  "27": {},
-  "28": {},
+  "26": {
+    "arxiv": "https://arxiv.org/abs/1703.07562"
+  },
+  "27": {
+    "arxiv": "https://arxiv.org/abs/1705.08169"
+  },
+  "28": {
+    "arxiv": "https://arxiv.org/abs/1701.05945"
+  },
   "29": {
     "doi": "https://doi.org/10.1109/CCGrid.2016.37"
   },
   "30": {
     "doi": "https://doi.org/10.1109/INFCOMW.2017.8116416"
   },
-  "31": {},
+  "31": {
+    "arxiv": "https://arxiv.org/abs/1702.05510"
+  },
   "32": {
     "doi": "https://doi.org/10.1109/JPROC.2019.2898101"
   },
@@ -131,9 +141,15 @@
   "50": {
     "doi": "https://doi.org/10.1109/CLOUD.2018.00113"
   },
-  "51": {},
-  "52": {},
-  "53": {},
+  "51": {
+    "arxiv": "https://arxiv.org/abs/1807.11248"
+  },
+  "52": {
+    "arxiv": "https://arxiv.org/abs/1807.03755"
+  },
+  "53": {
+    "arxiv": "https://arxiv.org/abs/1802.08984"
+  },
   "54": {
     "doi": "https://doi.org/10.1007/978-3-319-73897-0_8"
   },

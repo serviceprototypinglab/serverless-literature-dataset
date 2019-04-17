@@ -43,15 +43,20 @@ for ident in biblio:
 	for key in allkeys:
 		if not key in analysis[ident]:
 			print("!! work {} misses key {} in analysis".format(ident, key))
+	pairedkeys = []
 	for key in bibliokeys:
-		if not key in biblio[ident]:
-			pairs = [("journal", "booktitle"), ("retrieved-from-doi", "link")]
+		if not key in biblio[ident] and not key in pairedkeys:
+			pairs = [("journal", "booktitle"), ("retrieved-from-doi", "retrieved-from-arxiv", "link")]
 			ispaired = False
 			for pair in pairs:
-				if key == pair[0] and pair[1] in biblio[ident]:
-					ispaired = True
-				if key == pair[1] and pair[0] in biblio[ident]:
-					ispaired = True
+				for x in range(len(pair)):
+					for y in range(len(pair)):
+						if key == pair[x]:
+							if pair[y] in biblio[ident]:
+								ispaired = True
+							else:
+								pairedkeys += pair
+								key = pair
 			if not ispaired:
 				print("!! work {} misses key {} in bibliography".format(ident, key))
 	for t in analysis[ident]["technologies"]:

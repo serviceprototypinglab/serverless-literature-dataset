@@ -85,7 +85,8 @@
   },
   "13": {
     "author": "Geoffrey C. Fox, Vatche Ishakian, Vinod Muthusamy, Aleksander Slominski",
-    "journal": "ArXiv",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "https://arxiv.org/abs/1708.08028",
     "title": "Status of Serverless Computing and Function-as-a-Service(FaaS) in Industry and Research",
     "year": "2017"
   },
@@ -173,19 +174,22 @@
   },
   "26": {
     "author": "Josef Spillner",
-    "journal": "arXiv",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "https://arxiv.org/abs/1703.07562",
     "title": "Snafu: Function-as-a-Service (FaaS) Runtime Design and Implementation",
     "year": "2017"
   },
   "27": {
     "author": "Josef Spillner",
-    "journal": "arXiv",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "https://arxiv.org/abs/1705.08169",
     "title": "Transformation of Python Applications into Function-as-a-Service Deployments",
     "year": "2017"
   },
   "28": {
     "author": "Josef Spillner",
-    "journal": "arXiv",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "https://arxiv.org/abs/1701.05945",
     "title": "Exploiting the Cloud Control Plane for Fun and Profit",
     "year": "2017"
   },
@@ -205,7 +209,8 @@
   },
   "31": {
     "author": "Josef Spillner, Serhii Dorodko",
-    "journal": "arXiv",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "https://arxiv.org/abs/1702.05510",
     "title": "Java Code Analysis and Transformation into AWS Lambda Functions",
     "year": "2017"
   },
@@ -341,20 +346,23 @@
     "year": "2018"
   },
   "51": {
-    "author": "Pedro García López, Marc Sánchez-Artigas, Gerard París, Daniel Barcelona Pons, Álvaro Ruiz Ollobarren, David Arroyo Pinto",
-    "journal": "arXiv",
-    "title": "Comparison of Production Serverless Function Orchestration Systems",
+    "author": "Pedro García López, Marc Sánchez-Artigas, Gerard París, Daniel Barcelona Pons, Álvaro Ruiz Ollobarren, David Arroyo Pinto",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "https://arxiv.org/abs/1807.11248",
+    "title": "Comparison of FaaS Orchestration Systems",
     "year": "2018"
   },
   "52": {
-    "author": "Duarte Pinto, João Pedro Dias, Hugo Sereno Ferreira",
-    "journal": "arXiv",
+    "author": "Duarte Pinto, João Pedro Dias, Hugo Sereno Ferreira",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "https://arxiv.org/abs/1807.03755",
     "title": "Dynamic Allocation of Serverless Functions in IoT Environments",
     "year": "2018"
   },
   "53": {
     "author": "Kalev Alpernas, Cormac Flanagan, Sadjad Fouladi, Leonid Ryzhyk, Mooly Sagiv, Thomas Schmitz, Keith Winstein",
-    "journal": "arXiv",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "https://arxiv.org/abs/1802.08984",
     "title": "Secure Serverless Computing Using Dynamic Information Flow Control",
     "year": "2018"
   },
@@ -475,42 +483,42 @@
     "year": "2019"
   },
   "71": {
-    "author": "Eric Jonas",
+    "author": "Eric Jonas, Johann Schleier-Smith, Vikram Sreekanti, Chia-Che Tsai, Anurag Khandelwal, Qifan Pu, Vaishaal Shankar, Joao Carreira, Karl Krauth, Neeraja Yadwadkar, Joseph E. Gonzalez, Raluca Ada Popa, Ion Stoica, David A. Patterson",
     "journal": "arXiv/CoRR",
     "retrieved-from-arxiv": "http://arxiv.org/abs/1902.03383",
     "title": "Cloud Programming Simplified: A Berkeley View on Serverless Computing",
     "year": "2019"
   },
   "72": {
-    "author": "Abhinav Jangda",
+    "author": "Abhinav Jangda, Donald Pinckney, Samuel Baxter, Breanna Devore-McDonald, Joseph Spitzer, Yuriy Brun, Arjun Guha",
     "journal": "arXiv/CoRR",
     "retrieved-from-arxiv": "http://arxiv.org/abs/1902.05870",
     "title": "Formal Foundations of Serverless Computing",
     "year": "2019"
   },
   "73": {
-    "author": "Maurizio Gabbrielli",
+    "author": "Maurizio Gabbrielli, Saverio Giallorenzo, Ivan Lanese, Fabrizio Montesi, Marco Peressotti, Stefano Pio Zingaro",
     "journal": "arXiv/CoRR",
     "retrieved-from-arxiv": "http://arxiv.org/abs/1903.07962",
     "title": "No more, no less - A formal model for serverless computing",
     "year": "2019"
   },
   "74": {
-    "author": "Kalev Alpernas",
+    "author": "Kalev Alpernas, Cormac Flanagan, Sadjad Fouladi, Leonid Ryzhyk, Mooly Sagiv, Thomas Schmitz, Keith Winstein",
     "journal": "arXiv/CoRR",
     "retrieved-from-arxiv": "http://arxiv.org/abs/1802.08984",
     "title": "Secure Serverless Computing Using Dynamic Information Flow Control",
     "year": "2018"
   },
   "75": {
-    "author": "Tarek Elgamal",
+    "author": "Tarek Elgamal, Atul Sandur, Klara Nahrstedt, Gul Agha",
     "journal": "arXiv/CoRR",
     "retrieved-from-arxiv": "http://arxiv.org/abs/1811.09721",
     "title": "Costless: Optimizing Cost of Serverless Computing through Function Fusion and Placement",
     "year": "2018"
   },
   "76": {
-    "author": "Joseph M. Hellerstein",
+    "author": "Joseph M. Hellerstein, Jose Faleiro, Joseph E. Gonzalez, Johann Schleier-Smith, Vikram Sreekanti, Alexey Tumanov, Chenggang Wu",
     "journal": "arXiv/CoRR",
     "retrieved-from-arxiv": "http://arxiv.org/abs/1812.03651",
     "title": "Serverless Computing: One Step Forward, Two Steps Back",
