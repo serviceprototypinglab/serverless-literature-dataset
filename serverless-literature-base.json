@@ -198,7 +198,8 @@
     "doi": "https://doi.org/10.1109/CloudCom2018.2018.00033"
   },
   "66": {
-    "doi": "https://doi.org/10.1109/SEC.2018.00029"
+    "doi": "https://doi.org/10.1109/SEC.2018.00029",
+    "correlation": "75"
   },
   "67": {
     "doi": "https://doi.org/10.1109/LANMAN.2018.8475098"
@@ -207,10 +208,12 @@
     "doi": "https://doi.org/10.1109/UCC-Companion.2018.00056"
   },
   "69": {
-    "arxiv": "http://arxiv.org/abs/1901.02680"
+    "arxiv": "http://arxiv.org/abs/1901.02680",
+    "correlation": "70"
   },
   "70": {
-    "arxiv": "http://arxiv.org/abs/1901.03086"
+    "arxiv": "http://arxiv.org/abs/1901.03086",
+    "correlation": "69"
   },
   "71": {
     "arxiv": "http://arxiv.org/abs/1902.03383"
@@ -225,7 +228,8 @@
     "doi": "https://doi.org/10.1109/CLOUD.2018.00039"
   },
   "75": {
-    "arxiv": "http://arxiv.org/abs/1811.09721"
+    "arxiv": "http://arxiv.org/abs/1811.09721",
+    "correlation": "66"
   },
   "76": {
     "arxiv": "http://arxiv.org/abs/1812.03651"
