@@ -110,3 +110,4 @@ for filename in (filename_tech, filename_bib):
 	cmd = "{} -Tpdf {} > {}".format(engine, filename, filename + ".pdf")
 	os.system(cmd)
 	print("Graph: {}".format(filename + ".pdf"))
+	print("(Scale: pdfposter -p2x2a4 {}.pdf {}.print.pdf)".format(filename, filename))
