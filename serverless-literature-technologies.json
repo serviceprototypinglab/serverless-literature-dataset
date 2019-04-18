@@ -141,5 +141,35 @@
 		"open-source": true,
 		"actively-maintained": false,
 		"supported-languages": ["JavaScript"]
+	},
+
+	"Fission": {
+		"open-source": true,
+		"actively-maintained": true,
+		"supported-languages": ["JavaScript", "Python", "Go", "C#", "PHP"]
+	},
+
+	"Kubeless": {
+		"open-source": true,
+		"actively-maintained": true,
+		"supported-languages": ["JavaScript", "Python", "Ruby", "PHP", ".NET", "Ballerina"]
+	},
+
+	"OpenFaaS": {
+		"open-source": true,
+		"actively-maintained": true,
+		"supported-languages": ["JavaScript", "Go", "Java", "Python", "C#", "Ruby"]
+	},
+
+	"SPL": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": ["SPL"]
+	},
+
+	"Lowgo": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": []
 	}
 }

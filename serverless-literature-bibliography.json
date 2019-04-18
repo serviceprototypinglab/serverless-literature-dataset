@@ -163,6 +163,7 @@
   "24": {
     "author": "Maciej Malawski",
     "booktitle": "WORKS@SC 2016",
+    "link": "http://ceur-ws.org/Vol-1800/paper4.pdf",
     "title": "Towards Serverless Execution of Scientific Workflows - HyperFlow Case Study",
     "year": "2016"
   },
@@ -461,11 +462,11 @@
     "year": "2018"
   },
   "67": {
-    "author": "Franz, Justin and Nagasuri, Tanmayi and Wartman, Andrew and Ventrella, Agnese V. and Esposito, Flavio",
-    "booktitle": "2018 IEEE International Symposium on Local and Metropolitan Area Networks (LANMAN)",
-    "retrieved-from-doi": "https://doi.org/10.1109/LANMAN.2018.8475098",
-    "title": "Reunifying Families after a Disaster via Serverless Computing and Raspberry Pis",
-    "year": "2018"
+    "author": "Johannes Manner",
+    "booktitle": "CEUR-WS/ZEUS 2019",
+    "link": "http://ceur-ws.org/Vol-2339/paper9.pdf",
+    "title": "Towards Performance and Cost Simulation in Function as a Service",
+    "year": "2019"
   },
   "68": {
     "author": "Lloyd, Wes and Vu, Minh and Zhang, Baojia and David, Olaf and Leavesley, George",

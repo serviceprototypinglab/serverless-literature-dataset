@@ -649,6 +649,106 @@
 		"independent": true
 	},
 
+	"66": {
+		"technologies": ["Lambda"],
+		"institutions": ["University of Illinois"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true
+	},
+
+	"67": {
+		"technologies": [],
+		"institutions": ["University of Bamberg"],
+		"countries": ["Germany"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true
+	},
+
+	"68": {
+		"technologies": ["Lambda"],
+		"institutions": ["University of Washington", "Colorado State University"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true
+	},
+
+	"69": {
+		"technologies": [],
+		"institutions": ["Brunel University"],
+		"countries": ["UK"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true
+	},
+
+	"70": {
+		"technologies": ["OpenWhisk"],
+		"institutions": ["Brunel University"],
+		"countries": ["UK"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true
+	},
+
+	"71": {
+		"technologies": [],
+		"institutions": ["UC Berkeley"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true
+	},
+
+	"72": {
+		"technologies": ["OpenWhisk", "SPL"],
+		"institutions": ["University of Massachusetts Amherst"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false
+	},
+
+	"73": {
+		"technologies": [],
+		"institutions": ["INRIA", "Università di Bologna", "University of Southern Denmark"],
+		"countries": ["France", "Italy", "Denmark"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true
+	},
+
+	"74": {
+		"technologies": ["Lowgo"],
+		"institutions": ["UC Santa Barbara"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false
+	},
+
+	"75": {
+		"technologies": ["Lambda"],
+		"institutions": ["University of Illinois"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true
+	},
+
 	"105": {
 		"technologies": [],
 		"institutions": ["Nokia Bell Labs"],
