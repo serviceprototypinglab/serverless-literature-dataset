@@ -599,6 +599,56 @@
 		"independent": true
 	},
 
+	"61": {
+		"technologies": ["Lambda"],
+		"institutions": ["Universidad Complutense de Madrid", "Harvard University"],
+		"countries": ["Spain", "USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true
+	},
+
+	"62": {
+		"technologies": [],
+		"institutions": ["Delft University of Technology", "Vrije Universiteit Amsterdam"],
+		"countries": ["Netherlands"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true
+	},
+
+	"63": {
+		"technologies": ["Lambda", "OpenWhisk", "IBM", "Trapeze"],
+		"institutions": ["Tel Aviv University", "VMware Research", "UC Santa Cruz", "Stanford University"],
+		"countries": ["Israel", "USA"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": false
+	},
+
+	"64": {
+		"technologies": [],
+		"institutions": ["IIT, National Research Council (CNR)"],
+		"countries": ["Italy"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true
+	},
+
+	"65": {
+		"technologies": ["Fission", "Kubeless", "OpenFaaS"],
+		"institutions": ["Aalto University"],
+		"countries": ["Finland"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true
+	},
+
 	"105": {
 		"technologies": [],
 		"institutions": ["Nokia Bell Labs"],

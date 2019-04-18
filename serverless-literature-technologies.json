@@ -135,5 +135,11 @@
 		"open-source": false,
 		"actively-maintained": false,
 		"supported-languages": []
+	},
+
+	"Trapeze": {
+		"open-source": true,
+		"actively-maintained": false,
+		"supported-languages": ["JavaScript"]
 	}
 }
