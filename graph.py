@@ -4,9 +4,13 @@ import json
 import random
 import os
 
+base_filename = "serverless-literature-base.json"
 analysis_filename = "serverless-literature-analysis.json"
 biblio_filename = "serverless-literature-bibliography.json"
 tech_filename = "serverless-literature-technologies.json"
+
+f = open(base_filename)
+base = json.load(f)
 
 f = open(biblio_filename)
 biblio = json.load(f)
@@ -58,9 +62,9 @@ def xid(s, xids):
 			return rid
 	return xids[s]
 
-filename = "/tmp/sldgraph.dot"
-f = open(filename, "w")
-	
+filename_tech = "/tmp/sldgraph-tech.dot"
+f = open(filename_tech, "w")
+
 xids = {}
 print("digraph sldgraph {", file=f)
 print("overlap=false;", file=f)
@@ -75,13 +79,34 @@ for rid in xids:
 			color = "e0e0ff"
 			if tech[xids[rid]]["open-source"]:
 				color = "ffe0e0"
-			shape=",shape=box,style=filled,fillcolor=\"#{}\"".format(color)
+			shape = ",shape=box,style=filled,fillcolor=\"#{}\"".format(color)
 		print("{} [label=\"{}\"{}];".format(rid, xids[rid], shape), file=f)
 print("}", file=f)
 f.close()
 
-# engines: twopi, sfdp, ...
-engine = "sfdp"
-cmd = "{} -Tpdf {} > {}".format(engine, filename, filename + ".pdf")
-os.system(cmd)
-print("Graph: {}".format(filename + ".pdf"))
+filename_bib = "/tmp/sldgraph-bib.dot"
+f = open(filename_bib, "w")
+print("digraph sldgraph {", file=f)
+print("overlap=false;", file=f)
+for ident in sorted(authorworks):
+	for author in authorworks[ident]:
+		print("{} -> {};".format(xid(author, xids), xid(ident, xids)), file=f)
+for rid in xids:
+	if rid.startswith("_") and not xids[rid] in tech:
+		shape = ""
+		if xids[rid] in biblio:
+			color = "a0ffa0"
+			shape = ",shape=box,style=filled,fillcolor=\"#{}\"".format(color)
+			if "correlation" in base[xids[rid]]:
+				color = "d00000"
+				print("{} -> {} [style=dotted,color=\"#{}\"];".format(rid, xids[base[xids[rid]]["correlation"]], color), file=f)
+		print("{} [label=\"{}\"{}];".format(rid, xids[rid], shape), file=f)
+print("}", file=f)
+f.close()
+
+for filename in (filename_tech, filename_bib):
+	# engines: twopi, sfdp, ...
+	engine = "sfdp"
+	cmd = "{} -Tpdf {} > {}".format(engine, filename, filename + ".pdf")
+	os.system(cmd)
+	print("Graph: {}".format(filename + ".pdf"))
