@@ -84,7 +84,8 @@
     "arxiv": "http://arxiv.org/abs/1701.05945"
   },
   "29": {
-    "doi": "https://doi.org/10.1109/CCGrid.2016.37"
+    "doi": "https://doi.org/10.1109/CCGrid.2016.37",
+    "correlation": "32"
   },
   "30": {
     "doi": "https://doi.org/10.1109/INFCOMW.2017.8116416"
@@ -93,7 +94,8 @@
     "arxiv": "http://arxiv.org/abs/1702.05510"
   },
   "32": {
-    "doi": "https://doi.org/10.1109/JPROC.2019.2898101"
+    "doi": "https://doi.org/10.1007/s11761-017-0208-y",
+    "correlation": "29"
   },
   "33": {
     "doi": "https://doi.org/10.1007/978-3-319-75178-8_34"
@@ -316,5 +318,8 @@
   "104": {
     "usenix": "https://www.usenix.org/conference/osdi18/presentation/klimovic",
     "correlation": "81"
+  },
+  "105": {
+    "doi": "https://doi.org/10.1109/JPROC.2019.2898101"
   }
 }

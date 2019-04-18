@@ -310,12 +310,12 @@
 	},
 
 	"32": {
-		"technologies": [],
-		"institutions": ["Nokia Bell Labs"],
-		"countries": ["Germany"],
-		"academic": false,
-		"industry": true,
-		"citations": 0,
+		"technologies": ["Lambda"],
+		"institutions": ["Universidad de los Andes", "Project Management Department, Mapeo"],
+		"countries": ["Colombia"],
+		"academic": true,
+		"industry": false,
+		"citations": 48,
 		"independent": true
 	},
 
@@ -595,6 +595,16 @@
 		"countries": ["Algeria"],
 		"academic": true,
 		"industry": false,
+		"citations": 0,
+		"independent": true
+	},
+
+	"105": {
+		"technologies": [],
+		"institutions": ["Nokia Bell Labs"],
+		"countries": ["Germany"],
+		"academic": false,
+		"industry": true,
 		"citations": 0,
 		"independent": true
 	}

@@ -216,11 +216,11 @@
     "year": "2017"
   },
   "32": {
-    "author": "Aditya, Paarijaat and Akkus, Istemi Ekin and Beck, Andre and Chen, Ruichuan and Hilt, Volker and Rimac, Ivica and Satzke, Klaus and Stein, Manuel",
-    "journal": "Proceedings of the IEEE",
-    "retrieved-from-doi": "https://doi.org/10.1109/JPROC.2019.2898101",
-    "title": "Will Serverless Computing Revolutionize NFV?",
-    "year": "2019"
+    "author": "Villamizar, Mario and Garcés, Oscar and Ochoa, Lina and Castro, Harold and Salamanca, Lorena and Verano, Mauricio and Casallas, Rubby and Gil, Santiago and Valencia, Carlos and Zambrano, Angee and et al.",
+    "journal": "Service Oriented Computing and Applications",
+    "retrieved-from-doi": "https://doi.org/10.1007/s11761-017-0208-y",
+    "title": "Cost comparison of running web applications in the cloud using monolithic, microservice, and AWS Lambda architectures",
+    "year": "2017"
   },
   "33": {
     "author": "Malawski, Maciej and Figiela, Kamil and Gajek, Adam and Zima, Adam",
@@ -722,5 +722,12 @@
     "retrieved-from-usenix": "https://www.usenix.org/conference/osdi18/presentation/klimovic",
     "title": "Pocket: Elastic Ephemeral Storage for Serverless Analytics",
     "year": "2018"
+  },
+  "105": {
+    "author": "Aditya, Paarijaat and Akkus, Istemi Ekin and Beck, Andre and Chen, Ruichuan and Hilt, Volker and Rimac, Ivica and Satzke, Klaus and Stein, Manuel",
+    "journal": "Proceedings of the IEEE",
+    "retrieved-from-doi": "https://doi.org/10.1109/JPROC.2019.2898101",
+    "title": "Will Serverless Computing Revolutionize NFV?",
+    "year": "2019"
   }
 }
