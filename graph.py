@@ -72,7 +72,10 @@ for rid in xids:
 	if rid.startswith("_"):
 		shape = ""
 		if xids[rid] in tech:
-			shape=",shape=box,style=filled,fillcolor=\"#e0e0ff\""
+			color = "e0e0ff"
+			if tech[xids[rid]]["open-source"]:
+				color = "ffe0e0"
+			shape=",shape=box,style=filled,fillcolor=\"#{}\"".format(color)
 		print("{} [label=\"{}\"{}];".format(rid, xids[rid], shape), file=f)
 print("}", file=f)
 f.close()
