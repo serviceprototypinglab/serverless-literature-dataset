@@ -225,5 +225,11 @@
 		"open-source": true,
 		"actively-maintained": false,
 		"supported-languages": []
+	},
+
+	"Witt": {
+		"open-source": true,
+		"actively-maintained": false,
+		"supported-languages": []
 	}
 }

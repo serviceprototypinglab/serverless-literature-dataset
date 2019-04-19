@@ -2,9 +2,9 @@ Curation guide for the 'Serverless Literature Dataset'
 
 - (main) contribution nature of paper
   * tutorial
-  * analysis (foundational)
+  * analysis (foundational or broad comparison)
   * casestudy (this includes experiments)
-  * framework
+  * framework (alias tool)
   * engine
   * discussion
   * concept

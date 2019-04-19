@@ -6,17 +6,23 @@
 		"academic": true,
 		"industry": false,
 		"citations": 7,
-		"independent": true
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["edge"],
+		"format": "paper"
 	},
 
 	"2": {
-		"technologies": ["OpenWhisk"],
+		"technologies": ["OpenWhisk", "Witt"],
 		"institutions": ["IBM"],
 		"countries": ["USA"],
 		"academic": false,
 		"industry": true,
 		"citations": 2,
-		"independent": false
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"3": {
@@ -26,7 +32,10 @@
 		"academic": false,
 		"industry": true,
 		"citations": 23,
-		"independent": true
+		"independent": true,
+		"nature": ["analysis", "casestudy"],
+		"fields": ["economics"],
+		"format": "overview"
 	},
 
 	"4": {
@@ -36,7 +45,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 12,
-		"independent": true
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["edge", "dataanalytics"],
+		"format": "overview"
 	},
 
 	"5": {
@@ -46,7 +58,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 11,
-		"independent": false
+		"independent": false,
+		"nature": ["casestudy"],
+		"fields": ["performance", "cloud", "scientificcomputing"],
+		"format": "paper"
 	},
 
 	"6": {
@@ -56,7 +71,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 5,
-		"independent": true
+		"independent": true,
+		"nature": ["analysis"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"7": {
@@ -66,7 +84,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 23,
-		"independent": true
+		"independent": true,
+		"nature": ["engine"],
+		"fields": ["performance", "cloud"],
+		"format": "paper"
 	},
 
 	"8": {
@@ -76,7 +97,10 @@
 		"academic": false,
 		"industry": true,
 		"citations": 8,
-		"independent": false
+		"independent": false,
+		"nature": ["analysis"],
+		"fields": ["cloud", "economics"],
+		"format": "paper"
 	},
 
 	"9": {
@@ -86,7 +110,10 @@
 		"academic": true,
 		"industry": true,
 		"citations": 10,
-		"independent": true
+		"independent": true,
+		"nature": ["analysis", "casestudy"],
+		"fields": ["economics", "softwareengineering"],
+		"format": "paper"
 	},
 
 	"10": {
@@ -96,7 +123,10 @@
 		"academic": true,
 		"industry": true,
 		"citations": 7,
-		"independent": true
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["edge"],
+		"format": "poster"
 	},
 
 	"11": {
