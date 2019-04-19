@@ -749,6 +749,148 @@
 		"independent": true
 	},
 
+	"76": {
+		"technologies": [],
+		"institutions": ["UC Berkeley"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"fields": ["cloud"],
+		"format": "paper"
+	},
+
+	"77": {
+		"technologies": ["Lambda"],
+		"institutions": ["Dream Broker Oy", "Lappeenranta University of Technology"],
+		"countries": ["Finland"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": true,
+		"nature": ["analysis", "casestudy"],
+		"fields": ["softwareengineering"],
+		"format": "paper"
+	},
+
+	"78": {
+		"technologies": ["OpenLambda"],
+		"institutions": ["Huazhong University of Science and Technology"],
+		"countries": ["China"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["security"],
+		"format": "paper"
+	},
+
+	"79": {
+		"technologies": ["Lambda"],
+		"institutions": ["University of Stuttgart"],
+		"countries": ["Germany"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["framework"],
+		"fields": ["cloud"],
+		"format": "paper"
+	},
+
+	"80": {
+		"technologies": ["OpenWhisk"],
+		"institutions": ["IBM Research", "Singular Logic", "Nextworks", "Netas", "University College London", "Centre for Research and Technology Hellas", "Engineering Ingeneria Informatica"],
+		"countries": ["Israel", "Greece", "Italy", "Turkey", "UK"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["telecommunications"],
+		"format": "poster"
+	},
+
+	"81": {
+		"technologies": ["Pocket", "Lambda"],
+		"institutions": ["Stanford University", "IBM Research"],
+		"countries": ["USA", "Switzerland"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["dataanalytics"],
+		"format": "overview"
+	},
+
+	"82": {
+		"technologies": ["WebAssemblyPrototype", "OpenWhisk"],
+		"institutions": ["Georgia Institute of Technology"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["engine"],
+		"fields": ["edge"],
+		"format": "paper"
+	},
+
+	"83": {
+		"technologies": ["Locus", "PyWren"],
+		"institutions": ["UC Berkeley", "University of Wisconsin"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["dataanalytics"],
+		"format": "paper"
+	},
+
+	"84": {
+		"technologies": ["Lambda"],
+		"institutions": ["Tecnologico de Monterrey"],
+		"countries": ["Mexico"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["tutorial"],
+		"fields": ["softwareengineering"],
+		"format": "abstract"
+	},
+
+	"85": {
+		"technologies": ["Lambda"],
+		"institutions": ["KTH Royal Institute of Technology"],
+		"countries": ["Sweden"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["mathematics"],
+		"format": "paper"
+	},
+
+	"104": {
+		"technologies": ["Pocket", "Lambda"],
+		"institutions": ["Stanford University", "IBM Research"],
+		"countries": ["USA", "Switzerland"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["dataanalytics"],
+		"format": "paper"
+	},
+
 	"105": {
 		"technologies": [],
 		"institutions": ["Nokia Bell Labs"],

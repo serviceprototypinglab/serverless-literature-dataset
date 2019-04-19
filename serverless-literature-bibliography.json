@@ -562,6 +562,7 @@
   "81": {
     "author": "Ana Klimovic and Yawen Wang and Patrick Stuedi and Animesh Trivedi and Jonas Pfefferle and Christos Kozyrakis",
     "journal": ";login:",
+    "link": "https://www.usenix.org/publications/login/spring2019/klimovic",
     "title": "Pocket: Elastic Ephemeral Storage for Serverless Analytics",
     "year": "2019"
   },
@@ -687,7 +688,7 @@
     "author": "Abdul Dakkak, Cheng Li, Simon Garcia de Gonzalo, Jinjun Xiong, Wen-mei Hwu",
     "journal": "arXiv/CoRR",
     "retrieved-from-arxiv": "http://arxiv.org/abs/1811.09732",
-    "title": "TrIMS: Transparent and Isolated Model Sharing for Low Latency Deep LearningInference in Function as a Service Environments",
+    "title": "TrIMS: Transparent and Isolated Model Sharing for Low Latency Deep Learning Inference in Function as a Service Environments",
     "year": "2018"
   },
   "100": {

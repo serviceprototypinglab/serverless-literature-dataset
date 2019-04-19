@@ -1,0 +1,41 @@
+Curation guide for the 'Serverless Literature Dataset'
+
+- (main) contribution nature of paper
+  * tutorial
+  * analysis
+  * casestudy
+  * framework
+  * engine
+
+- (main) fields of research
+  * cloud
+  * edge
+  * softwareengineering
+  * security
+  * telecommunications
+  * dataanalytics
+  * mathematics
+
+- format of publication
+  * abstract
+  * poster
+  * overview (e.g. magazine article)
+  * paper (both conference & journal)
+  * thesis (e.g. MSc)
+
+- TODO: owner of technology
+
+Template:
+
+	"NNN": {
+		"technologies": [],
+		"institutions": [""],
+		"countries": [""],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": [""],
+		"fields": [""],
+		"format": ""
+	},

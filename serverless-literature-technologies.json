@@ -171,5 +171,23 @@
 		"open-source": false,
 		"actively-maintained": false,
 		"supported-languages": []
+	},
+
+	"Pocket": {
+		"open-source": true,
+		"actively-maintained": false,
+		"supported-languages": []
+	},
+
+	"WebAssemblyPrototype": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": ["JavaScript"]
+	},
+
+	"Locus": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": []
 	}
 }
