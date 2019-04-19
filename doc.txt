@@ -37,6 +37,9 @@ evolves! Significant contributions will be credited with co-authorship.
 
 Installation:
 -------------
+This step along with the subsequent ones is only required if you want to
+contribute to the dataset and extend it in a consistent way.
+
 - % sudo apt-get install python3-pybtex # alt.: pip3 install pybtex
 - % sudo apt-get install python3-matplotlib-venn # alt.: pip3 ...
 - % sudo apt-get install poppler-utils graphviz
@@ -66,6 +69,7 @@ The advanced curation workflow is as follows:
 - run analysischeck.py
 - follow the advice, extend serverless-literature-analysis.json
   and serverless-literature-technologies.json appropriately
+- look at curation.txt for hints on filling the values
 
 Once all data has been checked, statistics output can be produced as by
 the following instructions:

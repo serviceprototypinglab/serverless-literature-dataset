@@ -632,6 +632,7 @@
   "91": {
     "author": "Edward Oakes and Leon Yang and Dennis Zhou and Kevin Houck and Tyler Caraza-Harter and Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau",
     "journal": ";login:",
+    "link": "https://www.usenix.org/publications/login/fall-2018-vol-43-no-2/oakes",
     "title": "SOCK: Serverless-Optimized Containers",
     "year": "2018"
   },

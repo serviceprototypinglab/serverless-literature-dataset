@@ -2,10 +2,12 @@ Curation guide for the 'Serverless Literature Dataset'
 
 - (main) contribution nature of paper
   * tutorial
-  * analysis
-  * casestudy
+  * analysis (foundational)
+  * casestudy (this includes experiments)
   * framework
   * engine
+  * discussion
+  * concept
 
 - (main) fields of research
   * cloud
@@ -15,6 +17,9 @@ Curation guide for the 'Serverless Literature Dataset'
   * telecommunications
   * dataanalytics
   * mathematics
+  * performance
+  * economics
+  * scientificcomputing
 
 - format of publication
   * abstract

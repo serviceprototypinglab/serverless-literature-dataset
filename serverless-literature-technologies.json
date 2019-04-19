@@ -189,5 +189,41 @@
 		"open-source": false,
 		"actively-maintained": false,
 		"supported-languages": []
+	},
+
+	"Knative": {
+		"open-source": true,
+		"actively-maintained": true,
+		"supported-languages": ["Go", "Python"]
+	},
+
+	"µ-benchmark": {
+		"open-source": true,
+		"actively-maintained": false,
+		"supported-languages": []
+	},
+
+	"PyWren": {
+		"open-source": true,
+		"actively-maintained": false,
+		"supported-languages": ["Python"]
+	},
+
+	"FBaaS": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": []
+	},
+
+	"S-FaaS": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": ["JavaScript"]
+	},
+
+	"TrIMS": {
+		"open-source": true,
+		"actively-maintained": false,
+		"supported-languages": []
 	}
 }

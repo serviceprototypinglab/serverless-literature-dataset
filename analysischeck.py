@@ -35,7 +35,9 @@ for ident in tech:
 
 print("Check {} entries for keys: {} and {} (and {})".format(len(biblio), bibliokeys, allkeys, techkeys))
 
-for ident in sorted(biblio):
+biblio_sorted = {int(x) : biblio[x] for x in biblio}
+for ident in biblio_sorted:
+	ident = str(ident)
 	if not ident in analysis:
 		print("!! work {} missing in analysis".format(ident))
 		print("- {}".format(biblio[ident]["title"]))

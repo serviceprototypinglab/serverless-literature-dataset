@@ -540,13 +540,16 @@
 	},
 
 	"55": {
-		"technologies": ["SOCK","OpenLambda"],
+		"technologies": ["SOCK", "OpenLambda"],
 		"institutions": ["University of Wisconsin-Madison", "Microsoft"],
 		"countries": ["USA"],
 		"academic": true,
 		"industry": true,
 		"citations": 1,
-		"independent": false
+		"independent": false,
+		"nature": ["engine"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"56": {
@@ -878,6 +881,240 @@
 		"format": "paper"
 	},
 
+	"86": {
+		"technologies": ["Lambda"],
+		"institutions": ["École Polytechnique du Montréal", "Université du Québec"],
+		"countries": ["Canada"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["dataanalytics"],
+		"format": "paper"
+	},
+
+	"87": {
+		"technologies": ["Lambda", "PyWren"],
+		"institutions": ["UC Berkeley"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["mathematics"],
+		"format": "paper"
+	},
+
+	"88": {
+		"technologies": ["Knative"],
+		"institutions": ["Carnegie Mellon University"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["engine"],
+		"fields": ["cloud"],
+		"format": "paper"
+	},
+
+	"89": {
+		"technologies": [],
+		"institutions": ["ACM"],
+		"countries": ["USA"],
+		"academic": false,
+		"industry": true,
+		"citations": 0,
+		"independent": true,
+		"nature": ["tutorial"],
+		"fields": ["cloud", "softwareengineering"],
+		"format": "overview"
+	},
+
+	"90": {
+		"technologies": [],
+		"institutions": ["BCG Digital Ventures"],
+		"countries": ["USA"],
+		"academic": false,
+		"industry": true,
+		"citations": 0,
+		"independent": true,
+		"nature": ["discussion"],
+		"fields": ["softwareengineering"],
+		"format": "overview"
+	},
+
+	"91": {
+		"technologies": ["SOCK", "OpenLambda"],
+		"institutions": ["University of Wisconsin-Madison", "Microsoft"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": false,
+		"nature": ["engine"],
+		"fields": ["cloud"],
+		"format": "overview"
+	},
+
+	"92": {
+		"technologies": [],
+		"institutions": ["University of Moratuwa"],
+		"countries": ["Sri Lanka"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["softwareengineering"],
+		"format": "paper"
+	},
+
+	"93": {
+		"technologies": [],
+		"institutions": ["Chalmers", "University of Gothenburg", "IBM Research", "Zurich University of Applied Sciences"],
+		"countries": ["Sweden", "USA", "Switzerland"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": true,
+		"nature": ["analysis"],
+		"fields": ["softwareengineering"],
+		"format": "paper"
+	},
+
+	"94": {
+		"technologies": [],
+		"institutions": ["University of Applied Sciences Burgenland"],
+		"countries": ["Austria"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["analysis"],
+		"fields": ["security", "performance"],
+		"format": "paper"
+	},
+
+	"95": {
+		"technologies": ["µ-benchmark"],
+		"institutions": ["University of Groningen"],
+		"countries": ["Netherlands"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework", "casestudy"],
+		"fields": ["performance", "economics"],
+		"format": "paper"
+	},
+
+	"96": {
+		"technologies": ["FBaaS", "OpenFaaS"],
+		"institutions": ["NERCSSEIS", "Kingdee Research"],
+		"countries": ["China"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["security"],
+		"format": "paper"
+	},
+
+	"97": {
+		"technologies": ["Lambda", "Azure"],
+		"institutions": ["University of Bamberg"],
+		"countries": ["Germany"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["performance"],
+		"format": "paper"
+	},
+
+	"98": {
+		"technologies": ["S-FaaS", "OpenWhisk"],
+		"institutions": ["Aalto University", "Intel Labs"],
+		"countries": ["Finland"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": false,
+		"nature": ["engine"],
+		"fields": ["security"],
+		"format": "paper"
+	},
+
+	"99": {
+		"technologies": ["TrIMS"],
+		"institutions": ["University of Illinois", "IBM Research"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["dataanalytics"],
+		"format": "paper"
+	},
+
+	"100": {
+		"technologies": [],
+		"institutions": ["Chalmers", "University of Gothenburg", "IBM Research", "Zurich University of Applied Sciences"],
+		"countries": ["Sweden", "USA", "Switzerland"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": true,
+		"nature": ["analysis"],
+		"fields": ["softwareengineering"],
+		"format": "paper"
+	},
+
+	"101": {
+		"technologies": [],
+		"institutions": ["Pennsylvania State University"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["cloud"],
+		"format": "paper"
+	},
+
+	"102": {
+		"technologies": ["Serverless"],
+		"institutions": ["AGH University of Science and Technology"],
+		"countries": ["Poland"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy", "framework"],
+		"fields": ["performance", "scientificcomputing"],
+		"format": "paper"
+	},
+
+	"103": {
+		"technologies": [],
+		"institutions": ["AGH University of Science and Technology"],
+		"countries": ["Poland"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy", "concept"],
+		"fields": ["scientificcomputing"],
+		"format": "paper"
+	},
+
 	"104": {
 		"technologies": ["Pocket", "Lambda"],
 		"institutions": ["Stanford University", "IBM Research"],
@@ -898,6 +1135,9 @@
 		"academic": false,
 		"industry": true,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["telecommunications"],
+		"format": "paper"
 	}
 }
