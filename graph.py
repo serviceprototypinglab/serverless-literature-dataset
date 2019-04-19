@@ -122,7 +122,45 @@ for rid in xids:
 print("}", file=f)
 f.close()
 
-for filename in (filename_tech, filename_bib, filename_country):
+# TODO: "pos" attributes (https://www.graphviz.org/doc/info/attrs.html#d:pos) to prepare worldmap...
+xids = {}
+filename_inst = "/tmp/sldgraph-inst.dot"
+f = open(filename_inst, "w")
+print("digraph sldgraph {", file=f)
+print("overlap=false;", file=f)
+for ident in analysis:
+	for inst in analysis[ident]["institutions"]:
+		print("{} -> {};".format(xid(ident, xids), xid(inst, xids)), file=f)
+for rid in xids:
+	if rid.startswith("_"):
+		shape = ""
+		if not xids[rid] in analysis:
+			color = "d0e080"
+			shape = ",shape=box,style=filled,fillcolor=\"#{}\"".format(color)
+		print("{} [label=\"{}\"{}];".format(rid, xids[rid], shape), file=f)
+print("}", file=f)
+f.close()
+
+xids = {}
+filename_fields = "/tmp/sldgraph-fields.dot"
+f = open(filename_fields, "w")
+print("digraph sldgraph {", file=f)
+print("overlap=false;", file=f)
+for ident in analysis:
+	if "fields" in analysis[ident]:
+		for field in analysis[ident]["fields"]:
+			print("{} -> {};".format(xid(ident, xids), xid(field, xids)), file=f)
+for rid in xids:
+	if rid.startswith("_"):
+		shape = ""
+		if not xids[rid] in analysis:
+			color = "60b0ff"
+			shape = ",shape=box,style=filled,fillcolor=\"#{}\"".format(color)
+		print("{} [label=\"{}\"{}];".format(rid, xids[rid], shape), file=f)
+print("}", file=f)
+f.close()
+
+for filename in (filename_tech, filename_bib, filename_country, filename_inst, filename_fields):
 	# engines: twopi, sfdp, ...
 	engine = "sfdp"
 	cmd = "{} -Tpdf {} > {}".format(engine, filename, filename + ".pdf")
