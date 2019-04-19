@@ -136,7 +136,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 3,
-		"independent": true
+		"independent": true,
+		"nature": ["tutorial"],
+		"fields": ["cloud", "softwareengineering"],
+		"format": "abstract"
 	},
 
 	"12": {
@@ -146,7 +149,10 @@
 		"academic": true,
 		"industry": true,
 		"citations": 40,
-		"independent": true
+		"independent": true,
+		"nature": ["analysis"],
+		"fields": ["cloud", "softwareengineering"],
+		"format": "paper"
 	},
 
 	"13": {
@@ -156,7 +162,10 @@
 		"academic": true,
 		"industry": true,
 		"citations": 12,
-		"independent": true
+		"independent": true,
+		"nature": ["discussion"],
+		"fields": ["cloud", "edge", "scientificcomputing"],
+		"format": "overview"
 	},
 
 	"14": {
@@ -166,7 +175,10 @@
 		"academic": false,
 		"industry": true,
 		"citations": 4,
-		"independent": false
+		"independent": false,
+		"nature": ["engine", "framework"],
+		"fields": ["edge"],
+		"format": "poster"
 	},
 
 	"15": {
@@ -176,7 +188,10 @@
 		"academic": true,
 		"industry": true,
 		"citations": 32,
-		"independent": false
+		"independent": false,
+		"nature": ["casestudy"],
+		"fields": ["softwareengineering"],
+		"format": "paper"
 	},
 
 	"16": {
@@ -186,7 +201,10 @@
 		"academic": false,
 		"industry": true,
 		"citations": 7,
-		"independent": false
+		"independent": false,
+		"nature": ["engine"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"17": {
@@ -196,7 +214,10 @@
 		"academic": true,
 		"industry": true,
 		"citations": 6,
-		"independent": true
+		"independent": true,
+		"nature": ["tutorial"],
+		"fields": ["softwareengineering"],
+		"format": "abstract"
 	},
 
 	"18": {
@@ -206,17 +227,23 @@
 		"academic": false,
 		"industry": true,
 		"citations": 5,
-		"independent": true
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["security", "cloud"],
+		"format": "paper"
 	},
 
 	"19": {
-		"technologies": ["Lambda","GCF"],
+		"technologies": ["Lambda", "GCF", "DEWE"],
 		"institutions": ["The University of Sydney", "Macquarie University"],
 		"countries": ["Australia"],
 		"academic": true,
 		"industry": false,
 		"citations": 3,
-		"independent": false
+		"independent": false,
+		"nature": ["framework", "casestudy"],
+		"fields": ["scientificcomputing"],
+		"format": "paper"
 	},
 
 	"20": {
@@ -226,7 +253,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 6,
-		"independent": true
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["dataanalytics"],
+		"format": "paper"
 	},
 
 	"21": {
@@ -236,7 +266,10 @@
 		"academic": true,
 		"industry": true,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["framework"],
+		"fields": ["cloud"],
+		"format": "poster"
 	},
 
 	"22": {
@@ -246,7 +279,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 4,
-		"independent": false
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"23": {
@@ -256,7 +292,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 87,
-		"independent": false
+		"independent": false,
+		"nature": ["engine"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"24": {
@@ -266,7 +305,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 11,
-		"independent": true
+		"independent": true,
+		"nature": ["casestudy", "framework"],
+		"fields": ["scientificcomputing"],
+		"format": "paper"
 	},
 
 	"25": {
@@ -276,7 +318,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"26": {
@@ -286,7 +331,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 14,
-		"independent": false
+		"independent": false,
+		"nature": ["engine"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"27": {
@@ -296,7 +344,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 2,
-		"independent": false
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["softwareengineering"],
+		"format": "paper"
 	},
 
 	"28": {
@@ -306,7 +357,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 3,
-		"independent": true
+		"independent": true,
+		"nature": ["analysis"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"29": {
@@ -316,7 +370,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 12,
-		"independent": true
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["economics"],
+		"format": "paper"
 	},
 
 	"30": {
@@ -326,7 +383,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["concept", "casestudy"],
+		"fields": ["softwareengineering"],
+		"format": "paper"
 	},
 
 	"31": {
@@ -336,7 +396,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 7,
-		"independent": false
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["softwareengineering"],
+		"format": "paper"
 	},
 
 	"32": {

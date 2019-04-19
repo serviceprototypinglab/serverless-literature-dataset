@@ -160,7 +160,26 @@ for rid in xids:
 print("}", file=f)
 f.close()
 
-for filename in (filename_tech, filename_bib, filename_country, filename_inst, filename_fields):
+xids = {}
+filename_nature = "/tmp/sldgraph-nature.dot"
+f = open(filename_nature, "w")
+print("digraph sldgraph {", file=f)
+print("overlap=false;", file=f)
+for ident in analysis:
+	if "nature" in analysis[ident]:
+		for nature in analysis[ident]["nature"]:
+			print("{} -> {};".format(xid(ident, xids), xid(nature, xids)), file=f)
+for rid in xids:
+	if rid.startswith("_"):
+		shape = ""
+		if not xids[rid] in analysis:
+			color = "d0d050"
+			shape = ",shape=box,style=filled,fillcolor=\"#{}\"".format(color)
+		print("{} [label=\"{}\"{}];".format(rid, xids[rid], shape), file=f)
+print("}", file=f)
+f.close()
+
+for filename in (filename_tech, filename_bib, filename_country, filename_inst, filename_fields, filename_nature):
 	# engines: twopi, sfdp, ...
 	engine = "sfdp"
 	cmd = "{} -Tpdf {} > {}".format(engine, filename, filename + ".pdf")

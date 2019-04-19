@@ -231,5 +231,11 @@
 		"open-source": true,
 		"actively-maintained": false,
 		"supported-languages": []
+	},
+
+	"DEWE": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": []
 	}
 }
