@@ -62,8 +62,8 @@ def xid(s, xids):
 			return rid
 	return xids[s]
 
-filename_tech = "/tmp/sldgraph-tech.dot"
-f = open(filename_tech, "w")
+filename_techbib = "/tmp/sldgraph-techbib.dot"
+f = open(filename_techbib, "w")
 
 xids = {}
 print("digraph sldgraph {", file=f)
@@ -104,82 +104,32 @@ for rid in xids:
 print("}", file=f)
 f.close()
 
-xids = {}
-filename_country = "/tmp/sldgraph-country.dot"
-f = open(filename_country, "w")
-print("digraph sldgraph {", file=f)
-print("overlap=false;", file=f)
-for ident in analysis:
-	for country in analysis[ident]["countries"]:
-		print("{} -> {};".format(xid(ident, xids), xid(country, xids)), file=f)
-for rid in xids:
-	if rid.startswith("_"):
-		shape = ""
-		if not xids[rid] in analysis:
-			color = "80d0e0"
-			shape = ",shape=box,style=filled,fillcolor=\"#{}\"".format(color)
-		print("{} [label=\"{}\"{}];".format(rid, xids[rid], shape), file=f)
-print("}", file=f)
-f.close()
-
-# TODO: "pos" attributes (https://www.graphviz.org/doc/info/attrs.html#d:pos) to prepare worldmap...
-xids = {}
-filename_inst = "/tmp/sldgraph-inst.dot"
-f = open(filename_inst, "w")
-print("digraph sldgraph {", file=f)
-print("overlap=false;", file=f)
-for ident in analysis:
-	for inst in analysis[ident]["institutions"]:
-		print("{} -> {};".format(xid(ident, xids), xid(inst, xids)), file=f)
-for rid in xids:
-	if rid.startswith("_"):
-		shape = ""
-		if not xids[rid] in analysis:
-			color = "d0e080"
-			shape = ",shape=box,style=filled,fillcolor=\"#{}\"".format(color)
-		print("{} [label=\"{}\"{}];".format(rid, xids[rid], shape), file=f)
-print("}", file=f)
-f.close()
-
-xids = {}
-filename_fields = "/tmp/sldgraph-fields.dot"
-f = open(filename_fields, "w")
-print("digraph sldgraph {", file=f)
-print("overlap=false;", file=f)
-for ident in analysis:
-	if "fields" in analysis[ident]:
-		for field in analysis[ident]["fields"]:
+def generate_dotfile(filename, fieldname, color):
+	xids = {}
+	f = open(filename, "w")
+	print("digraph sldgraph {", file=f)
+	print("overlap=false;", file=f)
+	for ident in analysis:
+		for field in analysis[ident][fieldname]:
 			print("{} -> {};".format(xid(ident, xids), xid(field, xids)), file=f)
-for rid in xids:
-	if rid.startswith("_"):
-		shape = ""
-		if not xids[rid] in analysis:
-			color = "60b0ff"
-			shape = ",shape=box,style=filled,fillcolor=\"#{}\"".format(color)
-		print("{} [label=\"{}\"{}];".format(rid, xids[rid], shape), file=f)
-print("}", file=f)
-f.close()
+	for rid in xids:
+		if rid.startswith("_"):
+			shape = ""
+			if not xids[rid] in analysis:
+				shape = ",shape=box,style=filled,fillcolor=\"#{}\"".format(color)
+			print("{} [label=\"{}\"{}];".format(rid, xids[rid], shape), file=f)
+	print("}", file=f)
+	f.close()
+	return filename
 
-xids = {}
-filename_nature = "/tmp/sldgraph-nature.dot"
-f = open(filename_nature, "w")
-print("digraph sldgraph {", file=f)
-print("overlap=false;", file=f)
-for ident in analysis:
-	if "nature" in analysis[ident]:
-		for nature in analysis[ident]["nature"]:
-			print("{} -> {};".format(xid(ident, xids), xid(nature, xids)), file=f)
-for rid in xids:
-	if rid.startswith("_"):
-		shape = ""
-		if not xids[rid] in analysis:
-			color = "d0d050"
-			shape = ",shape=box,style=filled,fillcolor=\"#{}\"".format(color)
-		print("{} [label=\"{}\"{}];".format(rid, xids[rid], shape), file=f)
-print("}", file=f)
-f.close()
+fn1 = generate_dotfile("/tmp/sldgraph-country.dot", "countries", "80d0e0")
+fn2 = generate_dotfile("/tmp/sldgraph-inst.dot", "institutions", "d0e080")
+# TODO: "pos" attributes (https://www.graphviz.org/doc/info/attrs.html#d:pos) to prepare worldmap...
+fn3 = generate_dotfile("/tmp/sldgraph-fields.dot", "fields", "60b0ff")
+fn4 = generate_dotfile("/tmp/sldgraph-nature.dot", "nature", "d0d050")
+fn5 = generate_dotfile("/tmp/sldgraph-tech.dot", "technologies", "a0a0f0")
 
-for filename in (filename_tech, filename_bib, filename_country, filename_inst, filename_fields, filename_nature):
+for filename in (filename_techbib, filename_bib, fn1, fn2, fn3, fn4, fn5):
 	# engines: twopi, sfdp, ...
 	engine = "sfdp"
 	cmd = "{} -Tpdf {} > {}".format(engine, filename, filename + ".pdf")
