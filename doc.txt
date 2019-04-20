@@ -14,6 +14,10 @@ September 2018, we have published the second iteration of the SLD with
 about the dataset at http://ceur-ws.org/Vol-2330/short2.pdf. In April
 2019, we have published the third dataset...
 
+Read more:
+http://blog.zhaw.ch/splab/...
+http://serverless.research-output.org/
+
 Citation:
 ---------
 SLD contains a script 'make-bib.py' which produces a file
@@ -25,7 +29,7 @@ You can also cite SLD itself as follows:
  @misc{sldataset,
  title = {{Serverless Literature Dataset}},
  author = {Josef Spillner and Mohammed Al-Ameen},
- howpublished = {Zenodo dataset at \url{https://doi.org/10.5281/zenodo.1175423}},
+ howpublished = {Zenodo dataset (3rd revision) at \url{https://doi.org/10.5281/zenodo.1175423}},
  year = {2019},
  month = {April},
  doi = {https://doi.org/10.5281/zenodo.1175423}
@@ -70,6 +74,8 @@ The advanced curation workflow is as follows:
 - follow the advice, extend serverless-literature-analysis.json
   and serverless-literature-technologies.json appropriately
 - look at curation.txt for hints on filling the values
+- compare with https://www.tu-berlin.de/?id=199198 to see if any FaaS
+  benchmarks exist that should be crosslinked into benchmarking.json
 
 Once all data has been checked, statistics output can be produced as by
 the following instructions:

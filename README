@@ -8,6 +8,15 @@ has been described in a paper "Systematic and open exploration of FaaS
 and Serverless Computing research" which is available as open access
 from http://ceur-ws.org/Vol-2330/short2.pdf and is recommended reading.
 
+Relevant works are cross-linked to the "Benchmarking FaaS Platform -
+Community driven Literature Review" effort.
+
+A website offers convenient access to the dataset:
+http://serverless.research-output.org/
+
+A blog post gives more details on the third revision of the datset:
+http://blog.zhaw.ch/splab/...
+
 Read on in "doc.txt" for how to:
 - evolve the dataset (if you want to add research outputs to it)
 - use the dataset (to cite papers with convenience)

@@ -17,7 +17,7 @@ Curation guide for the 'Serverless Literature Dataset'
   * softwareengineering (including architectures, patterns)
   * security
   * telecommunications
-  * dataanalytics (including machine learning)
+  * dataanalytics (including machine learning and number crunching)
   * mathematics
   * performance
   * economics
@@ -31,7 +31,12 @@ Curation guide for the 'Serverless Literature Dataset'
   * paper (both conference & journal)
   * thesis (e.g. MSc)
 
-- TODO: owner of technology; link if open source
+- technologies:
+  * TODO: owner of technology
+  * link if open source
+
+- benchmarks:
+  https://docs.google.com/spreadsheets/d/e/2PACX-1vTPQwrjSCtcRigGtRjRvi6f8K3MNMYLBsURh78OocfW8ZxICRPC3v8q3JBQBTukz6kgv_CqL_dhsmXB/pubhtml#
 
 Template:
 

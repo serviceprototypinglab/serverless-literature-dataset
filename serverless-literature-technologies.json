@@ -303,5 +303,12 @@
 		"open-source": false,
 		"actively-maintained": false,
 		"supported-languages": []
+	},
+
+	"ExCamera": {
+		"open-source": true,
+		"link": "https://ex.camera",
+		"actively-maintained": false,
+		"supported-languages": []
 	}
 }

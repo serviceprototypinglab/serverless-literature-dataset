@@ -1362,5 +1362,60 @@
 		"nature": ["casestudy"],
 		"fields": ["telecommunications"],
 		"format": "paper"
+	},
+
+	"106": {
+		"technologies": [],
+		"institutions": ["AGH University of Science and Technology"],
+		"countries": ["Poland"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["performance"],
+		"format": "abstract"
+	},
+
+	"107": {
+		"technologies": ["PyWren"],
+		"institutions": ["UC Berkeley"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["softwareengineering", "scientificcomputing"],
+		"format": "paper"
+	},
+
+	"108": {
+	},
+
+	"109": {
+		"technologies": ["ExCamera"],
+		"institutions": ["Stanford University", "UC San Diego", "Massachusetts Institute of Technology"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework", "casestudy"],
+		"fields": ["dataanalytics"],
+		"format": "paper"
+	},
+
+	"110": {
+		"technologies": ["PyWren"],
+		"institutions": ["UC Berkeley"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["softwareengineering", "scientificcomputing"],
+		"format": "paper"
 	}
 }

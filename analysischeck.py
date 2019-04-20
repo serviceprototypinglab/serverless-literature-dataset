@@ -61,9 +61,10 @@ for ident in biblio_sorted:
 							key = pair
 			if not ispaired:
 				print("!! work {} misses key {} in bibliography".format(ident, key))
-	for t in analysis[ident]["technologies"]:
-		if not t in tech:
-			print("!! technology {} not described with metadata".format(t))
+	if "technologies" in analysis[ident]:
+		for t in analysis[ident]["technologies"]:
+			if not t in tech:
+				print("!! technology {} not described with metadata".format(t))
 for ident in tech:
 	for key in techkeys:
 		if not key in tech[ident]:

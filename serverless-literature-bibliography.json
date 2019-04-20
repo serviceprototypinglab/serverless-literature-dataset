@@ -733,5 +733,40 @@
     "retrieved-from-doi": "https://doi.org/10.1109/JPROC.2019.2898101",
     "title": "Will Serverless Computing Revolutionize NFV?",
     "year": "2019"
+  },
+  "106": {
+    "author": "Maciej Pawlik and Kamil Figiela and Maciej Malawski",
+    "booktitle": "Proceedings of 47th International Conference on Parallel Processing",
+    "link": "https://oaciss.uoregon.edu/icpp18/views/includes/files/pos115s2-file1.pdf",
+    "title": "Performance evaluation of parallel cloud functions",
+    "year": "2018"
+  },
+  "107": {
+    "author": "Jonas, Eric and Pu, Qifan and Venkataraman, Shivaram and Stoica, Ion and Recht, Benjamin",
+    "booktitle": "Proceedings of the 2017 Symposium on Cloud Computing - SoCC ’17",
+    "retrieved-from-doi": "https://doi.org/10.1145/3127479.3128601",
+    "title": "Occupy the cloud",
+    "year": "2017"
+  },
+  "108": {
+    "author": "McGrath, Garrett and Short, Jared and Ennis, Stephen and Judson, Brenden and Brenner, Paul",
+    "booktitle": "2016 IEEE 9th International Conference on Cloud Computing (CLOUD)",
+    "retrieved-from-doi": "https://doi.org/10.1109/CLOUD.2016.0060",
+    "title": "Cloud Event Programming Paradigms: Applications and Analysis",
+    "year": "2016"
+  },
+  "109": {
+    "author": "Fouladi, Sadjad and Wahby, Riad S. and Shacklett, Brennan and Balasubramaniam, Karthikeyan Vasuki and Zeng, William and Bhalerao, Rahul and Sivaraman, Anirudh and Porter, George and Winstein, Keith",
+    "booktitle": "14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17)",
+    "retrieved-from-usenix": "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/fouladi",
+    "title": "Encoding, Fast and Slow: Low-Latency Video Processing Using Thousands of Tiny Threads",
+    "year": "2017"
+  },
+  "110": {
+    "author": "Eric Jonas, Qifan Pu, Shivaram Venkataraman, Ion Stoica, Benjamin Recht",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "https://arxiv.org/abs/1702.04024",
+    "title": "Occupy the Cloud: Distributed Computing for the 99%",
+    "year": "2017"
   }
 }

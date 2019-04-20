@@ -329,5 +329,23 @@
   },
   "105": {
     "doi": "https://doi.org/10.1109/JPROC.2019.2898101"
+  },
+  "106": {
+    "link": "https://oaciss.uoregon.edu/icpp18/views/includes/files/pos115s2-file1.pdf",
+    "correlation-followup": "102"
+  },
+  "107": {
+    "doi": "https://doi.org/10.1145/3127479.3128601",
+    "correlation": "110"
+  },
+  "108": {
+    "doi": "https://doi.org/10.1109/CLOUD.2016.0060"
+  },
+  "109": {
+    "usenix": "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/fouladi"
+  },
+  "110": {
+    "arxiv": "https://arxiv.org/abs/1702.04024",
+    "correlation": "107"
   }
 }
