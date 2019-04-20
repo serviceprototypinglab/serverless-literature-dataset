@@ -656,7 +656,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["analysis"],
+		"fields": ["cloud", "scientificcomputing"],
+		"format": "paper"
 	},
 
 	"52": {
@@ -666,7 +669,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 1,
-		"independent": true
+		"independent": true,
+		"nature": ["concept", "casestudy"],
+		"fields": ["edge"],
+		"format": "paper"
 	},
 
 	"53": {
@@ -676,7 +682,10 @@
 		"academic": true,
 		"industry": true,
 		"citations": 1,
-		"independent": false
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["security"],
+		"format": "paper"
 	},
 
 	"54": {
@@ -686,7 +695,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["discussion", "concept"],
+		"fields": ["edge"],
+		"format": "paper"
 	},
 
 	"55": {
@@ -709,7 +721,10 @@
 		"academic": true,
 		"industry": true,
 		"citations": 1,
-		"independent": true
+		"independent": true,
+		"nature": ["analysis"],
+		"fields": ["cloud", "dataanalytics"],
+		"format": "paper"
 	},
 
 	"57": {
@@ -719,7 +734,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 2,
-		"independent": true
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["dataanalytics"],
+		"format": "paper"
 	},
 
 	"58": {
@@ -729,7 +747,10 @@
 		"academic": true,
 		"industry": true,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["security", "softwareengineering"],
+		"format": "paper"
 	},
 
 	"59": {
@@ -739,7 +760,10 @@
 		"academic": true,
 		"industry": true,
 		"citations": 3,
-		"independent": true
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["dataanalytics"],
+		"format": "paper"
 	},
 
 	"60": {
@@ -749,7 +773,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["concept", "casestudy"],
+		"fields": ["multicloud"],
+		"format": "paper"
 	},
 
 	"61": {
@@ -759,7 +786,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["scientificcomputing"],
+		"format": "overview"
 	},
 
 	"62": {
@@ -769,7 +799,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["discussion"],
+		"fields": ["cloud"],
+		"format": "overview"
 	},
 
 	"63": {
@@ -779,7 +812,10 @@
 		"academic": true,
 		"industry": true,
 		"citations": 0,
-		"independent": false
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["security"],
+		"format": "paper"
 	},
 
 	"64": {
@@ -789,7 +825,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["framework", "casestudy"],
+		"fields": ["edge", "telecommunications"],
+		"format": "paper"
 	},
 
 	"65": {
@@ -799,7 +838,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["analysis"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"66": {

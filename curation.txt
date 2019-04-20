@@ -11,17 +11,17 @@ Curation guide for the 'Serverless Literature Dataset'
   (where * means not independent)
 
 - (main) fields of research
-  * cloud
+  * cloud (including operating system, virtualisation)
   * multicloud
   * edge (including iot)
-  * softwareengineering
+  * softwareengineering (including architectures, patterns)
   * security
   * telecommunications
-  * dataanalytics
+  * dataanalytics (including machine learning)
   * mathematics
   * performance
   * economics
-  * scientificcomputing
+  * scientificcomputing (including workflows)
 
 - format of publication
   * abstract
