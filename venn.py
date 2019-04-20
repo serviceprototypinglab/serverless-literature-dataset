@@ -4,9 +4,13 @@ from matplotlib import pyplot as plt
 from matplotlib_venn import venn3, venn3_circles, venn2, venn2_circles
 
 biblio_filename = "serverless-literature-bibliography.json"
+analysis_filename = "serverless-literature-analysis.json"
 
 f = open(biblio_filename)
 biblio = json.load(f)
+
+f = open(analysis_filename)
+analysis = json.load(f)
 
 terms = ("serverless application", "serverless computing", "serverless", "function-as-a-service", "lambda", "cloud function", "faas")
 chosenterms=(terms[1], terms[2], terms[6])
@@ -70,8 +74,23 @@ plt.title("Literature keywords relations")
 #             arrowprops=dict(arrowstyle='->', connectionstyle='arc3,rad=0.5',color='gray'))
 plt.show()
 
-v = venn2(subsets=(36, 7, 17), set_labels=("academia", "industry"))
-c = venn2_circles(subsets=(36, 7, 17), linestyle='dashed')
+aca = 0
+ind = 0
+mix = 0
+for ident in analysis:
+	aflag = analysis[ident]["academic"]
+	iflag = analysis[ident]["industry"]
+	if aflag and iflag:
+		mix += 1
+	elif aflag:
+		aca += 1
+	elif iflag:
+		ind += 1
+	else:
+		print("Error in", ident)
+
+v = venn2(subsets=(aca, ind, mix), set_labels=("academia", "industry"))
+c = venn2_circles(subsets=(aca, ind, mix), linestyle='dashed')
 plt.title("Literature institution relations")
 
 plt.show()
