@@ -533,7 +533,7 @@
 	},
 
 	"42": {
-		"technologies": ["IronFunctions", "GPU-SCF"],
+		"technologies": ["Iron", "GPU-SCF"],
 		"institutions": ["Korea Advanced Institute of Science and Technology"],
 		"countries": ["South Korea"],
 		"academic": true,
@@ -851,7 +851,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["concept", "casestudy"],
+		"fields": ["economics", "cloud"],
+		"format": "paper"
 	},
 
 	"67": {
@@ -861,7 +864,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["economics", "performance"],
+		"format": "paper"
 	},
 
 	"68": {
@@ -871,7 +877,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"69": {
@@ -881,7 +890,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["discussion"],
+		"fields": ["cloud"],
+		"format": "thesis"
 	},
 
 	"70": {
@@ -891,7 +903,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["cloud"],
+		"format": "thesis"
 	},
 
 	"71": {
@@ -901,7 +916,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["analysis", "discussion"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"72": {
@@ -911,7 +929,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": false
+		"independent": false,
+		"nature": ["analysis", "concept", "casestudy"],
+		"fields": ["cloud", "formalmethods"],
+		"format": "paper"
 	},
 
 	"73": {
@@ -921,7 +942,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["cloud", "formalmethods"],
+		"format": "paper"
 	},
 
 	"74": {
@@ -931,7 +955,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": false
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["softwareengineering"],
+		"format": "paper"
 	},
 
 	"75": {
@@ -941,7 +968,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["concept", "casestudy"],
+		"fields": ["economics", "cloud"],
+		"format": "paper"
 	},
 
 	"76": {
@@ -952,6 +982,7 @@
 		"industry": false,
 		"citations": 0,
 		"independent": true,
+		"nature": ["analysis", "discussion"],
 		"fields": ["cloud"],
 		"format": "paper"
 	},

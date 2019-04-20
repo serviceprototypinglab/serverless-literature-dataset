@@ -22,6 +22,7 @@ Curation guide for the 'Serverless Literature Dataset'
   * performance
   * economics
   * scientificcomputing (including workflows)
+  * formalmethods
 
 - format of publication
   * abstract
