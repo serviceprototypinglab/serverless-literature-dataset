@@ -66,7 +66,7 @@ tool. Relevant fields are "title", "author", "year", and "journal"/
 "booktitle".
 
 The advanced curation workflow is as follows:
-- run analysischeck.py
+- run analysischeck.py and analysistitles.py
 - follow the advice, extend serverless-literature-analysis.json
   and serverless-literature-technologies.json appropriately
 - look at curation.txt for hints on filling the values
