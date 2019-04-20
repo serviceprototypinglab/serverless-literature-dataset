@@ -67,4 +67,6 @@ for ident in biblio_sorted:
 for ident in tech:
 	for key in techkeys:
 		if not key in tech[ident]:
+			if key == "link" and not tech[ident]["open-source"]:
+				continue
 			print("!! technology {} misses key {}".format(ident, key))

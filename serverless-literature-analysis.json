@@ -372,7 +372,7 @@
 		"citations": 12,
 		"independent": true,
 		"nature": ["casestudy"],
-		"fields": ["economics"],
+		"fields": ["economics", "cloud"],
 		"format": "paper"
 	},
 
@@ -409,7 +409,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 48,
-		"independent": true
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["economics", "cloud"],
+		"format": "paper"
 	},
 
 	"33": {
@@ -419,7 +422,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 6,
-		"independent": true
+		"independent": true,
+		"nature": ["casestudy", "framework"],
+		"fields": ["performance", "scientificcomputing"],
+		"format": "paper"
 	},
 
 	"34": {
@@ -429,17 +435,23 @@
 		"academic": true,
 		"industry": false,
 		"citations": 14,
-		"independent": true
+		"independent": true,
+		"nature": ["analysis", "concept"],
+		"fields": ["economics", "softwareengineering"],
+		"format": "paper"
 	},
 
 	"35": {
-		"technologies": ["Lambda"],
+		"technologies": ["Lambda", "SCAR"],
 		"institutions": ["Universitat Politècnica de València"],
 		"countries": ["Spain"],
 		"academic": true,
 		"industry": false,
 		"citations": 6,
-		"independent": true
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["cloud", "performance"],
+		"format": "paper"
 	},
 
 	"36": {
@@ -449,27 +461,36 @@
 		"academic": true,
 		"industry": true,
 		"citations": 6,
-		"independent": false
+		"independent": false,
+		"nature": ["analysis"],
+		"fields": ["performance"],
+		"format": "paper"
 	},
 
 	"37": {
-		"technologies": ["Lambda","IBM","OpenWhisk"],
+		"technologies": ["Lambda", "IBM", "OpenWhisk", "MPSC"],
 		"institutions": ["Washington State University"],
 		"countries": ["USA"],
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["framework"],
+		"fields": ["edge", "multicloud"],
+		"format": "paper"
 	},
 
 	"38": {
-		"technologies": ["SAND"],
+		"technologies": ["SAND", "OpenWhisk", "Greengrass"],
 		"institutions": ["Nokia Bell Labs"],
 		"countries": ["Germany"],
 		"academic": false,
 		"industry": true,
 		"citations": 1,
-		"independent": false
+		"independent": false,
+		"nature": ["engine"],
+		"fields": ["performance"],
+		"format": "paper"
 	},
 
 	"39": {
@@ -479,37 +500,49 @@
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"40": {
-		"technologies": ["Lambda"],
-		"institutions": ["Univ. of California", "Huawei Technologies Co. Inc."],
+		"technologies": ["Lambda", "GammaRay"],
+		"institutions": ["UC Santa Barbara", "Huawei Technologies Co. Inc."],
 		"countries": ["USA"],
 		"academic": true,
 		"industry": true,
 		"citations": 1,
-		"independent": false
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["softwareengineering"],
+		"format": "paper"
 	},
 
 	"41": {
-		"technologies": [],
+		"technologies": ["RETRO-λ"],
 		"institutions": ["Ulm University"],
 		"countries": ["Germany"],
 		"academic": true,
 		"industry": false,
 		"citations": 1,
-		"independent": true
+		"independent": true,
+		"nature": ["engine"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"42": {
-		"technologies": [],
+		"technologies": ["IronFunctions", "GPU-SCF"],
 		"institutions": ["Korea Advanced Institute of Science and Technology"],
 		"countries": ["South Korea"],
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": true
+		"independent": false,
+		"nature": ["engine"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"43": {
@@ -519,17 +552,23 @@
 		"academic": true,
 		"industry": false,
 		"citations": 1,
-		"independent": true
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["edge"],
+		"format": "paper"
 	},
 
 	"44": {
 		"technologies": [],
-		"institutions": ["Escuela Superior Politecnica del Litoral", "Technische Universiteit Delft"],
-		"countries": ["Netherlands", "Ecuador"],
+		"institutions": ["Escuela Superior Politecnica del Litoral", "Technische Universiteit Delft", "Platform9 Inc"],
+		"countries": ["Netherlands", "Ecuador", "USA"],
 		"academic": true,
-		"industry": false,
+		"industry": true,
 		"citations": 2,
-		"independent": true
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"45": {
@@ -539,7 +578,10 @@
 		"academic": true,
 		"industry": true,
 		"citations": 4,
-		"independent": true
+		"independent": true,
+		"nature": ["discussion"],
+		"fields": ["performance"],
+		"format": "paper"
 	},
 
 	"46": {
@@ -549,7 +591,10 @@
 		"academic": true,
 		"industry": true,
 		"citations": 0,
-		"independent": false
+		"independent": false,
+		"nature": ["engine"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"47": {
@@ -559,7 +604,10 @@
 		"academic": true,
 		"industry": true,
 		"citations": 0,
-		"independent": true
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["dataanalytics"],
+		"format": "paper"
 	},
 
 	"48": {
@@ -569,7 +617,10 @@
 		"academic": true,
 		"industry": false,
 		"citations": 2,
-		"independent": false
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["dataanalytics"],
+		"format": "paper"
 	},
 
 	"49": {
@@ -579,17 +630,23 @@
 		"academic": true,
 		"industry": false,
 		"citations": 1,
-		"independent": true
+		"independent": true,
+		"nature": ["analysis"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"50": {
-		"technologies": ["OpenLambda"],
+		"technologies": ["OpenLambda", "EMARS"],
 		"institutions": ["University of Utah"],
 		"countries": ["USA"],
 		"academic": true,
 		"industry": false,
 		"citations": 0,
-		"independent": false
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"51": {
@@ -613,13 +670,13 @@
 	},
 
 	"53": {
-		"technologies": ["Lambda","OpenWhisk"],
-		"institutions": ["Tel Aviv University", "UC Santa Cruz", "Stanford University", "VMware"],
-		"countries": ["USA", "Israel"],
+		"technologies": ["Lambda", "OpenWhisk", "IBM", "Trapeze"],
+		"institutions": ["Tel Aviv University", "VMware Research", "UC Santa Cruz", "Stanford University"],
+		"countries": ["Israel", "USA"],
 		"academic": true,
 		"industry": true,
 		"citations": 1,
-		"independent": true
+		"independent": false
 	},
 
 	"54": {

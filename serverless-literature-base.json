@@ -98,7 +98,8 @@
     "correlation": "29"
   },
   "33": {
-    "doi": "https://doi.org/10.1007/978-3-319-75178-8_34"
+    "doi": "https://doi.org/10.1007/978-3-319-75178-8_34",
+    "correlation": "102"
   },
   "34": {
     "doi": "https://doi.org/10.1145/2996890.2996901"
@@ -158,7 +159,8 @@
     "arxiv": "http://arxiv.org/abs/1807.03755"
   },
   "53": {
-    "arxiv": "http://arxiv.org/abs/1802.08984"
+    "arxiv": "http://arxiv.org/abs/1802.08984",
+    "correlation": "63"
   },
   "54": {
     "doi": "https://doi.org/10.1007/978-3-319-73897-0_8"
@@ -189,7 +191,8 @@
     "doi": "https://doi.org/10.1109/MIC.2018.053681358"
   },
   "63": {
-    "doi": "https://doi.org/10.1145/3276488"
+    "doi": "https://doi.org/10.1145/3276488",
+    "correlation": "53"
   },
   "64": {
     "doi": "https://doi.org/10.1109/CloudCom2018.2018.00024"
@@ -314,7 +317,8 @@
     "arxiv": "http://arxiv.org/abs/1901.09842"
   },
   "102": {
-    "doi": "https://doi.org/10.1002/cpe.4792"
+    "doi": "https://doi.org/10.1002/cpe.4792",
+    "correlation": "33"
   },
   "103": {
     "doi": "https://doi.org/10.1109/CLOUD.2018.00065"

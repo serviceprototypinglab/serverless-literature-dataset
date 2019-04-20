@@ -4,14 +4,16 @@ Curation guide for the 'Serverless Literature Dataset'
   * tutorial
   * analysis (foundational or broad comparison)
   * casestudy (this includes experiments)
-  * framework (alias tool)
-  * engine
+  * framework* (alias tool)
+  * engine*
   * discussion
-  * concept
+  * concept (including models & algorithms)
+  (where * means not independent)
 
 - (main) fields of research
   * cloud
-  * edge
+  * multicloud
+  * edge (including iot)
   * softwareengineering
   * security
   * telecommunications
@@ -28,7 +30,7 @@ Curation guide for the 'Serverless Literature Dataset'
   * paper (both conference & journal)
   * thesis (e.g. MSc)
 
-- TODO: owner of technology
+- TODO: owner of technology; link if open source
 
 Template:
 

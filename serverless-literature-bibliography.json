@@ -364,10 +364,10 @@
     "year": "2018"
   },
   "53": {
-    "author": "Lin, Wei-Tsung and Krintz, Chandra and Wolski, Rich",
-    "booktitle": "2018 IEEE 11th International Conference on Cloud Computing (CLOUD)",
-    "retrieved-from-doi": "https://doi.org/10.1109/CLOUD.2018.00039",
-    "title": "Tracing Function Dependencies across Clouds",
+    "author": "Kalev Alpernas, Cormac Flanagan, Sadjad Fouladi, Leonid Ryzhyk, Mooly Sagiv, Thomas Schmitz, Keith Winstein",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1802.08984",
+    "title": "Secure Serverless Computing Using Dynamic Information Flow Control",
     "year": "2018"
   },
   "54": {
@@ -511,10 +511,10 @@
     "year": "2019"
   },
   "74": {
-    "author": "Kalev Alpernas, Cormac Flanagan, Sadjad Fouladi, Leonid Ryzhyk, Mooly Sagiv, Thomas Schmitz, Keith Winstein",
-    "journal": "arXiv/CoRR",
-    "retrieved-from-arxiv": "http://arxiv.org/abs/1802.08984",
-    "title": "Secure Serverless Computing Using Dynamic Information Flow Control",
+    "author": "Lin, Wei-Tsung and Krintz, Chandra and Wolski, Rich",
+    "booktitle": "2018 IEEE 11th International Conference on Cloud Computing (CLOUD)",
+    "retrieved-from-doi": "https://doi.org/10.1109/CLOUD.2018.00039",
+    "title": "Tracing Function Dependencies across Clouds",
     "year": "2018"
   },
   "75": {
