@@ -1417,5 +1417,117 @@
 		"nature": ["framework"],
 		"fields": ["softwareengineering", "scientificcomputing"],
 		"format": "paper"
+	},
+
+	"111": {
+	},
+
+	"112": {
+	},
+
+	"113": {
+	},
+
+	"114": {
+	},
+
+	"115": {
+	},
+
+	"116": {
+	},
+
+	"117": {
+	},
+
+	"118": {
+		"technologies": ["numpywren"],
+		"institutions": ["UC Berkeley", "UW Madison"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework", "casestudy"],
+		"fields": ["mathematics"],
+		"format": "paper"
+	},
+
+	"119": {
+		"technologies": [],
+		"institutions": ["TU Berlin"],
+		"countries": ["Germany"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["analysis", "discussion"],
+		"fields": ["performance"],
+		"format": "paper"
+	},
+
+	"120": {
+		"technologies": ["Greengrass", "Azure", "EdgeBench"],
+		"institutions": ["Rensselaer Polytechnic Institute", "Montana State University"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["casestudy"],
+		"fields": ["edge", "performance"],
+		"format": "paper"
+	},
+
+	"121": {
+		"technologies": ["Luna"],
+		"institutions": ["AGH University of Science and Technology", "Luna Language"],
+		"countries": ["Poland"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["softwareengineering"],
+		"format": "paper"
+	},
+
+	"122": {
+		"technologies": [],
+		"institutions": ["ICS-FORTH", "7Bulls"],
+		"countries": ["Greece", "Poland"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": true,
+		"nature": ["analysis"],
+		"fields": ["cloud"],
+		"format": "paper"
+	},
+
+	"123": {
+		"technologies": ["Lambda", "Azure", "SPF"],
+		"institutions": ["Institute of Technology, Tallaght"],
+		"countries": ["Ireland"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["casestudy", "framework"],
+		"fields": ["economics", "performance"],
+		"format": "paper"
+	},
+
+	"124": {
+		"technologies": ["ASF", "ADF", "IC"],
+		"institutions": ["Universitat Rovira i Virgili"],
+		"countries": ["Spain"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["analysis", "concept"],
+		"fields": ["scientificcomputing"],
+		"format": "paper"
 	}
 }

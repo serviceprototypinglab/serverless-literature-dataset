@@ -310,5 +310,51 @@
 		"link": "https://ex.camera",
 		"actively-maintained": false,
 		"supported-languages": []
+	},
+
+	"numpywren": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": ["LAmbdaPACK"]
+	},
+
+	"EdgeBench": {
+		"open-source": true,
+		"link": " https://github.com/akaanirban/edgebench",
+		"actively-maintained": false,
+		"supported-languages": []
+	},
+
+	"Luna": {
+		"open-source": true,
+		"link": "https://github.com/luna/luna/tree/aws-serverless",
+		"actively-maintained": false,
+		"supported-languages": ["Luna"]
+	},
+
+	"SPF": {
+		"open-source": true,
+		"link": "https://github.com/Learnspree/Serverless-Language-Performance-Framework",
+		"actively-maintained": false,
+		"supported-languages": []
+	},
+
+	"ASF": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": []
+	},
+
+	"ADF": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": []
+	},
+
+	"IC": {
+		"open-source": true,
+		"link": "https://github.com/ibm-functions/composer",
+		"actively-maintained": false,
+		"supported-languages": []
 	}
 }
