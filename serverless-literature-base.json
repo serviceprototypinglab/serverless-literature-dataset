@@ -347,5 +347,47 @@
   "110": {
     "arxiv": "https://arxiv.org/abs/1702.04024",
     "correlation": "107"
+  },
+  "111": {
+    "doi": "https://doi.org/10.1145/3154847.3154853"
+  },
+  "112": {
+    "doi": "https://doi.org/10.1145/3154847.3154852"
+  },
+  "113": {
+    "doi": "https://doi.org/10.1145/3154847.3154850"
+  },
+  "114": {
+    "doi": "https://doi.org/10.1145/3154847.3154849"
+  },
+  "115": {
+    "doi": "https://doi.org/10.1145/3154847.3154851"
+  },
+  "116": {
+    "doi": "https://doi.org/10.1145/3154847.3154848"
+  },
+  "117": {
+    "doi": "https://doi.org/10.1145/3154847.3154854"
+  },
+  "118": {
+    "arxiv": "http://arxiv.org/abs/1810.09679"
+  },
+  "119": {
+    "doi": "https://doi.org/10.1109/UCC-Companion.2018.00055"
+  },
+  "120": {
+    "doi": "https://doi.org/10.1109/UCC-Companion.2018.00053"
+  },
+  "121": {
+    "doi": "https://doi.org/10.1109/UCC-Companion.2018.00052"
+  },
+  "122": {
+    "doi": "https://doi.org/10.1109/UCC-Companion.2018.00051"
+  },
+  "123": {
+    "doi": "https://doi.org/10.1109/UCC-Companion.2018.00050"
+  },
+  "124": {
+    "doi": "https://doi.org/10.1109/UCC-Companion.2018.00049"
   }
 }

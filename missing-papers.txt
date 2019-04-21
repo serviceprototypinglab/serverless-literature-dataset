@@ -1,8 +1,10 @@
-The following papers are part of WoSC Middleware but they weren't found on dplb:
+ESSCA 2018 papers - http://ceur-ws.org/Vol-2330/ - not yet in dblp?:
 
-* Speeding up Children Reunification in Disaster Scenarios via Serverless Computing
-* Functionality as a Service (Position paper)
-* Serverless Web Components - Truly Self-contained Web Components through Serverless Computing
-* Sanity: The Less Server Architecture for Cloud functions
-* Using a serverless framework for implementing a cognitive tutor: experiences and issues
-* Kappa - Serverless IoT Deployment
+* An effective resource management approach in a FaaS environment
+* Selective Java code transformation into AWS Lambda functions
+* Towards sustainable ecosystems for cloud functions
+* Studying the feasibility of serverless actors
+* Systematic and open exploration of FaaS and Serverless Computing research
+
+The following papers are part of WoSC Middleware but they weren't found (aren't indexed) on dplb:
+* (all have been added as per April 2019)

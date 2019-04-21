@@ -768,5 +768,103 @@
     "retrieved-from-arxiv": "https://arxiv.org/abs/1702.04024",
     "title": "Occupy the Cloud: Distributed Computing for the 99%",
     "year": "2017"
+  },
+  "111": {
+    "author": "Persson, Per and Angelsmark, Ola",
+    "booktitle": "Proceedings of the 2nd International Workshop on Serverless Computing - WoSC ’17",
+    "retrieved-from-doi": "https://doi.org/10.1145/3154847.3154853",
+    "title": "Kappa",
+    "year": "2017"
+  },
+  "112": {
+    "author": "Mukhi, Nirmal K and Prabhu, Srijith and Slawson, Bruce",
+    "booktitle": "Proceedings of the 2nd International Workshop on Serverless Computing - WoSC ’17",
+    "retrieved-from-doi": "https://doi.org/10.1145/3154847.3154852",
+    "title": "Using a serverless framework for implementing a cognitive tutor",
+    "year": "2017"
+  },
+  "113": {
+    "author": "Nadgowda, Shripad and Bila, Nilton and Isci, Canturk",
+    "booktitle": "Proceedings of the 2nd International Workshop on Serverless Computing - WoSC ’17",
+    "retrieved-from-doi": "https://doi.org/10.1145/3154847.3154850",
+    "title": "The less server architecture for cloud functions",
+    "year": "2017"
+  },
+  "114": {
+    "author": "Ast, Markus and Gaedke, Martin",
+    "booktitle": "Proceedings of the 2nd International Workshop on Serverless Computing - WoSC ’17",
+    "retrieved-from-doi": "https://doi.org/10.1145/3154847.3154849",
+    "title": "Self-contained web components through serverless computing",
+    "year": "2017"
+  },
+  "115": {
+    "author": "Coleman, Kyle and Esposito, Flavio and Charney, Rachel",
+    "booktitle": "Proceedings of the 2nd International Workshop on Serverless Computing - WoSC ’17",
+    "retrieved-from-doi": "https://doi.org/10.1145/3154847.3154851",
+    "title": "Speeding up children reunification in disaster scenarios via serverless computing",
+    "year": "2017"
+  },
+  "116": {
+    "author": "van Eyk, Erwin and Iosup, Alexandru and Seif, Simon and Thömmes, Markus",
+    "booktitle": "Proceedings of the 2nd International Workshop on Serverless Computing - WoSC ’17",
+    "retrieved-from-doi": "https://doi.org/10.1145/3154847.3154848",
+    "title": "The SPEC cloud group’s research vision on FaaS and serverless architectures",
+    "year": "2017"
+  },
+  "117": {
+    "author": "Kanso, Ali and Youssef, Alaa",
+    "booktitle": "Proceedings of the 2nd International Workshop on Serverless Computing - WoSC ’17",
+    "retrieved-from-doi": "https://doi.org/10.1145/3154847.3154854",
+    "title": "Serverless",
+    "year": "2017"
+  },
+  "118": {
+    "author": "Vaishaal Shankar, Karl Krauth, Qifan Pu, Eric Jonas, Shivaram Venkataraman, Ion Stoica, Benjamin Recht, Jonathan Ragan-Kelley",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1810.09679",
+    "title": "numpywren: serverless linear algebra",
+    "year": "2018"
+  },
+  "119": {
+    "author": "Kuhlenkamp, Jorn and Werner, Sebastian",
+    "booktitle": "2018 IEEE/ACM International Conference on Utility and Cloud Computing Companion (UCC Companion)",
+    "retrieved-from-doi": "https://doi.org/10.1109/UCC-Companion.2018.00055",
+    "title": "Benchmarking FaaS Platforms: Call for Community Participation",
+    "year": "2018"
+  },
+  "120": {
+    "author": "Das, Anirban and Patterson, Stacy and Wittie, Mike",
+    "booktitle": "2018 IEEE/ACM International Conference on Utility and Cloud Computing Companion (UCC Companion)",
+    "retrieved-from-doi": "https://doi.org/10.1109/UCC-Companion.2018.00053",
+    "title": "EdgeBench: Benchmarking Edge Computing Platforms",
+    "year": "2018"
+  },
+  "121": {
+    "author": "Moczurad, Piotr and Malawski, Maciej",
+    "booktitle": "2018 IEEE/ACM International Conference on Utility and Cloud Computing Companion (UCC Companion)",
+    "retrieved-from-doi": "https://doi.org/10.1109/UCC-Companion.2018.00052",
+    "title": "Visual-Textual Framework for Serverless Computation: A Luna Language Approach",
+    "year": "2018"
+  },
+  "122": {
+    "author": "Kritikos, Kyriakos and Skrzypek, Pawel",
+    "booktitle": "2018 IEEE/ACM International Conference on Utility and Cloud Computing Companion (UCC Companion)",
+    "retrieved-from-doi": "https://doi.org/10.1109/UCC-Companion.2018.00051",
+    "title": "A Review of Serverless Frameworks",
+    "year": "2018"
+  },
+  "123": {
+    "author": "Jackson, David and Clynch, Gary",
+    "booktitle": "2018 IEEE/ACM International Conference on Utility and Cloud Computing Companion (UCC Companion)",
+    "retrieved-from-doi": "https://doi.org/10.1109/UCC-Companion.2018.00050",
+    "title": "An Investigation of the Impact of Language Runtime on the Performance and Cost of Serverless Functions",
+    "year": "2018"
+  },
+  "124": {
+    "author": "Garcia Lopez, Pedro and Sanchez-Artigas, Marc and Paris, Gerard and Barcelona Pons, Daniel and Ruiz Ollobarren, Alvaro and Arroyo Pinto, David",
+    "booktitle": "2018 IEEE/ACM International Conference on Utility and Cloud Computing Companion (UCC Companion)",
+    "retrieved-from-doi": "https://doi.org/10.1109/UCC-Companion.2018.00049",
+    "title": "Comparison of FaaS Orchestration Systems",
+    "year": "2018"
   }
 }
