@@ -23,8 +23,9 @@ Curation guide for the 'Serverless Literature Dataset'
   * economics
   * scientificcomputing (including workflows)
   * formalmethods
-  * eventprocessing
+  * eventprocessing (also actors)
   * databases
+  * bibliometrics
 
 - format of publication
   * abstract

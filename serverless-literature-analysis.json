@@ -1581,5 +1581,70 @@
 		"nature": ["analysis"],
 		"fields": ["softwareengineering"],
 		"format": "paper"
+	},
+
+	"129": {
+		"technologies": [],
+		"institutions": ["Cyprus University of Technology"],
+		"countries": ["Cyprus"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["cloud"],
+		"format": "paper"
+	},
+
+	"130": {
+		"technologies": [],
+		"institutions": ["Zurich University of Applied Sciences"],
+		"countries": ["Switzerland"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["softwareengineering"],
+		"format": "paper"
+	},
+
+	"131": {
+		"technologies": [],
+		"institutions": ["Itaipu Technology Park", "Zurich University of Applied Sciences"],
+		"countries": ["Paraguay", "Switzerland"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["concept", "framework"],
+		"fields": ["multicloud"],
+		"format": "paper"
+	},
+
+	"132": {
+		"technologies": [],
+		"institutions": ["Universitat Rovira i Virgili"],
+		"countries": ["Spain"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["eventprocessing"],
+		"format": "paper"
+	},
+
+	"133": {
+		"technologies": [],
+		"institutions": ["University of Sharjah", "Zurich University of Applied Sciences"],
+		"countries": ["United Arab Emirates", "Switzerland"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["analysis", "discussion"],
+		"fields": ["cloud", "bibliometrics"],
+		"format": "paper"
 	}
 }

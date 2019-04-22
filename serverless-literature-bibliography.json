@@ -162,7 +162,7 @@
   },
   "24": {
     "author": "Maciej Malawski",
-    "booktitle": "WORKS@SC 2016",
+    "booktitle": "Proceedings of the 11th Workshop on Workflows in Support of Large-Scale Science (WORKS@SC 2016) (CEUR-WS 1800)",
     "link": "http://ceur-ws.org/Vol-1800/paper4.pdf",
     "title": "Towards Serverless Execution of Scientific Workflows - HyperFlow Case Study",
     "year": "2016"
@@ -463,7 +463,7 @@
   },
   "67": {
     "author": "Johannes Manner",
-    "booktitle": "CEUR-WS/ZEUS 2019",
+    "booktitle": "Proceedings of the 11th Central European Workshop on Services and their Composition (ZEUS 2019) (CEUR-WS 2339)",
     "link": "http://ceur-ws.org/Vol-2339/paper9.pdf",
     "title": "Towards Performance and Cost Simulation in Function as a Service",
     "year": "2019"
@@ -890,9 +890,44 @@
   },
   "128": {
     "author": "Stefan Winzinger",
-    "booktitle": "Proceedings of the 11th Central European Workshop on Services and their Composition (ZEUS 2019)",
+    "booktitle": "Proceedings of the 11th Central European Workshop on Services and their Composition (ZEUS 2019) (CEUR-WS 2339)",
     "link": "http://ceur-ws.org/Vol-2339/paper8.pdf",
     "title": "Towards coverage criteria for serverless applications",
     "year": "2019"
+  },
+  "129": {
+    "author": "Andreas Christoforou, Andreas S. Andreou",
+    "booktitle": "Proceedings of the European Symposium on Serverless Computing and Applications (ESSCA 2018) (CEUR-WS 2330)",
+    "link": "http://ceur-ws.org/Vol-2330/paper1.pdf",
+    "title": "An effective resource management approach in a FaaS environment",
+    "year": "2018"
+  },
+  "130": {
+    "author": "Serhii Dorodko, Josef Spillner",
+    "booktitle": "Proceedings of the European Symposium on Serverless Computing and Applications (ESSCA 2018) (CEUR-WS 2330)",
+    "link": "http://ceur-ws.org/Vol-2330/paper2.pdf",
+    "title": "Selective Java code transformation into AWS Lambda functions",
+    "year": "2018"
+  },
+  "131": {
+    "author": "Yessica Bogado-Sarubbi, Walter Benitez-Davalos, Josef Spillner, Fabio Lopez-Pires",
+    "booktitle": "Proceedings of the European Symposium on Serverless Computing and Applications (ESSCA 2018) (CEUR-WS 2330)",
+    "link": "http://ceur-ws.org/Vol-2330/paper3.pdf",
+    "title": "Towards sustainable ecosystems for cloud functions",
+    "year": "2018"
+  },
+  "132": {
+    "author": "Daniel Barcelona Pons, Álvaro Ruiz Ollobarren, David Arroyo Pinto, Pedro García López",
+    "booktitle": "Proceedings of the European Symposium on Serverless Computing and Applications (ESSCA 2018) (CEUR-WS 2330)",
+    "link": "http://ceur-ws.org/Vol-2330/short1.pdf",
+    "title": "Studying the feasibility of serverless actors",
+    "year": "2018"
+  },
+  "133": {
+    "author": "Mohammed Al-Ameen, Josef Spillner",
+    "booktitle": "Proceedings of the European Symposium on Serverless Computing and Applications (ESSCA 2018) (CEUR-WS 2330)",
+    "link": "http://ceur-ws.org/Vol-2330/short2.pdf",
+    "title": "Systematic and open exploration of FaaS and Serverless Computing research",
+    "year": "2018"
   }
 }
