@@ -153,7 +153,8 @@
     "doi": "https://doi.org/10.1109/CLOUD.2018.00113"
   },
   "51": {
-    "arxiv": "http://arxiv.org/abs/1807.11248"
+    "arxiv": "http://arxiv.org/abs/1807.11248",
+    "correlation": "124"
   },
   "52": {
     "arxiv": "http://arxiv.org/abs/1807.03755"
@@ -235,7 +236,8 @@
     "correlation": "66"
   },
   "76": {
-    "arxiv": "http://arxiv.org/abs/1812.03651"
+    "arxiv": "http://arxiv.org/abs/1812.03651",
+    "correlation": "125"
   },
   "77": {
     "doi": "https://doi.org/10.1007/978-3-030-03673-7_4"
@@ -388,6 +390,20 @@
     "doi": "https://doi.org/10.1109/UCC-Companion.2018.00050"
   },
   "124": {
-    "doi": "https://doi.org/10.1109/UCC-Companion.2018.00049"
+    "doi": "https://doi.org/10.1109/UCC-Companion.2018.00049",
+    "correlation": "51"
+  },
+  "125": {
+    "link": "http://cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf",
+    "correlation": "76"
+  },
+  "126": {
+    "link": "http://cidrdb.org/cidr2019/gongshow/abstracts/cidr2019_79.pdf"
+  },
+  "127": {
+    "link": "http://cidrdb.org/cidr2019/gongshow/abstracts/cidr2019_140.pdf"
+  },
+  "128": {
+    "link": "http://ceur-ws.org/Vol-2339/paper8.pdf"
   }
 }

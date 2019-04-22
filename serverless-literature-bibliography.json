@@ -866,5 +866,33 @@
     "retrieved-from-doi": "https://doi.org/10.1109/UCC-Companion.2018.00049",
     "title": "Comparison of FaaS Orchestration Systems",
     "year": "2018"
+  },
+  "125": {
+    "author": "Joseph M. Hellerstein, Jose Faleiro, Joseph E. Gonzalez, Johann Schleier-Smith, Vikram Sreekanti, Alexey Tumanov, Chenggang Wu",
+    "booktitle": "CIDR 2019, 9th Biennial Conference on Innovative Data Systems Research",
+    "link": "http://cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf",
+    "title": "Serverless Computing: One Step Forward, Two Steps Back",
+    "year": "2019"
+  },
+  "126": {
+    "author": "Philip A. Bernstein, Todd Porter, Rahul Potharaju, Alejandro Z. Tomsic, Shivaram Venkataraman, Wentao Wu",
+    "booktitle": "CIDR 2019, 9th Biennial Conference on Innovative Data Systems Research (Gong Show)",
+    "link": "http://cidrdb.org/cidr2019/gongshow/abstracts/cidr2019_79.pdf",
+    "title": "Serverless Event-Stream Processing over Virtual Actors",
+    "year": "2019"
+  },
+  "127": {
+    "author": "Johann Schleier-Smith",
+    "booktitle": "CIDR 2019, 9th Biennial Conference on Innovative Data Systems Research (Gong Show)",
+    "link": "http://cidrdb.org/cidr2019/gongshow/abstracts/cidr2019_140.pdf",
+    "title": "Serverless Foundations for Elastic Database Systems",
+    "year": "2019"
+  },
+  "128": {
+    "author": "Stefan Winzinger",
+    "booktitle": "Proceedings of the 11th Central European Workshop on Services and their Composition (ZEUS 2019)",
+    "link": "http://ceur-ws.org/Vol-2339/paper8.pdf",
+    "title": "Towards coverage criteria for serverless applications",
+    "year": "2019"
   }
 }

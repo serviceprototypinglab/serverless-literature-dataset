@@ -650,15 +650,15 @@
 	},
 
 	"51": {
-		"technologies": [],
+		"technologies": ["ASF", "ADF", "IC"],
 		"institutions": ["Universitat Rovira i Virgili"],
 		"countries": ["Spain"],
 		"academic": true,
 		"industry": false,
 		"citations": 0,
 		"independent": true,
-		"nature": ["analysis"],
-		"fields": ["cloud", "scientificcomputing"],
+		"nature": ["analysis", "concept"],
+		"fields": ["scientificcomputing"],
 		"format": "paper"
 	},
 
@@ -1528,6 +1528,58 @@
 		"independent": true,
 		"nature": ["analysis", "concept"],
 		"fields": ["scientificcomputing"],
+		"format": "paper"
+	},
+
+	"125": {
+		"technologies": [],
+		"institutions": ["UC Berkeley"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["analysis", "discussion"],
+		"fields": ["cloud"],
+		"format": "paper"
+	},
+
+	"126": {
+		"technologies": [],
+		"institutions": ["Microsoft Research", "LIP6", "UW Madison"],
+		"countries": ["USA", "France"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["eventprocessing"],
+		"format": "poster"
+	},
+
+	"127": {
+		"technologies": [],
+		"institutions": ["UC Berkeley"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["databases"],
+		"format": "poster"
+	},
+
+	"128": {
+		"technologies": [],
+		"institutions": ["University of Bamberg"],
+		"countries": ["Germany"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["analysis"],
+		"fields": ["softwareengineering"],
 		"format": "paper"
 	}
 }

@@ -14,7 +14,7 @@ Curation guide for the 'Serverless Literature Dataset'
   * cloud (including operating system, virtualisation)
   * multicloud
   * edge (including iot)
-  * softwareengineering (including architectures, patterns)
+  * softwareengineering (including architectures, patterns, testing)
   * security
   * telecommunications
   * dataanalytics (including machine learning and number crunching)
@@ -23,6 +23,8 @@ Curation guide for the 'Serverless Literature Dataset'
   * economics
   * scientificcomputing (including workflows)
   * formalmethods
+  * eventprocessing
+  * databases
 
 - format of publication
   * abstract

@@ -10,6 +10,7 @@ biblio = json.load(f)
 f = open(base_filename)
 base = json.load(f)
 
+print("Performing combinatorial comparisons... (this might take some time)")
 found = []
 founddata = []
 founddata_corr = []
