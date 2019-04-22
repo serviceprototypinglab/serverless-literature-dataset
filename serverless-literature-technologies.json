@@ -356,5 +356,12 @@
 		"link": "https://github.com/ibm-functions/composer",
 		"actively-maintained": false,
 		"supported-languages": []
+	},
+
+	"OpenWhisk-Bench": {
+		"open-source": true,
+		"link": "https://github.com/i13tum/openwhisk-bench",
+		"actively-maintained": false,
+		"supported-languages": []
 	}
 }

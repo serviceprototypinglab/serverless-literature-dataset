@@ -1646,5 +1646,18 @@
 		"nature": ["analysis", "discussion"],
 		"fields": ["cloud", "bibliometrics"],
 		"format": "paper"
+	},
+
+	"134": {
+		"technologies": ["OpenWhisk", "OpenWhisk-Bench"],
+		"institutions": ["Technical University of Munich"],
+		"countries": ["Germany"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["concept"],
+		"fields": ["performance"],
+		"format": "poster"
 	}
 }

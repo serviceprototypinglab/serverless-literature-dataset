@@ -29,7 +29,7 @@ Curation guide for the 'Serverless Literature Dataset'
 
 - format of publication
   * abstract
-  * poster
+  * poster (also demo description)
   * overview (e.g. magazine article)
   * paper (both conference & journal)
   * thesis (e.g. MSc)

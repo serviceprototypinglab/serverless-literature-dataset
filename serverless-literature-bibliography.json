@@ -929,5 +929,12 @@
     "link": "http://ceur-ws.org/Vol-2330/short2.pdf",
     "title": "Systematic and open exploration of FaaS and Serverless Computing research",
     "year": "2018"
+  },
+  "134": {
+    "author": "Kuntsevich, Aleksandr and Nasirifard, Pezhman and Jacobsen, Hans-Arno",
+    "booktitle": "Proceedings of the 19th International Middleware Conference on - Middleware ’18",
+    "retrieved-from-doi": "https://doi.org/10.1145/3284014.3284016",
+    "title": "A Distributed Analysis and Benchmarking Framework for Apache OpenWhisk Serverless Platform",
+    "year": "2018"
   }
 }
