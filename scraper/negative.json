@@ -1,6 +1,221 @@
 [
-	{"doi": "https://doi.org/10.1109/LANMAN.2018.8475098"},
-	{"link": "http://hdl.handle.net/10125/59942"},
-	{"link": "http://dl.acm.org/citation.cfm?id=2944868"},
-	{"link": "https://dblp.uni-trier.de/rec/bibtex/conf/waa/CyconPSWM03"}
+  {
+    "doi": "https://doi.org/10.1109/LANMAN.2018.8475098"
+  },
+  {
+    "link": "http://hdl.handle.net/10125/59942"
+  },
+  {
+    "link": "http://dl.acm.org/citation.cfm?id=2944868"
+  },
+  {
+    "link": "https://dblp.uni-trier.de/rec/bibtex/conf/waa/CyconPSWM03"
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.jnca.2012.05.008"
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.jnca.2011.03.021"
+  },
+  {
+    "doi": "https://doi.org/10.1142/S0219691304000445"
+  },
+  {
+    "arxiv": "http://arxiv.org/abs/cs.DC/0107009"
+  },
+  {
+    "doi": "https://doi.org/10.3389/fninf.2019.00012"
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.datak.2018.01.001"
+  },
+  {
+    "doi": "https://doi.org/10.1002/ett.3269"
+  },
+  {
+    "doi": "https://doi.org/10.4018/IJEIS.2018100102"
+  },
+  {
+    "doi": "https://doi.org/10.1108/JEIM-03-2016-0074"
+  },
+  {
+    "doi": "https://doi.org/10.1007/s11227-018-2387-5"
+  },
+  {
+    "doi": "https://doi.org/10.23919/ONDM.2018.8396120"
+  },
+  {
+    "doi": "https://doi.org/10.1109/WCNC.2018.8377402"
+  },
+  {
+    "doi": "https://doi.org/10.1109/MCOM.2016.1600219RP"
+  },
+  {
+    "doi": "https://doi.org/10.1109/TNSM.2017.2757266"
+  },
+  {
+    "doi": "https://doi.org/10.1145/3125719.3125727"
+  },
+  {
+    "doi": "https://doi.org/10.23919/CNSM.2017.8256017"
+  },
+  {
+    "doi": "https://doi.org/10.1109/ISCC.2017.8024604"
+  },
+  {
+    "doi": "https://doi.org/10.1109/QRS-C.2017.25"
+  },
+  {
+    "doi": "https://doi.org/10.1109/SDS.2017.7939159"
+  },
+  {
+    "doi": "https://doi.org/10.1109/TNSM.2016.2587664"
+  },
+  {
+    "doi": "https://doi.org/10.1007/s00453-018-0502-x"
+  },
+  {
+    "doi": "https://doi.org/10.1007/s10664-018-9622-9"
+  },
+  {
+    "doi": "https://doi.org/10.1007/s11042-017-5507-y"
+  },
+  {
+    "doi": "https://doi.org/10.1007/s11760-018-01411-2"
+  },
+  {
+    "doi": "https://doi.org/10.1109/TCSVT.2017.2769703"
+  },
+  {
+    "doi": "https://doi.org/10.5441/002/edbt.2019.49"
+  },
+  {
+    "doi": "https://doi.org/10.1007/978-3-030-17184-1_20"
+  },
+  {
+    "doi": "https://doi.org/10.1007/978-3-030-17462-0_11"
+  },
+  {
+    "arxiv": "http://arxiv.org/abs/1901.02853"
+  },
+  {
+    "arxiv": "http://arxiv.org/abs/1902.06097"
+  },
+  {
+    "arxiv": "http://arxiv.org/abs/1903.02285"
+  },
+  {
+    "arxiv": "http://arxiv.org/abs/1903.06348"
+  },
+  {
+    "arxiv": "http://arxiv.org/abs/1903.06775"
+  },
+  {
+    "doi": "https://doi.org/10.1109/ACCESS.2018.2858256"
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.dam.2017.12.042"
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.entcs.2018.10.006"
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.entcs.2018.03.024"
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.future.2017.07.033"
+  },
+  {
+    "doi": "https://doi.org/10.1007/s00373-018-1911-y"
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.ic.2018.05.005"
+  },
+  {
+    "doi": "https://doi.org/10.1504/IJCAET.2018.10012354"
+  },
+  {
+    "doi": "https://doi.org/10.15398/jlm.v6i2.228"
+  },
+  {
+    "doi": "https://doi.org/10.23638/LMCS-14(1:2)2018"
+  },
+  {
+    "doi": "https://doi.org/10.23638/LMCS-14(3:17)2018"
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.micpro.2018.08.002"
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.future.2018.12.035"
+  },
+  {
+    "doi": "https://doi.org/10.3390/fi11030071"
+  },
+  {
+    "doi": "https://doi.org/10.1504/IJICS.2019.098201"
+  },
+  {
+    "doi": "https://doi.org/10.1109/JSAC.2019.2895226"
+  },
+  {
+    "doi": "https://doi.org/10.1109/ICCNC.2019.8685508"
+  },
+  {
+    "arxiv": "http://arxiv.org/abs/1902.05247"
+  },
+  {
+    "arxiv": "http://arxiv.org/abs/1903.11550"
+  },
+  {
+    "arxiv": "http://arxiv.org/abs/1903.11994"
+  },
+  {
+    "doi": "https://doi.org/10.1109/ACCESS.2018.2878244"
+  },
+  {
+    "doi": "https://doi.org/10.1109/ACCESS.2018.2859767"
+  },
+  {
+    "doi": "https://doi.org/10.1109/ACCESS.2018.2875124"
+  },
+  {
+    "doi": "https://doi.org/10.3103/S0146411618010066"
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.compbiomed.2018.02.011"
+  },
+  {
+    "doi": "https://doi.org/10.1109/MCOM.2018.1700662"
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.comnet.2018.01.020"
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.comcom.2018.05.004"
+  },
+  {
+    "doi": "https://doi.org/10.2991/ijcis.11.1.79"
+  },
+  {
+    "doi": "https://doi.org/10.1109/JSAC.2018.2869955"
+  },
+  {
+    "doi": "https://doi.org/10.1137/17M1123018"
+  },
+  {
+    "doi": "https://doi.org/10.3390/rs10040587"
+  },
+  {
+    "doi": "https://doi.org/10.1007/s11761-018-0228-2"
+  },
+  {
+    "doi": "https://doi.org/10.1109/TNSM.2018.2873178"
+  },
+  {
+    "doi": "https://doi.org/10.1109/TPDS.2018.2802518"
+  },
+  {
+    "doi": "https://doi.org/10.1109/CLOUD.2018.00135"
+  }
 ]

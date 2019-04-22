@@ -84,8 +84,8 @@
     "arxiv": "http://arxiv.org/abs/1701.05945"
   },
   "29": {
-    "doi": "https://doi.org/10.1109/CCGrid.2016.37",
-    "correlation": "32"
+    "correlation": "32",
+    "doi": "https://doi.org/10.1109/CCGrid.2016.37"
   },
   "30": {
     "doi": "https://doi.org/10.1109/INFCOMW.2017.8116416"
@@ -94,12 +94,12 @@
     "arxiv": "http://arxiv.org/abs/1702.05510"
   },
   "32": {
-    "doi": "https://doi.org/10.1007/s11761-017-0208-y",
-    "correlation": "29"
+    "correlation": "29",
+    "doi": "https://doi.org/10.1007/s11761-017-0208-y"
   },
   "33": {
-    "doi": "https://doi.org/10.1007/978-3-319-75178-8_34",
-    "correlation": "102"
+    "correlation": "102",
+    "doi": "https://doi.org/10.1007/978-3-319-75178-8_34"
   },
   "34": {
     "doi": "https://doi.org/10.1145/2996890.2996901"
@@ -167,8 +167,8 @@
     "doi": "https://doi.org/10.1007/978-3-319-73897-0_8"
   },
   "55": {
-    "usenix": "https://www.usenix.org/conference/atc18/presentation/oakes",
-    "correlation": "91"
+    "correlation": "91",
+    "usenix": "https://www.usenix.org/conference/atc18/presentation/oakes"
   },
   "56": {
     "usenix": "https://www.usenix.org/conference/atc18/presentation/klimovic-serverless"
@@ -192,8 +192,8 @@
     "doi": "https://doi.org/10.1109/MIC.2018.053681358"
   },
   "63": {
-    "doi": "https://doi.org/10.1145/3276488",
-    "correlation": "53"
+    "correlation": "53",
+    "doi": "https://doi.org/10.1145/3276488"
   },
   "64": {
     "doi": "https://doi.org/10.1109/CloudCom2018.2018.00024"
@@ -202,8 +202,8 @@
     "doi": "https://doi.org/10.1109/CloudCom2018.2018.00033"
   },
   "66": {
-    "doi": "https://doi.org/10.1109/SEC.2018.00029",
-    "correlation": "75"
+    "correlation": "75",
+    "doi": "https://doi.org/10.1109/SEC.2018.00029"
   },
   "67": {
     "link": "http://ceur-ws.org/Vol-2339/paper9.pdf"
@@ -252,8 +252,8 @@
     "doi": "https://doi.org/10.1145/3211890.3211916"
   },
   "81": {
-    "link": "https://www.usenix.org/publications/login/spring2019/klimovic",
-    "correlation": "104"
+    "correlation": "104",
+    "link": "https://www.usenix.org/publications/login/spring2019/klimovic"
   },
   "82": {
     "doi": "https://doi.org/10.1145/3302505.3310084"
@@ -283,15 +283,15 @@
     "doi": "https://doi.org/10.1109/MS.2018.2801544"
   },
   "91": {
-    "link": "https://www.usenix.org/publications/login/fall-2018-vol-43-no-2/oakes",
-    "correlation": "55"
+    "correlation": "55",
+    "link": "https://www.usenix.org/publications/login/fall-2018-vol-43-no-2/oakes"
   },
   "92": {
     "doi": "https://doi.org/10.1109/ICIS.2018.8466390"
   },
   "93": {
-    "doi": "https://doi.org/10.1016/j.jss.2018.12.013",
-    "correlation": "100"
+    "correlation": "100",
+    "doi": "https://doi.org/10.1016/j.jss.2018.12.013"
   },
   "94": {
     "doi": "https://doi.org/10.5220/0006817606660669"
@@ -312,33 +312,33 @@
     "arxiv": "http://arxiv.org/abs/1811.09732"
   },
   "100": {
-    "doi": "https://doi.org/10.7287/peerj.preprints.27005v1",
-    "correlation": "93"
+    "correlation": "93",
+    "doi": "https://doi.org/10.7287/peerj.preprints.27005v1"
   },
   "101": {
     "arxiv": "http://arxiv.org/abs/1901.09842"
   },
   "102": {
-    "doi": "https://doi.org/10.1002/cpe.4792",
-    "correlation": "33"
+    "correlation": "33",
+    "doi": "https://doi.org/10.1002/cpe.4792"
   },
   "103": {
     "doi": "https://doi.org/10.1109/CLOUD.2018.00065"
   },
   "104": {
-    "usenix": "https://www.usenix.org/conference/osdi18/presentation/klimovic",
-    "correlation": "81"
+    "correlation": "81",
+    "usenix": "https://www.usenix.org/conference/osdi18/presentation/klimovic"
   },
   "105": {
     "doi": "https://doi.org/10.1109/JPROC.2019.2898101"
   },
   "106": {
-    "link": "https://oaciss.uoregon.edu/icpp18/views/includes/files/pos115s2-file1.pdf",
-    "correlation-followup": "102"
+    "correlation-followup": "102",
+    "link": "https://oaciss.uoregon.edu/icpp18/views/includes/files/pos115s2-file1.pdf"
   },
   "107": {
-    "doi": "https://doi.org/10.1145/3127479.3128601",
-    "correlation": "110"
+    "correlation": "110",
+    "doi": "https://doi.org/10.1145/3127479.3128601"
   },
   "108": {
     "doi": "https://doi.org/10.1109/CLOUD.2016.0060"
@@ -390,12 +390,12 @@
     "doi": "https://doi.org/10.1109/UCC-Companion.2018.00050"
   },
   "124": {
-    "doi": "https://doi.org/10.1109/UCC-Companion.2018.00049",
-    "correlation": "51"
+    "correlation": "51",
+    "doi": "https://doi.org/10.1109/UCC-Companion.2018.00049"
   },
   "125": {
-    "link": "http://cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf",
-    "correlation": "76"
+    "correlation": "76",
+    "link": "http://cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf"
   },
   "126": {
     "link": "http://cidrdb.org/cidr2019/gongshow/abstracts/cidr2019_79.pdf"
