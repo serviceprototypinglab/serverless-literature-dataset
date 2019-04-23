@@ -62,7 +62,7 @@ def xid(s, xids):
 			return rid
 	return xids[s]
 
-filename_techbib = "/tmp/sldgraph-techbib.dot"
+filename_techbib = "graphs/sldgraph-techbib.dot"
 f = open(filename_techbib, "w")
 
 xids = {}
@@ -84,7 +84,7 @@ for rid in xids:
 print("}", file=f)
 f.close()
 
-filename_bib = "/tmp/sldgraph-bib.dot"
+filename_bib = "graphs/sldgraph-bib.dot"
 f = open(filename_bib, "w")
 print("digraph sldgraph {", file=f)
 print("overlap=false;", file=f)
@@ -122,12 +122,12 @@ def generate_dotfile(filename, fieldname, color):
 	f.close()
 	return filename
 
-fn1 = generate_dotfile("/tmp/sldgraph-country.dot", "countries", "80d0e0")
-fn2 = generate_dotfile("/tmp/sldgraph-inst.dot", "institutions", "d0e080")
+fn1 = generate_dotfile("graphs/sldgraph-country.dot", "countries", "80d0e0")
+fn2 = generate_dotfile("graphs/sldgraph-inst.dot", "institutions", "d0e080")
 # TODO: "pos" attributes (https://www.graphviz.org/doc/info/attrs.html#d:pos) to prepare worldmap...
-fn3 = generate_dotfile("/tmp/sldgraph-fields.dot", "fields", "60b0ff")
-fn4 = generate_dotfile("/tmp/sldgraph-nature.dot", "nature", "d0d050")
-fn5 = generate_dotfile("/tmp/sldgraph-tech.dot", "technologies", "a0a0f0")
+fn3 = generate_dotfile("graphs/sldgraph-fields.dot", "fields", "60b0ff")
+fn4 = generate_dotfile("graphs/sldgraph-nature.dot", "nature", "d0d050")
+fn5 = generate_dotfile("graphs/sldgraph-tech.dot", "technologies", "a0a0f0")
 
 for filename in (filename_techbib, filename_bib, fn1, fn2, fn3, fn4, fn5):
 	# engines: twopi, sfdp, ...
@@ -136,3 +136,6 @@ for filename in (filename_techbib, filename_bib, fn1, fn2, fn3, fn4, fn5):
 	os.system(cmd)
 	print("Graph: {}".format(filename + ".pdf"))
 	print("(Scale: pdfposter -p2x2a4 {}.pdf {}.print.pdf)".format(filename, filename))
+
+os.chdir("graphs")
+os.system("sh convert.sh")

@@ -363,5 +363,17 @@
 		"link": "https://github.com/i13tum/openwhisk-bench",
 		"actively-maintained": false,
 		"supported-languages": []
+	},
+
+	"Kappa": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": ["CalvinScript"]
+	},
+
+	"Sanity": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": []
 	}
 }

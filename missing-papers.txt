@@ -1,10 +1,5 @@
 ESSCA 2018 papers - http://ceur-ws.org/Vol-2330/ - not yet in dblp?:
-
-* An effective resource management approach in a FaaS environment
-* Selective Java code transformation into AWS Lambda functions
-* Towards sustainable ecosystems for cloud functions
-* Studying the feasibility of serverless actors
-* Systematic and open exploration of FaaS and Serverless Computing research
+* (all have been added as per April 2019, nevertheless - but not the abstracts, only papers)
 
 The following papers are part of WoSC Middleware but they weren't found (aren't indexed) on dplb:
 * (all have been added as per April 2019)

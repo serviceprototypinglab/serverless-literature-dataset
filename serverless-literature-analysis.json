@@ -1391,6 +1391,16 @@
 	},
 
 	"108": {
+		"technologies": [],
+		"institutions": ["University of Notre Dame", "Trek10"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["eventprocessing"],
+		"format": "paper"
 	},
 
 	"109": {
@@ -1420,24 +1430,94 @@
 	},
 
 	"111": {
+		"technologies": ["Kappa"],
+		"institutions": ["Ericsson Research"],
+		"countries": ["Sweden"],
+		"academic": false,
+		"industry": true,
+		"citations": 0,
+		"independent": false,
+		"nature": ["engine"],
+		"fields": ["edge"],
+		"format": "paper"
 	},
 
 	"112": {
+		"technologies": [],
+		"institutions": ["IBM Watson Education"],
+		"countries": ["USA"],
+		"academic": false,
+		"industry": true,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["interaction"],
+		"format": "paper"
 	},
 
 	"113": {
+		"technologies": ["Sanity"],
+		"institutions": ["IBM Research"],
+		"countries": ["USA"],
+		"academic": false,
+		"industry": true,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["cloud"],
+		"format": "paper"
 	},
 
 	"114": {
+		"technologies": [],
+		"institutions": ["Chemnitz University of Technology"],
+		"countries": ["Germany"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["interaction"],
+		"format": "paper"
 	},
 
 	"115": {
+		"technologies": [],
+		"institutions": ["Saint Louis University"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["dataanalytics"],
+		"format": "poster"
 	},
 
 	"116": {
+		"technologies": [],
+		"institutions": ["TU Delft", "VU", "Platform9", "SAP SE", "IBM"],
+		"countries": ["Netherlands", "USA", "Germany"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": true,
+		"nature": ["analysis", "discussion"],
+		"fields": ["performance"],
+		"format": "paper"
 	},
 
 	"117": {
+		"technologies": [],
+		"institutions": ["IBM Research"],
+		"countries": ["USA"],
+		"academic": false,
+		"industry": true,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["os"],
+		"format": "paper"
 	},
 
 	"118": {

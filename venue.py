@@ -23,7 +23,7 @@ for journal in journals:
 		consjournals.append("arXiv")
 	elif "USENIX" in journal or "HotCloud" in journal or "HotOS" in journal or ";login:" in journal:
 		consjournals.append("USENIX")
-	elif "ACM" in journal or "ESEC/FSE" in journal or "ICPP" in journal:
+	elif "ACM" in journal or "ESEC/FSE" in journal or "ICPP" in journal or "WoSC ’17" in journal:
 		consjournals.append("ACM")
 	elif "IEEE" in journal or "UCC" in journal or "PDP" in journal:
 		consjournals.append("IEEE")
@@ -31,6 +31,8 @@ for journal in journals:
 		consjournals.append("Springer")
 	elif "Future Generation Computer Systems" in journal:
 		consjournals.append("Elsevier")
+	elif "CEUR-WS" in journal:
+		consjournals.append("CEUR-WS")
 	else:
 		print("!! unknown journal/conference {}".format(journal))
 		consjournals.append("unknown")

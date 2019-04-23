@@ -11,7 +11,7 @@ Curation guide for the 'Serverless Literature Dataset'
   (where * means not independent)
 
 - (main) fields of research
-  * cloud (including operating system, virtualisation)
+  * cloud (including operating system, virtualisation, and FaaS per se)
   * multicloud
   * edge (including iot)
   * softwareengineering (including architectures, patterns, testing)
@@ -26,10 +26,12 @@ Curation guide for the 'Serverless Literature Dataset'
   * eventprocessing (also actors)
   * databases
   * bibliometrics
+  * interaction
+  * os (NEW; some are still classified as cloud but SLD#117 requires os)
 
 - format of publication
   * abstract
-  * poster (also demo description)
+  * poster (also demo description, extended abstract in 1-2p paper format)
   * overview (e.g. magazine article)
   * paper (both conference & journal)
   * thesis (e.g. MSc)
