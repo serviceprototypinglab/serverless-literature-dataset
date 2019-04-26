@@ -936,5 +936,19 @@
     "retrieved-from-doi": "https://doi.org/10.1145/3284014.3284016",
     "title": "A Distributed Analysis and Benchmarking Framework for Apache OpenWhisk Serverless Platform",
     "year": "2018"
+  },
+  "135": {
+    "author": "Anirban Bhattacharjee, Ajay Dev Chhokra, Zhuangwei Kang, Hongyang Sun, Aniruddha Gokhale, Gabor Karsai",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1904.01576",
+    "title": "BARISTA: Efficient and Scalable Serverless Serving System for Deep Learning Prediction Services",
+    "year": "2019"
+  },
+  "136": {
+    "author": "Anirban Bhattacharjee, Yogesh Barve, Shweta Khare, Shunxing Bao, Aniruddha Gokhale, Thomas Damiano",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1904.01727",
+    "title": "Stratum: A Serverless Framework for Lifecycle Management of Machine Learning based Data Analytics Tasks",
+    "year": "2019"
   }
 }
