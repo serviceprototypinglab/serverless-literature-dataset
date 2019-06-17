@@ -15,7 +15,7 @@ about the dataset at http://ceur-ws.org/Vol-2330/short2.pdf. In April
 2019, we have published the third dataset...
 
 Read more:
-http://blog.zhaw.ch/splab/...
+https://blog.zhaw.ch/splab/2019/04/22/the-5th-year-of-serverless-computing-research-coverage/
 http://serverless.research-output.org/
 
 Citation:

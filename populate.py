@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 #
-# Populate the file 'serverless-literature-bibliography.json' based on
-# DOI information from 'serverless-literature-base.json'. Includes
+# Populate the file '{prefix}-literature-bibliography.json' based on
+# DOI information from '{prefix}-literature-base.json'. Includes
 # enforced pauses to prevent load spikes on the DOI servers.
+# Prefix is determined automatically by globbing.
 # Syntax:
 # python3 populate.py          # complement entries
 # python3 populate.py --forced # overwrite entries
@@ -15,9 +16,11 @@ import sys
 import time
 import xml.dom.minidom
 import re
+import glob
 
 def generateheaders():
 	header = {}
+	# this remains 'serverless' independent of prefix
 	header["User-Agent"] = "serverless-literature-database (Python-urllib/3.x)"
 	return header
 
@@ -98,8 +101,13 @@ def parsedoi(doi):
 
 		return ft, fy, fa, fb, fj
 
-base_filename = "serverless-literature-base.json"
-biblio_filename = "serverless-literature-bibliography.json"
+prefix = "serverless"
+basefiles = glob.glob("*-literature-base.json")
+if len(basefiles) == 1:
+	prefix = os.path.basename(basefiles[0]).split("-")[0]
+
+base_filename = "{}-literature-base.json".format(prefix)
+biblio_filename = "{}-literature-bibliography.json".format(prefix)
 
 forced = False
 if len(sys.argv) == 2 and sys.argv[1] == "--forced":

@@ -1,30 +1,34 @@
 import dblplocal as dblp
 import time
 import json
+import glob
+import os
 
-base_filename = "../serverless-literature-base.json"
-biblio_filename = "../serverless-literature-bibliography.json"
+prefix = "serverless"
+basefiles = glob.glob("../*-literature-base.json")
+if len(basefiles) == 1:
+	prefix = os.path.basename(basefiles[0]).split("-")[0]
+
+base_filename = "../{}-literature-base.json".format(prefix)
 neg_filename = "negative.json"
 
 # Authors,Title,(Type),Where,Year
 
-searchterms = [
-	"serverless computing",
-	"serverless application",
-	"serverless",
-	"function-as-a-service",
-	"lambda",
-	"cloud function"
-]
+searchterms = json.load(open("searchterms.json"))
 
-f = open(base_filename)
-literature = json.load(f)
+try:
+	f = open(base_filename)
+	literature = json.load(f)
+except:
+	print("Warning: no base {} found.".format(base_filename))
+	literature = {}
 
-f = open(biblio_filename)
-biblio = json.load(f)
-
-f = open(neg_filename)
-negs = json.load(f)
+try:
+	f = open(neg_filename)
+	negs = json.load(f)
+except:
+	print("Warning: no negatives {} found.".format(neg_filename))
+	negs = []
 
 neglinks = []
 for neg in negs:
@@ -37,7 +41,10 @@ for neg in negs:
 	elif "link" in neg:
 		neglinks.append(neg["link"])
 
-nextnum = sorted([int(x) for x in literature])[-1] + 1
+if len(literature) > 0:
+	nextnum = sorted([int(x) for x in literature])[-1] + 1
+else:
+	nextnum = 1
 courtesy = False
 
 for searchterm in searchterms:
