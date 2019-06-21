@@ -3,10 +3,16 @@
 import json
 import operator
 import glob
+import os
 
-analysis_filename = "serverless-literature-analysis.json"
-biblio_filename = "serverless-literature-bibliography.json"
-tech_filename = "serverless-literature-technologies.json"
+prefix = "serverless"
+basefiles = glob.glob("*-literature-base.json")
+if len(basefiles) == 1:
+	prefix = os.path.basename(basefiles[0]).split("-")[0]
+
+analysis_filename = "{}-literature-analysis.json".format(prefix)
+biblio_filename = "{}-literature-bibliography.json".format(prefix)
+tech_filename = "{}-literature-technologies.json".format(prefix)
 
 f = open(biblio_filename)
 biblio = json.load(f)

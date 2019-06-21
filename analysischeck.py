@@ -1,19 +1,61 @@
 #!/usr/bin/env python3
 
 import json
+import glob
+import os
+import sys
 
-analysis_filename = "serverless-literature-analysis.json"
-biblio_filename = "serverless-literature-bibliography.json"
-tech_filename = "serverless-literature-technologies.json"
+prefix = "serverless"
+basefiles = glob.glob("*-literature-base.json")
+if len(basefiles) == 1:
+	prefix = os.path.basename(basefiles[0]).split("-")[0]
+
+analysis_filename = "{}-literature-analysis.json".format(prefix)
+biblio_filename = "{}-literature-bibliography.json".format(prefix)
+tech_filename = "{}-literature-technologies.json".format(prefix)
 
 f = open(biblio_filename)
 biblio = json.load(f)
 
-f = open(analysis_filename)
-analysis = json.load(f)
+try:
+	f = open(analysis_filename)
+	analysis = json.load(f)
+except:
+	print("Warning: analysis file {} not found, generated".format(analysis_filename), file=sys.stderr)
+	analysis = {}
 
-f = open(tech_filename)
-tech = json.load(f)
+	for ident in biblio:
+		analysis[ident] = {}
+		for lk in ("technologies", "institutions", "countries", "nature", "fields"):
+			analysis[ident][lk] = []
+		for bk in ("academic", "industry", "independent"):
+			analysis[ident][bk] = False
+		analysis[ident]["format"] = ""
+		analysis[ident]["citations"] = 0
+
+	f = open(analysis_filename, "w")
+	analysis_sorted = {int(x) : analysis[x] for x in analysis}
+	json.dump(analysis_sorted, f, indent=2, ensure_ascii=False, sort_keys=True)
+	f.close()
+
+try:
+	f = open(tech_filename)
+	tech = json.load(f, indent=2, ensure_ascii=False, sort_keys=True)
+except:
+	print("Warning: tech file {} not found, generated".format(tech_filename), file=sys.stderr)
+	tech = {}
+
+	for ident in biblio:
+		tech[ident] = {}
+		tech[ident]["open-source"] = False
+		tech[ident]["link"] = ""
+		tech[ident]["actively-maintained"] = ""
+		tech[ident]["supported-languages"] = []
+
+	f = open(tech_filename, "w")
+	tech_sorted = {int(x) : tech[x] for x in tech}
+	json.dump(tech_sorted, f, indent=2, ensure_ascii=False, sort_keys=True)
+	f.close()
 
 techkeys = []
 bibliokeys = []
