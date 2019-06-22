@@ -2,9 +2,18 @@ import json
 import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib_venn import venn3, venn3_circles, venn2, venn2_circles
+import glob
+import os
 
-biblio_filename = "serverless-literature-bibliography.json"
-analysis_filename = "serverless-literature-analysis.json"
+prefix = "serverless"
+basefiles = glob.glob("*-literature-base.json")
+if len(basefiles) == 1:
+	prefix = os.path.basename(basefiles[0]).split("-")[0]
+
+biblio_filename = "{}-literature-bibliography.json".format(prefix)
+analysis_filename = "{}-literature-analysis.json".format(prefix)
+
+searchterms = json.load(open("scraper/searchterms.json"))
 
 f = open(biblio_filename)
 biblio = json.load(f)
@@ -12,8 +21,12 @@ biblio = json.load(f)
 f = open(analysis_filename)
 analysis = json.load(f)
 
-terms = ("serverless application", "serverless computing", "serverless", "function-as-a-service", "lambda", "cloud function", "faas")
-chosenterms=(terms[1], terms[2], terms[6])
+terms = searchterms # ("serverless application", "serverless computing", "serverless", "function-as-a-service", "lambda", "cloud function", "faas")
+# TODO! make generic
+if prefix == "serverless":
+	chosenterms = (terms[1], terms[2], terms[6])
+else:
+	chosenterms = (terms[0],)
 
 allmterms = []
 for ident in biblio:

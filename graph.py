@@ -3,11 +3,17 @@
 import json
 import random
 import os
+import glob
 
-base_filename = "serverless-literature-base.json"
-analysis_filename = "serverless-literature-analysis.json"
-biblio_filename = "serverless-literature-bibliography.json"
-tech_filename = "serverless-literature-technologies.json"
+prefix = "serverless"
+basefiles = glob.glob("*-literature-base.json")
+if len(basefiles) == 1:
+	prefix = os.path.basename(basefiles[0]).split("-")[0]
+
+base_filename = "{}-literature-base.json".format(prefix)
+analysis_filename = "{}-literature-analysis.json".format(prefix)
+biblio_filename = "{}-literature-bibliography.json".format(prefix)
+tech_filename = "{}-literature-technologies.json".format(prefix)
 
 f = open(base_filename)
 base = json.load(f)
@@ -62,6 +68,7 @@ def xid(s, xids):
 			return rid
 	return xids[s]
 
+os.makedirs("graphs", exist_ok=True)
 filename_techbib = "graphs/sldgraph-techbib.dot"
 f = open(filename_techbib, "w")
 
@@ -138,4 +145,7 @@ for filename in (filename_techbib, filename_bib, fn1, fn2, fn3, fn4, fn5):
 	print("(Scale: pdfposter -p2x2a4 {}.pdf {}.print.pdf)".format(filename, filename))
 
 os.chdir("graphs")
-os.system("sh convert.sh")
+if os.path.isfile("convert.sh"):
+	os.system("sh convert.sh")
+else:
+	print("Warning: converter script not found")

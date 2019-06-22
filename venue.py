@@ -2,8 +2,15 @@
 
 import json
 import collections
+import glob
+import os
 
-biblio_filename = "serverless-literature-bibliography.json"
+prefix = "serverless"
+basefiles = glob.glob("*-literature-base.json")
+if len(basefiles) == 1:
+	prefix = os.path.basename(basefiles[0]).split("-")[0]
+
+biblio_filename = "{}-literature-bibliography.json".format(prefix)
 
 f = open(biblio_filename)
 biblio = json.load(f)
@@ -23,7 +30,7 @@ for journal in journals:
 		consjournals.append("arXiv")
 	elif "USENIX" in journal or "HotCloud" in journal or "HotOS" in journal or ";login:" in journal:
 		consjournals.append("USENIX")
-	elif "ACM" in journal or "ESEC/FSE" in journal or "ICPP" in journal or "WoSC ’17" in journal:
+	elif "ACM" in journal or "ESEC/FSE" in journal or "ICPP" in journal or "WoSC ’17" in journal or "SIGMOD" in journal:
 		consjournals.append("ACM")
 	elif "IEEE" in journal or "UCC" in journal or "PDP" in journal:
 		consjournals.append("IEEE")
