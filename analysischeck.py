@@ -33,14 +33,14 @@ except:
 		analysis[ident]["format"] = ""
 		analysis[ident]["citations"] = 0
 
-	f = open(analysis_filename, "w")
+	f = open(analysis_filename, "a")
 	analysis_sorted = {int(x) : analysis[x] for x in analysis}
 	json.dump(analysis_sorted, f, indent=2, ensure_ascii=False, sort_keys=True)
 	f.close()
 
 try:
 	f = open(tech_filename)
-	tech = json.load(f, indent=2, ensure_ascii=False, sort_keys=True)
+	tech = json.load(f)
 except:
 	print("Warning: tech file {} not found, generated".format(tech_filename), file=sys.stderr)
 	tech = {}
@@ -52,7 +52,7 @@ except:
 		tech[ident]["actively-maintained"] = ""
 		tech[ident]["supported-languages"] = []
 
-	f = open(tech_filename, "w")
+	f = open(tech_filename, "a")
 	tech_sorted = {int(x) : tech[x] for x in tech}
 	json.dump(tech_sorted, f, indent=2, ensure_ascii=False, sort_keys=True)
 	f.close()
