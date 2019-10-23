@@ -3,7 +3,7 @@
 		"open-source": true,
 		"link": "http://openwhisk.incubator.apache.org/",
 		"actively-maintained": true,
-		"supported-languages": ["NodeJS", "Swift", "Java", "Go", "Scala", "Python", "PHP", "Ruby"]
+		"supported-languages": ["NodeJS", "Swift", "Java", "Go", "Scala", "Python", "PHP", "Ruby", ".NET"]
 	},
 
 	"Snafu": {
@@ -64,7 +64,7 @@
 	"Lambda": {
 		"open-source": false,
 		"actively-maintained": true,
-		"supported-languages": ["NodeJS", "Python", "Java", "C#", "Go"]
+		"supported-languages": ["NodeJS", "Python", "Java", "C#", "Go", "PowerShell", "Ruby"]
 	},
 
 	"Greengrass": {
@@ -174,14 +174,14 @@
 		"open-source": true,
 		"link": "https://kubeless.io/",
 		"actively-maintained": true,
-		"supported-languages": ["JavaScript", "Python", "Ruby", "PHP", ".NET", "Ballerina"]
+		"supported-languages": ["JavaScript", "Python", "Ruby", "PHP", ".NET", "Ballerina", "Go", "Java", "NodeJS"]
 	},
 
 	"OpenFaaS": {
 		"open-source": true,
 		"link": "https://www.openfaas.com/",
 		"actively-maintained": true,
-		"supported-languages": ["JavaScript", "Go", "Java", "Python", "C#", "Ruby"]
+		"supported-languages": ["JavaScript", "Go", "Java", "Python", "C#", "Ruby", "NodeJS", "PHP"]
 	},
 
 	"SPL": {
@@ -219,7 +219,7 @@
 		"open-source": true,
 		"link": "https://github.com/knative/",
 		"actively-maintained": true,
-		"supported-languages": ["Go", "Python"]
+		"supported-languages": ["Go", "Python", "Java", "NodeJS", "Kotlin", "PHP", "Ruby", "Scala", ".NET", "C#"]
 	},
 
 	"µ-benchmark": {
@@ -373,6 +373,111 @@
 
 	"Sanity": {
 		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": []
+	},
+
+	"BARISTA": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": []
+	},
+
+	"Stratum": {
+		"open-source": true,
+		"link": "https://github.com/doc-vu/Stratum",
+		"actively-maintained": true,
+		"supported-languages": []
+	},
+
+	"OSCAR": {
+		"open-source": true,
+		"link": "https://github.com/grycap/oscar",
+		"actively-maintained": true,
+		"supported-languages": []
+	},
+
+	"GlobalFlow": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": []
+	},
+
+	"Google Cloud": {
+		"open-source": false,
+		"actively-maintained": true,
+		"supported-languages": ["NodeJS", "Python", "Go"]
+	},
+
+	"MELODIC": {
+		"open-source": true,
+		"link": "http://www.melodic.cloud/",
+		"actively-maintained": true,
+		"supported-languages": []
+	},
+	
+	"Runbox": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": []
+	},
+	
+	"MARLA": {
+		"open-source": true,
+		"link": "https://github.com/grycap/marla",
+		"actively-maintained": false,
+		"supported-languages": ["Python"]
+	},
+
+	"SeMoDe": {
+		"open-source": true,
+		"link": "https://github.com/johannes-manner/SeMoDe",
+		"actively-maintained": true,
+		"supported-languages": ["Java"]
+	},
+
+	"Spock": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": []
+	},
+
+	"Node2Faas": {
+		"open-source": true,
+		"link": "https://github.com/leonardoreboucas/node2faas",
+		"actively-maintained": false,
+		"supported-languages": ["NodeJS"]
+	},
+
+	"Faas Benchmark Framework": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": ["Java"]
+	},
+
+	"funcX": {
+		"open-source": false,
+		"actively-maintained": false,
+		"supported-languages": ["Python"]
+	},
+
+	"gg": {
+		"open-source": true,
+		"link": "https://github.com/StanfordSNR/gg",
+		"actively-maintained": true,
+		"supported-languages": ["C++", "Python"]
+	},
+
+	"Fission Workflows": {
+		"open-source": true,
+		"link": "https://github.com/fission/fission-workflows",
+		"actively-maintained": true,
+		"supported-languages": []
+	},
+
+	"ServerlessApplicationTool": {
+		"open-source": true,
+		"link": "https://github.com/snwinz/ServerlessApplicationTool",
 		"actively-maintained": false,
 		"supported-languages": []
 	}

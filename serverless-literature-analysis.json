@@ -560,7 +560,7 @@
 
 	"44": {
 		"technologies": [],
-		"institutions": ["Escuela Superior Politecnica del Litoral", "Technische Universiteit Delft", "Platform9 Inc"],
+		"institutions": ["Escuela Superior Politécnica del Litoral", "Technische Universiteit Delft", "Platform9 Inc"],
 		"countries": ["Netherlands", "Ecuador", "USA"],
 		"academic": true,
 		"industry": true,
@@ -573,7 +573,7 @@
 
 	"45": {
 		"technologies": [],
-		"institutions": ["University of Wuerzburg", "Escuela Superior Politecnica del Litoral", "Vrije Universiteit", "Technische Universiteit Delft", "Platform9 Inc"],
+		"institutions": ["University of Wuerzburg", "Escuela Superior Politécnica del Litoral", "Vrije Universiteit", "Technische Universiteit Delft", "Platform9 Inc"],
 		"countries": ["Germany","Ecuador","Netherlands"],
 		"academic": true,
 		"industry": true,
@@ -1214,7 +1214,7 @@
 		"countries": ["Austria"],
 		"academic": true,
 		"industry": false,
-		"citations": 0,
+		"citations": 1,
 		"independent": true,
 		"nature": ["analysis"],
 		"fields": ["security", "performance"],
@@ -1496,7 +1496,7 @@
 
 	"116": {
 		"technologies": [],
-		"institutions": ["TU Delft", "VU", "Platform9", "SAP SE", "IBM"],
+		"institutions": ["TU Delft", "VU", "Platform9 Systems Inc", "SAP SE", "IBM"],
 		"countries": ["Netherlands", "USA", "Germany"],
 		"academic": true,
 		"industry": true,
@@ -1739,5 +1739,707 @@
 		"nature": ["concept"],
 		"fields": ["performance"],
 		"format": "poster"
+	},
+
+	"135": {
+		"technologies": ["BARISTA"],
+		"institutions": ["Vanderbilt University"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["performance"],
+		"format": "paper"
+	},
+
+	"136": {
+		"technologies": ["Stratum"],
+		"institutions": ["Vanderbilt University", "Lockheed Martin Advanced Technology Laboratories"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 2,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["dataanalytics"],
+		"format": "poster"
+	},
+
+	"137": {
+		"technologies": ["Fission Workflows"],
+		"institutions": ["Platform9 Systems Inc", "Vrije Universiteit"],
+		"countries": ["Netherlands"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["cloud", "performance"],
+		"format": "abstract"
+	},
+
+	"138": {
+		"technologies": ["OpenWhisk"],
+		"institutions": ["IBM Research"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["softwareengineering"],
+		"format": "poster"
+	},
+
+	"139": {
+		"technologies": ["GlobalFlow"],
+		"institutions": ["University of Washington"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["softwareengineering"],
+		"format": "poster"
+	},
+
+	"140": {
+		"technologies": [],
+		"institutions": ["NEC Laboratories Europe", "NEC Solution Innovators, Ltd."],
+		"countries": ["Germany", "Japan"],
+		"academic": false,
+		"industry": true,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["edge", "softwareengineering"],
+		"format": "paper"
+	},
+
+	"141": {
+		"technologies": ["Lambda", "Google Cloud"],
+		"institutions": ["University of Washington"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["performance"],
+		"format": "paper"
+	},
+
+	"142": {
+		"technologies": [],
+		"institutions": ["INRIA", "Università di Bologna", "University of Southern Denmark"],
+		"countries": ["France", "Italy", "Denmark"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["cloud", "formalmethods"],
+		"format": "paper"
+	},
+
+	"143": {
+		"technologies": [],
+		"institutions": ["Politecnico di Milano"],
+		"countries": ["Italy"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["edge", "cloud", "softwareengineering"],
+		"format": "paper"
+	},
+
+	"144": {
+		"technologies": ["Lambda"],
+		"institutions": ["The College of New Jersey"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 2,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["dataanalytics"],
+		"format": "paper"
+	},
+
+	"145": {
+		"technologies": ["Lambda", "Google Cloud"],
+		"institutions": ["Simon Fraser University", "University of Science and Technology of China"],
+		"countries": ["Canada", "China"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["performance"],
+		"format": "paper"
+	},
+
+	"146": {
+		"technologies": ["Lambda", "SCAR"],
+		"institutions": ["Universitat Politècnica de València"],
+		"countries": ["Spain"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["concept", "framework"],
+		"fields": ["cloud", "performance"],
+		"format": "paper"
+	},
+
+	"147": {
+		"technologies": ["MELODIC"],
+		"institutions": ["ICS-FORTH", "AI Investments"],
+		"countries": ["Greece", "Poland"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["cloud", "softwareengineering"],
+		"format": "paper"
+	},
+
+	"148": {
+		"technologies": [],
+		"institutions": ["University of California", "George Washington University"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["analysis"],
+		"fields": ["edge", "performance", "eventprocessing"],
+		"format": "paper"
+	},
+
+	"149": {
+		"technologies": ["Kubeless", "OpenWhisk", "OpenFaaS", "Knative"],
+		"institutions": ["Trinity College Dublin"],
+		"countries": ["Ireland"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["analysis"],
+		"fields": ["edge", "performance"],
+		"format": "paper"
+	},
+
+	"150": {
+		"technologies": ["Runbox"],
+		"institutions": ["Carnegie Mellon University", "IBM Research"],
+		"countries": ["USA", "Israel"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["cloud", "interaction"],
+		"format": "abstract"
+	},
+	
+	"151": {
+		"technologies": [],
+		"institutions": ["University of Louisiana at Lafayette"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["performance"],
+		"format": "paper"
+	},
+	
+	"152": {
+		"technologies": [],
+		"institutions": ["University of Louisiana at Lafayette", "Georgia Southern University"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["edge"],
+		"format": "paper"
+	},
+
+	"153": {
+		"technologies": [],
+		"institutions": ["IBM Research", "Bentley University"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["discussion"],
+		"fields": ["cloud"],
+		"format": "overview"
+	},
+
+	"154": {
+		"technologies": [],
+		"institutions": ["NEC Laboratories Europe", "NEC Solution Innovators, Ltd."],
+		"countries": ["Germany", "Japan"],
+		"academic": false,
+		"industry": true,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["edge", "softwareengineering"],
+		"format": "paper"
+	},
+	
+	"155": {
+		"technologies": [],
+		"institutions": ["Universidade Federal de Campina Grande"],
+		"countries": ["Brazil"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["multicloud", "cloud"],
+		"format": "paper"
+	},
+
+	"156": {
+		"technologies": ["Lambda"],
+		"institutions": ["Rensselaer Polytechnic Institute"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["cloud"],
+		"format": "paper"
+	},
+
+	"157": {
+		"technologies": [],
+		"institutions": ["University of Gothenburg"],
+		"countries": ["Sweden"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["cloud"],
+		"format": "poster"
+	},
+
+	"158": {
+		"technologies": [],
+		"institutions": ["Zurich University of Applied Sciences"],
+		"countries": ["Switzerland"],
+		"academic": true,
+		"industry": false,
+		"citations": 1,
+		"independent": true,
+		"nature": ["analysis"],
+		"fields": ["cloud"],
+		"format": "paper"
+	},
+
+	"159": {
+		"technologies": [],
+		"institutions": ["Rutgers University", "BMW Group", "Ludwig Maximilian University", "Clemson University", "Brookhaven National Laboratory"],
+		"countries": ["USA", "Germany"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["cloud", "eventprocessing"],
+		"format": "paper"
+	},
+
+	"160": {
+		"technologies": ["MARLA", "Lambda"],
+		"institutions": ["Universitat Politècnica de València"],
+		"countries": ["Spain"],
+		"academic": true,
+		"industry": false,
+		"citations": 1,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["cloud", "performance"],
+		"format": "paper"
+	},
+
+	"161": {
+		"technologies": ["SeMoDe"],
+		"institutions": ["University of Bamberg"],
+		"countries": ["Germany"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["softwareengineering"],
+		"format": "paper"
+	},
+
+	"162": {
+		"technologies": [],
+		"institutions": ["Université de Tizi Ouzou", "Université de Limoges"],
+		"countries": ["Algeria", "France"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["edge", "security"],
+		"format": "overview"
+	},
+
+	"163": {
+		"technologies": ["Lambda"],
+		"institutions": ["KTH Royal Institute of Technology"],
+		"countries": ["Sweden"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["mathematics"],
+		"format": "poster"
+	},
+
+	"164": {
+		"technologies": ["Spock"],
+		"institutions": ["Pennsylvania State University"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["cloud", "dataanalytics"],
+		"format": "paper"
+	},
+
+	"165": {
+		"technologies": [],
+		"institutions": ["Kookmin University"],
+		"countries": ["South Korea"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["concept"],
+		"fields": ["softwareengineering", "cloud"],
+		"format": "poster"
+	},
+
+	"166": {
+		"technologies": [],
+		"institutions": ["The University of Texas at Austin", "University of North Carolina"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["cloud"],
+		"format": "paper"
+	},
+
+	"167": {
+		"technologies": ["Lambda"],
+		"institutions": ["Universidad Complutense de Madrid", "University Magna Grecia of Catanzaro"],
+		"countries": ["Spain", "Italy"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["discussion"],
+		"fields": ["cloud"],
+		"format": "paper"
+	},
+
+	"168": {
+		"technologies": ["Lambda"],
+		"institutions": ["University of Arizona"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["cloud"],
+		"format": "poster"
+	},
+
+	"169": {
+		"technologies": [],
+		"institutions": ["Escuela Superior Politécnica del Litoral"],
+		"countries": ["Ecuador"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["performance"],
+		"format": "paper"
+	},
+
+	"170": {
+		"technologies": [],
+		"institutions": ["IBM Research"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["discussion"],
+		"fields": ["softwareengineering"],
+		"format": "abstract"
+	},
+
+	"171": {
+		"technologies": [],
+		"institutions": ["Intel Corp.", "Google Inc."],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["performance"],
+		"format": "paper"
+	},
+
+	"172": {
+		"technologies": [],
+		"institutions": ["TU Wien", "IBM Research AI"],
+		"countries": ["Austria", "USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["edge"],
+		"format": "paper"
+	},
+
+	"173": {
+		"technologies": ["BARISTA"],
+		"institutions": ["Vanderbilt University"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["performance"],
+		"format": "paper"
+	},
+		
+	"174": {
+		"technologies": [],
+		"institutions": ["University of Stuttgart", "Robert Bosch GmbH"],
+		"countries": ["Germany"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["concept"],
+		"fields": ["mathematics"],
+		"format": "poster"
+	},
+
+	"175": {
+		"technologies": ["TrIMS"],
+		"institutions": ["University of Illinois", "IBM Research"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": true,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["dataanalytics"],
+		"format": "paper"
+	},
+
+	"176": {
+		"technologies": ["Node2Faas"],
+		"institutions": ["University of Brasília"],
+		"countries": ["Brazil"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["cloud"],
+		"format": "paper"
+	},
+
+	"177": {
+		"technologies": ["Faas Benchmark Framework"],
+		"institutions": ["Plan-B IT", "Lancaster University", "University of Applied Sciences Burgenland"],
+		"countries": ["Austria", "UK"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["performance"],
+		"format": "paper"
+	},
+
+	"178": {
+		"technologies": [],
+		"institutions": ["University of Applied Sciences Burgenland"],
+		"countries": ["Austria"],
+		"academic": true,
+		"industry": false,
+		"citations": 1,
+		"independent": true,
+		"nature": ["analysis"],
+		"fields": ["security", "performance"],
+		"format": "paper"
+	},
+	
+	"179": {
+		"technologies": ["Faas Benchmark Framework"],
+		"institutions": ["Plan-B IT", "Lancaster University", "University of Applied Sciences Burgenland"],
+		"countries": ["Austria", "UK"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["performance"],
+		"format": "paper"
+	},
+
+	"180": {
+		"technologies": ["funcX"],
+		"institutions": ["Argone National Laboratory", "University of Chicago"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["dataanalytics"],
+		"format": "paper"
+	},
+
+	"181": {
+		"technologies": ["gg"],
+		"institutions": ["Stanford University"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["softwareengineering", "performance"],
+		"format": "overview"
+	},
+
+	"182": {
+		"technologies": ["Lambda", "Azure"],
+		"institutions": ["University of Utah"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 1,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["performance"],
+		"format": "paper"
+	},
+
+	"183": {
+		"technologies": [],
+		"institutions": ["University of Wuerzburg"],
+		"countries": ["Germany"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["mathematics"],
+		"format": "paper"
+	},
+
+	"184": {
+		"technologies": ["Lambda"],
+		"institutions": ["Kookmin University"],
+		"countries": ["South Korea"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["performance"],
+		"format": "paper"
+	},
+
+	"185": {
+		"technologies": [],
+		"institutions": ["Technical University of Cluj-Napoca", "Qiagen"],
+		"countries": ["Romania"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["casestudy"],
+		"fields": ["cloud", "performance"],
+		"format": "paper"
+	},
+
+	"186": {
+		"technologies": ["OSCAR"],
+		"institutions": ["Universitat Politècnica de València"],
+		"countries": ["Spain"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": false,
+		"nature": ["framework"],
+		"fields": ["softwareengineering"],
+		"format": "paper"
+	},
+
+	"187": {
+		"technologies": [],
+		"institutions": ["University of Louisiana at Lafayette"],
+		"countries": ["USA"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["performance"],
+		"format": "paper"
+	},
+
+	"188": {
+		"technologies": ["ServerlessApplicationTool"],
+		"institutions": ["University of Bamberg"],
+		"countries": ["Germany"],
+		"academic": true,
+		"industry": false,
+		"citations": 0,
+		"independent": true,
+		"nature": ["concept"],
+		"fields": ["softwareengineering"],
+		"format": "paper"
 	}
 }

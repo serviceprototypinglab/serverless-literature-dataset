@@ -24,6 +24,13 @@ def generateheaders():
 	header["User-Agent"] = "serverless-literature-database (Python-urllib/3.x)"
 	return header
 
+def listfromPersons(personlist):
+	names = []
+	for person in personlist:
+		names.append(str(person))
+	
+	return " and ".join(names)
+
 def parseusenix(usenixurl):
 	req = urllib.request.Request(usenixurl, headers=generateheaders())
 	f = urllib.request.urlopen(req)
@@ -49,7 +56,7 @@ def parseusenixbib(usenixbiburl):
 
 	for entry in db.entries:
 		ft = db.entries[entry].fields["title"].replace("{", "").replace("}", "")
-		fa = db.entries[entry].fields["author"]
+		fa = listfromPersons(db.entries[entry].persons["author"]) #New line
 		fy = db.entries[entry].fields["year"]
 		fb = db.entries[entry].fields["booktitle"].replace("{", "").replace("}", "")
 
@@ -88,9 +95,10 @@ def parsedoi(doi):
 	res = urllib.request.urlopen(req)
 	bib = res.read().decode("utf-8")
 	db2 = pybtex.database.parse_string(bib, "bibtex")
+	
 	for entry in db.entries:
 		ft = db2.entries[entry].fields["title"]
-		fa = db2.entries[entry].fields["author"]
+		fa = listfromPersons(db2.entries[entry].persons["author"]) #New line
 		fy = db2.entries[entry].fields["year"]
 		fb = None
 		fj = None

@@ -950,5 +950,369 @@
     "retrieved-from-arxiv": "http://arxiv.org/abs/1904.01727",
     "title": "Stratum: A Serverless Framework for Lifecycle Management of Machine Learning based Data Analytics Tasks",
     "year": "2019"
+  },
+  "137": {
+    "author": "van Eyk, Erwin and Iosup, Alexandru",
+    "booktitle": "ICT.OPEN 2018",
+    "link": "http://erwinvaneyk.nl/attachments/ICTOPEN_2018_serverless_challenges_abstract.pdf",
+    "title": "Addressing Performance Challenges in Serverless Computing",
+    "year": "2018"
+  },
+  "138": {
+    "author": "Baldini, Ioana and Castro, Paul and Cheng, Perry and Fink, Stephen and Ishakian, Vatche and Mitchell, Nick and Muthusamy, Vinod and Rabbah, Rodric and Suter, Philippe",
+    "booktitle": "Proceedings of the International Workshop on Mobile Software Engineering and Systems - MOBILESoft ’16",
+    "retrieved-from-doi": "https://doi.org/10.1145/2897073.2897713",
+    "title": "Cloud-native, event-based programming for mobile applications",
+    "year": "2016"
+  },
+  "139": {
+    "author": "Zheng, Ge and Peng, Yang",
+    "booktitle": "2019 IEEE 12th International Conference on Cloud Computing (CLOUD)",
+    "retrieved-from-doi": "https://doi.org/10.1109/CLOUD.2019.00093",
+    "title": "GlobalFlow: A Cross-Region Orchestration Service for Serverless Computing Services",
+    "year": "2019"
+  },
+  "140": {
+    "author": "Cheng, Bin and Fuerst, Jonathan and Solmaz, Gurkan and Sanada, Takuya",
+    "booktitle": "2019 IEEE International Conference on Services Computing (SCC)",
+    "retrieved-from-doi": "https://doi.org/10.1109/SCC.2019.00018",
+    "title": "Fog Function: Serverless Fog Computing for Data Intensive IoT Services",
+    "year": "2019"
+  },
+  "141": {
+    "author": "Niu, Xingzhi and Kumanov, Dimitar and Hung, Ling-Hong and Lloyd, Wes and Yeung, Ka Yee",
+    "booktitle": "Proceedings of the 10th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics - BCB ’19",
+    "retrieved-from-doi": "https://doi.org/10.1145/3307339.3343465",
+    "title": "Leveraging Serverless Computing to Improve Performance for Sequence Comparison",
+    "year": "2019"
+  },
+  "142": {
+    "author": "Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Montesi, Fabrizio and Peressotti, Marco and Zingaro, Stefano Pio",
+    "booktitle": "Coordination Models and Languages",
+    "retrieved-from-doi": "https://doi.org/10.1007/978-3-030-22397-7_9",
+    "title": "No More, No Less",
+    "year": "2019"
+  },
+  "143": {
+    "author": "Baresi, Luciano and Filgueira Mendonça, Danilo",
+    "booktitle": "2019 IEEE International Conference on Fog Computing (ICFC)",
+    "retrieved-from-doi": "https://doi.org/10.1109/ICFC.2019.00008",
+    "title": "Towards a Serverless Platform for Edge Computing",
+    "year": "2019"
+  },
+  "144": {
+    "author": "Deese, Anthony",
+    "booktitle": "2018 18th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)",
+    "retrieved-from-doi": "https://doi.org/10.1109/CCGRID.2018.00093",
+    "title": "Implementation of Unsupervised k-Means Clustering Algorithm Within Amazon Web Services Lambda",
+    "year": "2018"
+  },
+  "145": {
+    "author": "Zhang, Miao and Zhu, Yifei and Zhang, Cong and Liu, Jiangchuan",
+    "booktitle": "Proceedings of the 29th ACM Workshop on Network and Operating Systems Support for Digital Audio and Video - NOSSDAV ’19",
+    "retrieved-from-doi": "https://doi.org/10.1145/3304112.3325608",
+    "title": "Video processing with serverless computing",
+    "year": "2019"
+  },
+  "146": {
+    "author": "Pérez, Alfonso and Moltó, Germán and Caballer, Miguel and Calatrava, Amanda",
+    "booktitle": "Proceedings of the 34th ACM/SIGAPP Symposium on Applied Computing - SAC ’19",
+    "retrieved-from-doi": "https://doi.org/10.1145/3297280.3297292",
+    "title": "A programming model and middleware for high throughput serverless computing applications",
+    "year": "2019"
+  },
+  "147": {
+    "author": "Kritikos, Kyriakos and Skrzypek, Paweł",
+    "booktitle": "2019 IEEE World Congress on Services (SERVICES)",
+    "retrieved-from-doi": "https://doi.org/10.1109/SERVICES.2019.00056",
+    "title": "Simulation-as-a-Service with Serverless Computing",
+    "year": "2019"
+  },
+  "148": {
+    "author": "Kulkarni, Sameer G and Liu, Guyue and Ramakrishnan, K. K. and Wood, Timothy",
+    "booktitle": "2019 IEEE International Symposium on Local and Metropolitan Area Networks (LANMAN)",
+    "retrieved-from-doi": "https://doi.org/10.1109/LANMAN.2019.8846970",
+    "title": "Living on the Edge: Serverless Computing and the Cost of Failure Resiliency",
+    "year": "2019"
+  },
+  "149": {
+    "author": "Palade, Andrei and Kazmi, Aqeel and Clarke, Siobhán",
+    "booktitle": "2019 IEEE World Congress on Services (SERVICES)",
+    "retrieved-from-doi": "https://doi.org/10.1109/SERVICES.2019.00057",
+    "title": "An Evaluation of Open Source Serverless Computing Frameworks Support at the Edge",
+    "year": "2019"
+  },
+  "150": {
+    "author": "Glikson, Alex and Nie, Shichao and Breitgand, David",
+    "booktitle": "Proceedings of the 12th ACM International Conference on Systems and Storage - SYSTOR ’19",
+    "retrieved-from-doi": "https://doi.org/10.1145/3319647.3325852",
+    "title": "Runbox: Serverless Interactive Computing Platform",
+    "year": "2019"
+  },
+  "151": {
+    "author": "Chavit Denninnart, James Gentry, Mohsen Amini Salehi",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1905.04456",
+    "title": "Improving Robustness of Heterogeneous Serverless Computing Systems Via Probabilistic Task Pruning",
+    "year": "2019"
+  },
+  "152": {
+    "author": "Razin Farhan Hussain, Mohsen Amini Salehi, Omid Semiari",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1905.04460",
+    "title": "Serverless Edge Computing for Green Oil and Gas Industry",
+    "year": "2019"
+  },
+  "153": {
+    "author": "Paul Castro, Vatche Ishakian, Vinod Muthusamy, Aleksander Slominski",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1906.02888",
+    "title": "The server is dead, long live the server: Rise of Serverless Computing, Overview of Current State and Future Trends in Research and Industry",
+    "year": "2019"
+  },
+  "154": {
+    "author": "Bin Cheng, Jonathan Fürst, Gurkan Solmaz, Takuya Sanada",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1907.08278",
+    "title": "Fog Function: Serverless Fog Computing for Data Intensive IoT Services",
+    "year": "2019"
+  },
+  "155": {
+    "author": "Vasconcelos, Adbys and Vieira, Lucas and Batista, Ítalo and Silva, Rodolfo and Brasileiro, Francisco",
+    "booktitle": "Proceedings of the 9th International Conference on Cloud Computing and Services Science",
+    "retrieved-from-doi": "https://doi.org/10.5220/0007877005950600",
+    "title": "DistributedFaaS: Execution of Containerized Serverless Applications in Multi-Cloud Infrastructures",
+    "year": "2019"
+  },
+  "156": {
+    "author": "Obetz, Matthew and Patterson, Stacy and Milanova, Ana",
+    "booktitle": "11th USENIX Workshop on Hot Topics in Cloud Computing (HotCloud 19)",
+    "retrieved-from-usenix": "https://www.usenix.org/conference/hotcloud19/presentation/obetz",
+    "title": "Static Call Graph Construction in AWS Lambda Serverless Applications",
+    "year": "2019"
+  },
+  "157": {
+    "author": "Scheuner, Joel and Leitner, Philipp",
+    "booktitle": "2019 IEEE 4th International Workshops on Foundations and Applications of Self* Systems (FAS*W)",
+    "retrieved-from-doi": "https://doi.org/10.1109/FAS-W.2019.00031",
+    "title": "Transpiling Applications into Optimized Serverless Orchestrations",
+    "year": "2019"
+  },
+  "158": {
+    "author": "Josef Spillner",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1905.04800",
+    "title": "Quantitative Analysis of Cloud Function Evolution in the AWS Serverless Application Repository",
+    "year": "2019"
+  },
+  "159": {
+    "author": "Andre Luckow, Shantenu Jha",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1909.06055",
+    "title": "Performance Characterization and Modeling of Serverless and HPC Streaming Applications",
+    "year": "2019"
+  },
+  "160": {
+    "author": "Giménez-Alventosa, V. and Moltó, Germán and Caballer, Miguel",
+    "journal": "Future Generation Computer Systems",
+    "retrieved-from-doi": "https://doi.org/10.1016/j.future.2019.02.057",
+    "title": "A framework and a performance assessment for serverless MapReduce on AWS Lambda",
+    "year": "2019"
+  },
+  "161": {
+    "author": "Manner, Johannes and Kolb, Stefan and Wirtz, Guido",
+    "journal": "SICS Software-Intensive Cyber-Physical Systems",
+    "retrieved-from-doi": "https://doi.org/10.1007/s00450-019-00398-6",
+    "title": "Troubleshooting Serverless functions: a combined monitoring and debugging approach",
+    "year": "2019"
+  },
+  "162": {
+    "author": "Cherif, Amina and Belkadi, Malika and Sauveron, Damien",
+    "journal": "ACM Transactions on Embedded Computing Systems",
+    "retrieved-from-doi": "https://doi.org/10.1145/3274667",
+    "title": "A Lightweight and Secure Data Collection Serverless Protocol Demonstrated in an Active RFIDs Scenario",
+    "year": "2019"
+  },
+  "163": {
+    "author": "Aytekin, Arda and Johansson, Mikael",
+    "booktitle": "2019 IEEE 12th International Conference on Cloud Computing (CLOUD)",
+    "retrieved-from-doi": "https://doi.org/10.1109/CLOUD.2019.00090",
+    "title": "Exploiting Serverless Runtimes for Large-Scale Optimization",
+    "year": "2019"
+  },
+  "164": {
+    "author": "Gunasekaran, Jashwant Raj and Thinakaran, Prashanth and Kandemir, Mahmut Taylan and Urgaonkar, Bhuvan and Kesidis, George and Das, Chita",
+    "booktitle": "2019 IEEE 12th International Conference on Cloud Computing (CLOUD)",
+    "retrieved-from-doi": "https://doi.org/10.1109/CLOUD.2019.00043",
+    "title": "Spock: Exploiting Serverless Functions for SLO and Cost Aware Resource Procurement in Public Cloud",
+    "year": "2019"
+  },
+  "165": {
+    "author": "Kim, Jeongchul and Lee, Kyungyong",
+    "booktitle": "2019 IEEE 12th International Conference on Cloud Computing (CLOUD)",
+    "retrieved-from-doi": "https://doi.org/10.1109/CLOUD.2019.00091",
+    "title": "FunctionBench: A Suite of Workloads for Serverless Cloud Function Service",
+    "year": "2019"
+  },
+  "166": {
+    "author": "Fingler, Henrique and Akshintala, Amogh and Rossbach, Christopher J.",
+    "booktitle": "Proceedings of the 10th ACM SIGOPS Asia-Pacific Workshop on Systems - APSys ’19",
+    "retrieved-from-doi": "https://doi.org/10.1145/3343737.3343750",
+    "title": "USETL: Unikernels for Serverless Extract Transform and Load - Why should you settle for less?",
+    "year": "2019"
+  },
+  "167": {
+    "author": "Crespo-Cepeda, Rodrigo and Agapito, Giuseppe and Vazquez-Poletti, Jose Luis and Cannataro, Mario",
+    "booktitle": "Proceedings of the 10th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics - BCB ’19",
+    "retrieved-from-doi": "https://doi.org/10.1145/3307339.3343462",
+    "title": "Challenges and Opportunities of Amazon Serverless Lambda Services in Bioinformatics",
+    "year": "2019"
+  },
+  "168": {
+    "author": "Marefat, Michael and Juneja, Amit",
+    "booktitle": "2019 IEEE EMBS International Conference on Biomedical & Health Informatics (BHI)",
+    "retrieved-from-doi": "https://doi.org/10.1109/BHI.2019.8834566",
+    "title": "Serverless Data Parallelization for Training and Retraining of Deep Learning Architecture in Patient-Specific Arrhythmia Detection",
+    "year": "2019"
+  },
+  "169": {
+    "author": "Aumala, Gabriel and Boza, Edwin and Ortiz-Avilés, Luis and Totoy, Gustavo and Abad, Cristina",
+    "booktitle": "2019 19th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)",
+    "retrieved-from-doi": "https://doi.org/10.1109/CCGRID.2019.00042",
+    "title": "Beyond Load Balancing: Package-Aware Scheduling for Serverless Platforms",
+    "year": "2019"
+  },
+  "170": {
+    "author": "Tardieu, Olivier",
+    "booktitle": "Proceedings of the 13th ACM International Conference on Distributed and Event-based Systems - DEBS ’19",
+    "retrieved-from-doi": "https://doi.org/10.1145/3328905.3338226",
+    "title": "Industry Talk: Serverless Composition of Serverless Functions",
+    "year": "2019"
+  },
+  "171": {
+    "author": "Mohan, Anup and Sane, Harshad and Doshi, Kshitij and Edupuganti, Saikrishna and Nayak, Naren and Sukhomlinov, Vadim",
+    "booktitle": "11th USENIX Workshop on Hot Topics in Cloud Computing (HotCloud 19)",
+    "retrieved-from-usenix": "https://www.usenix.org/conference/hotcloud19/presentation/mohan",
+    "title": "Agile Cold Starts for Scalable Serverless",
+    "year": "2019"
+  },
+  "172": {
+    "author": "Rausch, Thomas and Hummer, Waldemar and Muthusamy, Vinod and Rashed, Alexander and Dustdar, Schahram",
+    "booktitle": "2nd USENIX Workshop on Hot Topics in Edge Computing (HotEdge 19)",
+    "retrieved-from-usenix": "https://www.usenix.org/conference/hotedge19/presentation/rausch",
+    "title": "Towards a Serverless Platform for Edge AI",
+    "year": "2019"
+  },
+  "173": {
+    "author": "Bhattacharjee, Anirban and Chhokra, Ajay Dev and Kang, Zhuangwei and Sun, Hongyang and Gokhale, Aniruddha and Karsai, Gabor",
+    "booktitle": "2019 IEEE International Conference on Cloud Engineering (IC2E)",
+    "retrieved-from-doi": "https://doi.org/10.1109/IC2E.2019.00-10",
+    "title": "BARISTA: Efficient and Scalable Serverless Serving System for Deep Learning Prediction Services",
+    "year": "2019"
+  },
+  "174": {
+    "author": "Bibartiu, Otto and Durr, Frank and Rothermel, Kurt and Ottenwälder, Beat and Grau, Andreas",
+    "booktitle": "2019 IEEE 12th International Conference on Cloud Computing (CLOUD)",
+    "retrieved-from-doi": "https://doi.org/10.1109/CLOUD.2019.00095",
+    "title": "Towards Scalable k-out-of-n Models for Assessing the Reliability of Large-Scale Function-as-a-Service Systems with Bayesian Networks",
+    "year": "2019"
+  },
+  "175": {
+    "author": "Dakkak, Abdul and Li, Cheng and Garcia de Gonzalo, Simon and Xiong, Jinjun and Hwu, Wen-mei",
+    "booktitle": "2019 IEEE 12th International Conference on Cloud Computing (CLOUD)",
+    "retrieved-from-doi": "https://doi.org/10.1109/CLOUD.2019.00067",
+    "title": "TrIMS: Transparent and Isolated Model Sharing for Low Latency Deep Learning Inference in Function-as-a-Service",
+    "year": "2019"
+  },
+  "176": {
+    "author": "Rebouças de Carvalho, Leonardo and Favacho de Araújo, Aletéia",
+    "booktitle": "Proceedings of the 9th International Conference on Cloud Computing and Services Science",
+    "retrieved-from-doi": "https://doi.org/10.5220/0007677902710278",
+    "title": "Framework Node2FaaS: Automatic NodeJS Application Converter for Function as a Service",
+    "year": "2019"
+  },
+  "177": {
+    "author": "Pellegrini, Roland and Ivkic, Igor and Tauber, Markus",
+    "booktitle": "Proceedings of the 9th International Conference on Cloud Computing and Services Science",
+    "retrieved-from-doi": "https://doi.org/10.5220/0007757304790487",
+    "title": "Function-as-a-Service Benchmarking Framework",
+    "year": "2019"
+  },
+  "178": {
+    "author": "Roland Pellegrini, Igor Ivkic, Markus Tauber",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1905.07228",
+    "title": "Towards a Security-Aware Benchmarking Framework for Function-as-a-Service",
+    "year": "2019"
+  },
+  "179": {
+    "author": "Roland Pellegrini, Igor Ivkic, Markus Tauber",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1905.11707",
+    "title": "Function-as-a-Service Benchmarking Framework",
+    "year": "2019"
+  },
+  "180": {
+    "author": "Ryan Chard, Tyler J. Skluzacek, Zhuozhao Li, Yadu Babuji, Anna Woodard, Ben Blaiszik, Steven Tuecke, Ian Foster, Kyle Chard",
+    "journal": "arXiv/CoRR",
+    "retrieved-from-arxiv": "http://arxiv.org/abs/1908.04907",
+    "title": "Serverless Supercomputing: High Performance Function as a Service for Science",
+    "year": "2019"
+  },
+  "181": {
+    "author": "Sadjad Fouladi, Francisco Romero, Dan Iter, Qian Li, Alex Ozdemir, Shuvo Chatterjee, Matei Zaharia, Christos Kozyrakis, Keith Winstein",
+    "journal": ";login:",
+    "link": "https://www.usenix.org/publications/login/fall2019/fouladi",
+    "title": "Outsourcing Everyday Jobs to Thousands of Cloud Functions with gg",
+    "year": "2019"
+  },
+  "182": {
+    "author": "Novak, Joe H. and Kasera, Sneha Kumar and Stutsman, Ryan",
+    "booktitle": "2019 11th International Conference on Communication Systems & Networks (COMSNETS)",
+    "retrieved-from-doi": "https://doi.org/10.1109/COMSNETS.2019.8711058",
+    "title": "Cloud Functions for Fast and Robust Resource Auto-Scaling",
+    "year": "2019"
+  },
+  "183": {
+    "author": "Schmitt, Norbert and Iffländer, Lukas and Bauer, André and Kounev, Samuel",
+    "booktitle": "2019 IEEE International Conference on Autonomic Computing (ICAC)",
+    "retrieved-from-doi": "https://doi.org/10.1109/ICAC.2019.00018",
+    "title": "Online Power Consumption Estimation for Functions in Cloud Applications",
+    "year": "2019"
+  },
+  "184": {
+    "author": "Kim, Jeongchul and Park, Jungae and Lee, Kyungyong",
+    "booktitle": "2019 IEEE 4th International Workshops on Foundations and Applications of Self* Systems (FAS*W)",
+    "retrieved-from-doi": "https://doi.org/10.1109/FAS-W.2019.00051",
+    "title": "Network Resource Isolation in Serverless Cloud Function Service",
+    "year": "2019"
+  },
+  "185": {
+    "author": "Cosmina, Ivan and Radu, Vasile and Vasile, Dadarlat",
+    "journal": "Computers",
+    "retrieved-from-doi": "https://doi.org/10.3390/computers8020050",
+    "title": "Serverless Computing: An Investigation of Deployment Environments for Web APIs",
+    "year": "2019"
+  },
+  "186": {
+    "author": "Perez, Alfonso and Risco, Sebastian and Naranjo, Diana Maria and Caballer, Miguel and Molto, German",
+    "booktitle": "2019 IEEE 12th International Conference on Cloud Computing (CLOUD)",
+    "retrieved-from-doi": "https://doi.org/10.1109/CLOUD.2019.00073",
+    "title": "On-Premises Serverless Computing for Event-Driven Data Processing Applications",
+    "year": "2019"
+  },
+  "187": {
+    "author": "Denninnart, Chavit and Gentry, James and Amini Salehi, Mohsen",
+    "booktitle": "2019 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)",
+    "retrieved-from-doi": "https://doi.org/10.1109/IPDPSW.2019.00012",
+    "title": "Improving Robustness of Heterogeneous Serverless Computing Systems via Probabilistic Task Pruning",
+    "year": "2019"
+  },
+  "188": {
+    "author": "Stefan Winzinger, Guido Wirtz",
+    "booktitle": "Proceedings of the 11th International Workshop on Modelling in Software Engineerings",
+    "link": "https://dl.acm.org/citation.cfm?id=3340727",
+    "title": "Model-based Analysis of Serverless Applications",
+    "year": "2019"
   }
 }

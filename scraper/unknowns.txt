@@ -1,0 +1,8 @@
+* (unknown)  <= non-DOI/arXiv/USENIX: http://cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf
+* (unknown)  <= non-DOI/arXiv/USENIX: https://dblp.uni-trier.de/db/conf/ucc/essca2018.html
+* (unknown)  <= non-DOI/arXiv/USENIX: http://ceur-ws.org/Vol-2330/abstract1.pdf
+* (unknown)  <= non-DOI/arXiv/USENIX: http://dl.acm.org/citation.cfm?id=2944868
+* (unknown)  <= non-DOI/arXiv/USENIX: https://dblp.uni-trier.de/rec/bibtex/conf/waa/CyconPSWM03
+* (unknown)  <= non-DOI/arXiv/USENIX: http://hdl.handle.net/10125/59942
+* (unknown)  <= non-DOI/arXiv/USENIX: http://www.vldb.org/pvldb/vol12/p1890-akhter.pdf --> doi https://doi.org/10.14778/3352063.3352092
+* (unknown)  <= non-DOI/arXiv/USENIX: http://inforsid.fr/actes/2019/INFORSID_2019_p223-238.pdf
