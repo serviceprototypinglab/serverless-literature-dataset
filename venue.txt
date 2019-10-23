@@ -1,0 +1,33 @@
+!! unknown journal/conference Blockchain – ICBC 2018
+!! unknown journal/conference Proceedings of the 9th International Conference on Cloud Computing and Services Science
+!! unknown journal/conference Research Advances in Cloud Computing
+!! unknown journal/conference SICS Software-Intensive Cyber-Physical Systems
+!! unknown journal/conference Computing in Science & Engineering
+!! unknown journal/conference Coordination Models and Languages
+!! unknown journal/conference Journal of Systems and Software
+!! unknown journal/conference Proceedings of the 11th International Workshop on Modelling in Software Engineerings
+!! unknown journal/conference CIDR 2019, 9th Biennial Conference on Innovative Data Systems Research
+!! unknown journal/conference Proceedings of the 8th International Conference on Cloud Computing and Services Science
+!! unknown journal/conference CIDR 2019, 9th Biennial Conference on Innovative Data Systems Research (Gong Show)
+!! unknown journal/conference High Performance Computing
+!! unknown journal/conference Proceedings of the 9th International Conference on Cloud Computing and Services Science
+!! unknown journal/conference CIDR 2019, 9th Biennial Conference on Innovative Data Systems Research (Gong Show)
+!! unknown journal/conference The Essence of Software Engineering
+!! unknown journal/conference Procedia Computer Science
+!! unknown journal/conference Proceedings of the 1st International Workshop on Mashups of Things and APIs - MOTA ’16
+!! unknown journal/conference Proceedings of 47th International Conference on Parallel Processing
+!! unknown journal/conference Proceedings of the 9th International Conference on Cloud Computing and Services Science
+!! unknown journal/conference Security and Privacy in Communication Networks
+!! unknown journal/conference ICT.OPEN 2018
+!! unknown journal/conference Proceedings of the 19th International Middleware Conference on - Middleware ’18
+!! unknown journal/conference Proceedings of the International Conference on Internet of Things Design and Implementation - IoTDI ’19
+!! unknown journal/conference Service Oriented Computing and Applications
+!! unknown journal/conference PeerJ Preprints
+!! unknown journal/conference Concurrency and Computation: Practice and Experience
+!! unknown journal/conference Proceedings of the 2017 Symposium on Cloud Computing - SoCC ’17
+!! unknown journal/conference Proceedings of the International Workshop on Mobile Software Engineering and Systems - MOBILESoft ’16
+!! unknown journal/conference Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations
+!! unknown journal/conference 2019 11th International Conference on Communication Systems & Networks (COMSNETS)
+!! unknown journal/conference Computers
+Counter({'IEEE': 48, 'ACM': 40, 'arXiv': 35, 'unknown': 31, 'USENIX': 18, 'CEUR-WS': 8, 'Springer': 6, 'Elsevier': 2})
+Ratio of journals: 30%

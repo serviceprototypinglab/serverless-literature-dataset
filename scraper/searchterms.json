@@ -4,5 +4,6 @@
 	"serverless",
 	"function-as-a-service",
 	"lambda",
-	"cloud function"
+	"cloud function",
+	"faas"
 ]
