@@ -12,7 +12,8 @@ which allow for easier processing and textual change tracking. In late
 September 2018, we have published the second iteration of the SLD with
 60 works at https://zenodo.org/record/1436432, and published a paper
 about the dataset at http://ceur-ws.org/Vol-2330/short2.pdf. In April
-2019, we have published the third dataset...
+2019, we have published the third dataset... and in October 2019, the
+fourth one.
 
 Read more:
 https://blog.zhaw.ch/splab/2019/04/22/the-5th-year-of-serverless-computing-research-coverage/
@@ -28,10 +29,10 @@ You can also cite SLD itself as follows:
 
  @misc{sldataset,
  title = {{Serverless Literature Dataset}},
- author = {Josef Spillner and Mohammed Al-Ameen},
- howpublished = {Zenodo dataset (3rd revision) at \url{https://doi.org/10.5281/zenodo.1175423}},
+ author = {Josef Spillner and Mohammed Al-Ameen and Daiana Boruta},
+ howpublished = {Zenodo dataset (4th revision) at \url{https://doi.org/10.5281/zenodo.1175423}},
  year = {2019},
- month = {April},
+ month = {October},
  doi = {https://doi.org/10.5281/zenodo.1175423}
  }
 
